@@ -9,16 +9,18 @@ spec:
     - name: http-tcp
       protocol: TCP
       port: 80
-      targetPort: 80
     - name: http-udp
       protocol: UDP
       port: 80
-      targetPort: 80
     - name: http-8080-tcp
       protocol: TCP
       port: 8080
-      targetPort: 8080
     - name: http-8080-udp
       protocol: UDP
       port: 8080
-      targetPort: 8080
+    - name: http-25565-tcp
+      protocol: TCP
+      port: 25565
+    - name: http-25565-udp
+      protocol: udp
+      port: 25565

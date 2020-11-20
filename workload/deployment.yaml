@@ -20,6 +20,8 @@ spec:
       containers:
       - name: community-minecraft
         image: ubuntu
+        command: [ "/bin/bash", "-c", "--" ]
+        args: [ "while true; do sleep 30; done;" ]
         ports:
         - containerPort: 80
           protocol: TCP
