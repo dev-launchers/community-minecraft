@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: community-minecraft-dashboard
+  namespace: community-minecraft
 spec:
   selector:
     app: community-minecraft
@@ -17,6 +18,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: community-minecraft-ssh
+  namespace: community-minecraft
 spec:
   selector:
     app: community-minecraft
@@ -29,6 +31,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: community-minecraft-external
+  namespace: community-minecraft
 spec:
   type: NodePort
   selector:
@@ -37,6 +40,8 @@ spec:
     - name: http-25565-tcp
       protocol: TCP
       port: 25565
+      nodePort: 25565
     - name: http-25565-udp
       protocol: UDP
       port: 25565
+      nodePort: 25565
