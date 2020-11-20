@@ -1,7 +1,8 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: community-minecraft
+  name: community-minecraft-dashboard
+  namespace: community-minecraft
 spec:
   selector:
     app: community-minecraft
@@ -9,16 +10,38 @@ spec:
     - name: http-tcp
       protocol: TCP
       port: 80
-      targetPort: 80
-    - name: http-udp
-      protocol: UDP
-      port: 80
-      targetPort: 80
     - name: http-8080-tcp
       protocol: TCP
       port: 8080
-      targetPort: 8080
-    - name: http-8080-udp
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: community-minecraft-ssh
+  namespace: community-minecraft
+spec:
+  selector:
+    app: community-minecraft
+  ports:
+    - name: ssh
+      protocol: TCP
+      port: 22
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: community-minecraft-external
+  namespace: community-minecraft
+spec:
+  type: NodePort
+  selector:
+    app: community-minecraft
+  ports:
+    - name: http-25565-tcp
+      protocol: TCP
+      port: 25565
+      nodePort: 25565
+    - name: http-25565-udp
       protocol: UDP
-      port: 8080
-      targetPort: 8080
+      port: 25565
+      nodePort: 25565
