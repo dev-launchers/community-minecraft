@@ -3,8 +3,6 @@ kind: Deployment
 metadata:
   namespace: community-minecraft
   name: community-minecraft
-  annotations:
-    fluxcd.io/automated: "true"
   labels:
     app: community-minecraft
 spec:
