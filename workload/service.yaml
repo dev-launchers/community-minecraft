@@ -37,11 +37,11 @@ spec:
   selector:
     app: community-minecraft
   ports:
-    - name: http-25565-tcp
+    - name: minecraft-tcp
       protocol: TCP
       port: 25565
-      nodePort: 25565
-    - name: http-25565-udp
+      nodePort: 31672
+    - name: minecraft-udp
       protocol: UDP
       port: 25565
-      nodePort: 25565
+      nodePort: 31672
