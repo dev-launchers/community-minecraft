@@ -3,8 +3,9 @@ on:
   push:
     branches:
       - main
-    # Build image whenever a file under src/ is changed
+    # Build image whenever build.txt or a file under minecraft_home or is changed
     paths:
+      - 'build.txt'
       - 'minecraft_home'
 jobs:
   build:
