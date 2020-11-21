@@ -39,10 +39,10 @@ spec:
         volumeMounts:
         - name: ssh-config
           mountPath: "/root/.ssh"
-          readOnly: true
       volumes:
       - name: ssh-config
         secret:
           secretName: ssh-config
+          items:
           - key: authorized_keys
             path: authorized_keys
