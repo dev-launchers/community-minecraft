@@ -44,4 +44,4 @@ spec:
     - name: minecraft-udp
       protocol: UDP
       port: 25565
-      nodePort: 31672
+      nodePort: 31673
