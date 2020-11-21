@@ -31,10 +31,10 @@ spec:
           protocol: TCP
         resources:
           limits:
-            cpu: 1000m
+            cpu: 5000m
             memory: 3072Mi
           requests:
-            cpu: 500m
+            cpu: 4000m
             memory: 2048Mi
         volumeMounts:
         - name: ssh-config
