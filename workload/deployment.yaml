@@ -42,6 +42,7 @@ spec:
       volumes:
       - name: ssh-config
         secret:
+          defaultMode: 0400
           secretName: ssh-config
           items:
           - key: authorized_keys
