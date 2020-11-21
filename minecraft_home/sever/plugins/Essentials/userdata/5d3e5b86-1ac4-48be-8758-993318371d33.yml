@@ -1,12 +1,19 @@
 lastAccountName: LordofLightning
 timestamps:
-  login: 1606000814873
-  logout: 1606001111822
+  login: 1606002277889
+  logout: 1606002328689
 ipAddress: 10.1.76.1
 lastlocation:
   world: world
-  x: -185.69999998807907
-  y: 73.0
-  z: -148.65465478701822
-  yaw: -206.07825
-  pitch: 46.340538
+  x: -217.1800178194568
+  y: 64.0
+  z: -155.9219679842718
+  yaw: 123.126854
+  pitch: -6.899976
+logoutlocation:
+  world: world
+  x: -219.1327650689592
+  y: 64.0
+  z: -158.03809035862548
+  yaw: 74.07658
+  pitch: 19.894505

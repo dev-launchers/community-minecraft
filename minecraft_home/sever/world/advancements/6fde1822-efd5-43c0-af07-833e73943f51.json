@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2020-11-21 23:41:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2020-11-21 23:18:57 +0000"
@@ -32,6 +38,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2020-11-21 23:20:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2020-11-21 23:40:45 +0000"
     },
     "done": true
   },
