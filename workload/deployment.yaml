@@ -36,3 +36,13 @@ spec:
           requests:
             cpu: 500m
             memory: 2048Mi
+        volumeMounts:
+        - name: ssh-config
+          mountPath: "/root/.ssh"
+      volumes:
+      - name: ssh-config
+        secret:
+          secretName: ssh-config
+          items:
+          - key: authorized_keys
+            path: authorized_keys
