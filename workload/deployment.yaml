@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: community-minecraft
-        image: devlaunchers/community-minecraft
+        image: devlaunchers/community-minecraft:sha-0f6898d
         command: [ "/bin/bash", "-c", "--" ]
         args: [ "while true; do sleep 30; done;" ]
         ports:
