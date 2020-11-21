@@ -139,3 +139,5 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
+players:
+  disable-saving: false

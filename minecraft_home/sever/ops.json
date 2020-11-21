@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "uuid": "1ca85d27-5d88-411a-a99e-7ac166bb77e5",
+    "name": "GuillermoS_",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3cb018d0-aa67-4171-98c4-46c87157d1bc",
+    "name": "pyxld_kris",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a816e419-8524-46de-8589-06b584bca6a4",
+    "name": "marsboy18",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
