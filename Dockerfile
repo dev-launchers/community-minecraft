@@ -1,7 +1,12 @@
 FROM ubuntu:18.04
 WORKDIR /minecraft
-RUN apt update -y && apt install -y openssh-server  default-jdk wget
-RUN wget -O /minecraft/minecraft_server.jar https://launcher.mojang.com/v1/objects/35139deedbd5182953cf1caa23835da59ca3d7cd/server.jar
+RUN apt update -y && apt install -y openssh-server default-jdk wget git
+RUN git clone https://github.com/dev-launchers-sandbox/community-minecraft.git
+WORKDIR /minecraft/community-minecraft/minecraft_home/sever/build
+RUN wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
+RUN git config --global --unset core.autocrlf && java -jar BuildTools.jar
+RUN mv Spigot.jar ~/minecraft/community-minecraft/minecraft_home/sever/
+WORKDIR /minecraft/community-minecraft/minecraft_home/sever/
 RUN echo "eula=true" > eula.txt
 COPY entrypoint.sh .
 ENTRYPOINT [ "/minecraft/entrypoint.sh" ]
