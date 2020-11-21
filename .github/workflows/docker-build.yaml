@@ -7,6 +7,8 @@ on:
     paths:
       - 'build.txt'
       - 'minecraft_home'
+      - 'Dockerfile'
+      - 'entrypoint.sh'
 jobs:
   build:
     runs-on: ubuntu-latest
