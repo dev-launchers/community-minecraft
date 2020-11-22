@@ -1,0 +1,113 @@
+#                    ___                         ___           ___            ___
+#     _____         /\__\                       /\  \         /|  |          /\__\
+#    /::\  \       /:/ _/_                      \:\  \       |:|  |         /:/ _/_
+#   /:/\:\  \     /:/ /\__\                      \:\  \      |:|  |        /:/ /\__\
+#  /:/  \:\__\   /:/ /:/ _/_   ___     ___   ___  \:\  \   __|:|__|       /:/ /:/ _/_
+# /:/__/ \:|__| /:/_/:/ /\__\ /\  \   /\__\ /\  \  \:\__\ /::::\__\_____ /:/_/:/ /\__\
+# \:\  \ /:/  / \:\/:/ /:/  / \:\  \ /:/  / \:\  \ /:/  / ~~~~\::::/___/ \:\/:/ /:/  /
+#  \:\  /:/  /   \::/_/:/  /   \:\  /:/  /   \:\  /:/  /      |:|~~|      \::/_/:/  /
+#   \:\/:/  /     \:\/:/  /     \:\/:/  /     \:\/:/  /       |:|  |       \:\/:/  /
+#    \::/  /       \::/  /       \::/  /       \::/  /        |:|__|        \::/  /
+#     \/__/         \/__/         \/__/         \/__/         |/__/          \/__/
+
+SELECT_LANGUAGE:
+  TITLE: '&8Deluxe Announce &9Language'
+  ENGLISH:
+    VALUE: '4cac9774da1217248532ce147f7831f67a12fdcca1cf0cb4b3848de6bc94b4'
+    SLOT: 10
+    NAME: '&aEnglish'
+    LORE:
+      - '&7Change the language of the plugin.'
+      - ''
+      - '&7Currently archives:'
+      - '   &7▪ &fen_US.yml'
+      - ''
+      - '&eClick to change the language!'
+  SPANISH:
+    VALUE: '6236b90de8bf16a24a6aace000b5fcbe80438eb54816efa6d54a5250189445e3'
+    SLOT: 12
+    NAME: '&aSpanish'
+    LORE:
+      - '&7Change the language of the plugin.'
+      - ''
+      - '&7Currently archives:'
+      - '   &7▪ &fes_ES.yml'
+      - ''
+      - '&eClick to change the language!'
+  FRENCH:
+    VALUE: '8b06b49462af409c1985c629fdb8c870ff1d9d9abed3d2fd79a2138906500907'
+    SLOT: 21
+    NAME: '&aFrançais'
+    LORE:
+      - '&7Change the language of the plugin.'
+      - ''
+      - '&7Currently archives:'
+      - '   &7▪ &ffr_FR.yml'
+      - ''
+      - '&eClick to change the language!'
+  RUSSIAN:
+    VALUE: '3f38511df089cbca864a9cfd1a44b80b82e8ea6eb38f4d6b0fecc72631b070db'
+    SLOT: 14
+    NAME: '&aPусский'
+    LORE:
+      - '&7Change the language of the plugin.'
+      - ''
+      - '&7Currently archives:'
+      - '   &7▪ &fru_RU.yml'
+      - ''
+      - '&eClick to change the language!'
+  GERMAN:
+    VALUE: '5e7899b4806858697e283f084d9173fe487886453774626b24bd8cfecc77b3f'
+    SLOT: 19
+    NAME: '&aDeutsche'
+    LORE:
+      - '&7Change the language of the plugin.'
+      - ''
+      - '&7Currently archives:'
+      - '   &7▪ &fde_DE.yml'
+      - ''
+      - '&eClick to change the language!'
+  SWEDISH:
+    VALUE: '1b85f8114dea93cdee01ab8fe5cfca09c984c2459776bf626e349503702f21eb'
+    SLOT: 23
+    NAME: '&aSvenska'
+    LORE:
+      - '&7Change the language of the plugin.'
+      - ''
+      - '&7Currently archives:'
+      - '   &7▪ &fsv_SE.yml'
+      - ''
+      - '&eClick to change the language!'
+  TRANSLATE:
+    MATERIAL: 'BOOK'
+    SLOT: 43
+    NAME: '&aHelp us Translate STN Studios &8(&6Resources & Plugins&8)'
+    LORE:
+      - '&7We have added a way for'
+      - '&7you to help us translate STN Studios'
+      - '&7into even more languages!'
+      - ''
+      - '&eClick this icon for the website link.'
+  RETURN:
+    MATERIAL: 'ARROW'
+    SLOT: 36
+    NAME: '&aGo Back'
+    LORE: []
+  CLOSE:
+    MATERIAL: 'RED_DYE'
+    SLOT: 40
+    NAME: '&cClose &7(Right click)'
+    LORE:
+      - '&7To in-game'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/

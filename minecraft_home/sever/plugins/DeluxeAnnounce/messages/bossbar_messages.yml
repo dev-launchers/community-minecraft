@@ -1,0 +1,41 @@
+#                    ___                         ___           ___            ___
+#     _____         /\__\                       /\  \         /|  |          /\__\
+#    /::\  \       /:/ _/_                      \:\  \       |:|  |         /:/ _/_
+#   /:/\:\  \     /:/ /\__\                      \:\  \      |:|  |        /:/ /\__\
+#  /:/  \:\__\   /:/ /:/ _/_   ___     ___   ___  \:\  \   __|:|__|       /:/ /:/ _/_
+# /:/__/ \:|__| /:/_/:/ /\__\ /\  \   /\__\ /\  \  \:\__\ /::::\__\_____ /:/_/:/ /\__\
+# \:\  \ /:/  / \:\/:/ /:/  / \:\  \ /:/  / \:\  \ /:/  / ~~~~\::::/___/ \:\/:/ /:/  /
+#  \:\  /:/  /   \::/_/:/  /   \:\  /:/  /   \:\  /:/  /      |:|~~|      \::/_/:/  /
+#   \:\/:/  /     \:\/:/  /     \:\/:/  /     \:\/:/  /       |:|  |       \:\/:/  /
+#    \::/  /       \::/  /       \::/  /       \::/  /        |:|__|        \::/  /
+#     \/__/         \/__/         \/__/         \/__/         |/__/          \/__/
+
+ANNOUNCEMENT:
+  # true -> If this is true it will send the announcements in the game.
+  # false -> If this is false it will not send the announcements in the game.
+  # If you use bungeecord and no ads appear put that ('true') or ('false') in quotes to make it work!
+  ENABLED: false # This completely disable the automatic announcement ...
+  ENABLE:
+    SEND_SOUND: true
+  SEND_EACH: 30 # You have to set this in seconds...
+BOSSBAR:
+  1:
+    SEND_SOUND: 'EXPLODE; 10.0f; 10.0f'
+    WORLDS:
+      - 'world'
+    DISPLAY_TIME: 40
+    # Colors -> PURPLE, PINK, YELLOW, GREEN, BLUE, RED, WHITE
+    BAR_COLOR: 'PURPLE'
+    MESSAGE: '&aThanks for buying this great plugin!'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/

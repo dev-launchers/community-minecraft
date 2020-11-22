@@ -1476,6 +1476,8 @@
       "rotten_flesh": "2020-11-08 23:16:44 +0000",
       "dried_kelp": "2020-11-08 23:24:22 +0000",
       "cooked_chicken": "2020-11-08 23:17:52 +0000",
+      "cod": "2020-11-22 02:34:43 +0000",
+      "cooked_salmon": "2020-11-22 17:30:16 +0000",
       "carrot": "2020-11-08 23:16:50 +0000"
     },
     "done": false
@@ -2200,15 +2202,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/repeater": {
-    "criteria": {
-      "has_redstone_torch": "2020-11-21 17:24:31 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2020-11-21 17:16:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2020-11-21 17:24:31 +0000"
     },
     "done": true
   },

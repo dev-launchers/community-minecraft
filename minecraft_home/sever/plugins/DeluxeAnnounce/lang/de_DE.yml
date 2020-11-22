@@ -1,0 +1,109 @@
+#                    ___                         ___           ___            ___
+#     _____         /\__\                       /\  \         /|  |          /\__\
+#    /::\  \       /:/ _/_                      \:\  \       |:|  |         /:/ _/_
+#   /:/\:\  \     /:/ /\__\                      \:\  \      |:|  |        /:/ /\__\
+#  /:/  \:\__\   /:/ /:/ _/_   ___     ___   ___  \:\  \   __|:|__|       /:/ /:/ _/_
+# /:/__/ \:|__| /:/_/:/ /\__\ /\  \   /\__\ /\  \  \:\__\ /::::\__\_____ /:/_/:/ /\__\
+# \:\  \ /:/  / \:\/:/ /:/  / \:\  \ /:/  / \:\  \ /:/  / ~~~~\::::/___/ \:\/:/ /:/  /
+#  \:\  /:/  /   \::/_/:/  /   \:\  /:/  /   \:\  /:/  /      |:|~~|      \::/_/:/  /
+#   \:\/:/  /     \:\/:/  /     \:\/:/  /     \:\/:/  /       |:|  |       \:\/:/  /
+#    \::/  /       \::/  /       \::/  /       \::/  /        |:|__|        \::/  /
+#     \/__/         \/__/         \/__/         \/__/         |/__/          \/__/
+
+# ===================
+# Language: German  =
+# By: Ruben_Artz    =
+# ===================
+MESSAGE_USING: '&cDieser Server verwendet Deluxe Announce <ver>'
+MESSAGE_USING_BOX: '&f &8▪ &fKlicken Sie hier, um die Befehle anzuzeigen'
+MESSAGE_TIP: '&9SPITZE&f, Setzen Sie den Cursor in die Nachricht und klicken Sie, um sie auszuwählen.'
+MESSAGE_RELOAD: '&7Laden Sie die Plugin-Konfiguration.'
+MESSAGE_RELOAD_BOX: '&f &8▪ &fLaden Sie die Plugin-Konfiguration.'
+MESSAGE_HELP: '&7Siehe die verfügbaren Befehle.'
+MESSAGE_HELP_BOX: '&f &8▪ &fKlicken Sie hier, um die Befehle anzuzeigen.'
+MESSAGE_ANNOUNCE: '&7Senden Sie die globale Nachricht.'
+MESSAGE_ANNOUNCE_BOX: '&f §8▪ &fSenden Sie die globale Nachricht.'
+MESSAGE_GUI: '&7Konfigurieren Sie das Plugin über die GUIs.'
+MESSAGE_GUI_BOX: '&f &8▪ &fKlicken Sie hier, um die Benutzeroberfläche zu öffnen.'
+MESSAGE_OLD_VER: '&fSie haben eine alte Version des Plugins. Sie sind'
+MESSAGE_OLD_NEW: '&fmit &e<old>&f,verfügbare Version &e<new>'
+MESSAGE_TITLE_UPDATE:
+  - '&8[&9Deluxe Announce&8];10;10;50;&fAlte Version &e<old> &fNeue Version &e<new>;10;10;50;'
+MESSAGE_UPDATE_ACTIONBAR: '&cLaden Sie die neueste Version herunter &e<new>'
+MESSAGE_RELOAD_CONFIGS: '&aDas {File} Datei wurde neu geladen!'
+MESSAGE_FILE_NOT_FOUND: '&cDie Datei mit dem Namen {File} nicht gefunden!'
+MESSAGE_NO_ARGS: '&cRichtige Benutzung: /acs announce <text>'
+MESSAGE_DONATE: '&7Sende eine Nachricht an einen Spieler deiner Spende!'
+MESSAGE_DONATE_BOX: '&f &8▪ &fKlicken Sie, um den Befehl auszuführen.'
+MESSAGE_ACTIONBAR: '&7Senden Sie eine globale Nachricht.'
+MESSAGE_ACTIONBAR_BOX: '&f &8▪ &fKlicken Sie, um den Befehl auszuführen.'
+MESSAGE_BOSSBAR: '&7Senden Sie eine globale Nachricht.'
+MESSAGE_BOSSBAR_BOX: '&f &8▪ &fKlicken Sie, um den Befehl auszuführen.'
+MESSAGE_TOGGLE: '&7Aktivieren oder Deaktivieren der Eingabe von Werbegeschenken.'
+MESSAGE_TOGGLE_BOX: '&f &8▪ &fKlicken Sie, um den Befehl auszuführen.'
+MESSAGE_GIVEAWAY: '&7Wählen Sie den Gewinner.'
+MESSAGE_GIVEAWAY_BOX: '&f &8▪ &fKlicken Sie, um den Befehl auszuführen.'
+MESSAGE_CLEAR_MESSAGE: '&7Alle Werbegeschenke löschen.'
+MESSAGE_CLEAR_MESSAGE_BOX: '&f &8▪ &fKlicken Sie, um den Befehl auszuführen.'
+MESSAGE_COMMAND_RELOAD:
+  MESSAGE_RELOAD:
+    - '&aLade-Plugin ...'
+    - '&aPlugin richtig geladen!'
+  MESSAGE_TITLE:
+    - '<exclusive>;10;10;50;&7(( Alle Konfigurationen werden neu gestartet. ));10;10;50'
+INVALID_MESSAGE_FOR_BOSSBAR: '&cDieser Befehl kann nur in Minecraft-Versionen (1.9-1.16) verwendet werden, und Sie führen die Version aus {Invalid}'
+MESSAGE_DONATOR_SEND: '&eDie Nachricht und die Effekte wurden an den Player gesendet &6{Player} &emit dem Paket aufgerufen &6{Package}'
+HELP_TO_TRANSLATE:
+  MESSAGE:
+    - '&a&m---------------------------------------------------'
+    - '&eKlicken Sie auf den Link unten, um herauszufinden, wie Sie uns bei der Übersetzung von STN Studios helfen können &8(&6Ressourcen & Plugins&8)'
+    - '&6https://stn-studios.com/translate'
+    - '&a&m----------------------------------------------------'
+MESSAGE_CHANGE_OF_LANGUAGE: '&aSie setzen die Plugin-Sprache auf {Language}!'
+MESSAGE_AD_ACTIVATED: '&aSie haben diese Ankündigung erfolgreich aktiviert!'
+MESSAGE_AD_DISABLED: '&cSie haben diese Ankündigung erfolgreich deaktiviert!'
+MESSAGE_INVALID_ANNOUNCEMENT: '&cEs scheint, dass die von Ihnen verwendete Version nicht mit den automatischen Bossbar-Ansagen kompatibel ist. Nur die Minecraft-Versionen (1.9-1.15) sind kompatibel {Invalid}'
+MESSAGE_INVALID_CONSOLE: '&cEntschuldigung, dieser Befehl kann nur im Spiel ausgeführt werden.'
+ANNOUNCEMENT_MESSAGES:
+  MESSAGE_SOUND: 'ENDERDRAGON_GROWL; 10.0f; 10.0f'
+  MESSAGE_TITLE_PERMISSIONS:
+    - '&c&l** FATALER FEHLER **;10;10;50;&f&o(( Aktualisieren Sie Ihren Rang auf: &b[MVP] &f&o));10;10;50'
+  MESSAGE_INVALID_ANNOUNCEMENT: "&cEntschuldigung die Ankündigung mit dem Namen '{Invalid}' existiert nicht, setzen Sie den Kurs &4&lHIER &cum die Liste der verfügbaren zu sehen &cAnkündigungen."
+  MESSAGE_TOGGLE_ENABLED:
+    - '&a&l** AKTIVIERT: {Announce} **;10;10;50;&7(( Sie haben diese Ankündigung erfolgreich aktiviert. ));10;10;50'
+  MESSAGE_SOUND_ENABLED: 'VILLAGER_YES; 10.0f; 10.0f'
+  MESSAGE_TOGGLE_DISABLED:
+    - '&c&l** ABGESAGT: {Announce} **;10;10;50;&7(( Sie haben diese Ankündigung erfolgreich deaktiviert. ));10;10;50'
+  MESSAGE_SOUND_DISABLED: 'ENDERDRAGON_WINGS; 10.0f; 10.0f'
+MESSAGE_CLICK_COMMAND: '&fKlicken Sie hier, um den Befehl auszuführen.'
+MESSAGE_COMMAND_ACTIONBAR: '&7Aktivieren und Deaktivieren der Aktionsleistenanzeige.'
+MESSAGE_COMMAND_ADVANCED: '&7Aktivieren und deaktivieren Sie erweiterte Anzeigen.'
+MESSAGE_COMMAND_BOSSBAR: '&7Aktivieren und Deaktivieren der Boss-Bar-Anzeige.'
+MESSAGE_COMMAND_PERMISSIONS: '&7Aktivieren und Deaktivieren der Berechtigungsanzeige.'
+MESSAGE_COMMAND_SIMPLE: '&7Aktivieren und deaktivieren Sie einfache Anzeigen.'
+MESSAGE_COMMAND_TITLE: '&7Titelanzeige aktivieren und deaktivieren. '
+MESSAGE_BACK: '&8[&cZurück ←&8] &7Kehren Sie zur nächsten Seite zurück.'
+MESSAGE_BACK_BOX: '&f &8▪ &fKehrt zur Hauptliste der Befehle zurück.'
+MESSAGE_NEXT: '&8[&aNächster →&8] &7Gehen Sie zur nächsten Seite.'
+MESSAGE_NEXT_BOX: '&f &8▪ &fGehen Sie zur nächsten Befehlsseite.'
+MESSAGE_DELETE_ANNOUNCE: '&cYou have successfully deleted this announcement!'
+MESSAGE_SOUND_DELETE: 'ENDERDRAGON_GROWL; 10.0f; 10.0f'
+MESSAGE_CREATE_ANNOUNCE:
+  - '&bNachricht hinzufügen;10;10;50;&7Schreiben Sie die Nachricht in den Chat;10;10;50'
+MESSAGE_SEND_PRIVATE_MESSAGE: "&aEine private Nachricht wurde an den Player gesendet '{Player}' mit Erfolg."
+MESSAGE_SEND_ALL_PLAYERS: '&aEine Nachricht wurde erfolgreich an alle Spieler gesendet!'
+MESSAGE_USE_PLAYER_COMMAND: '&cBefehl nicht gefunden Verwenden Sie /acs player <Nachricht> um eine private Nachricht an einen Player zu senden.'
+MESSAGE_PLAYER_COMMAND: '&7Senden Sie eine private Nachricht an den Player'
+MESSAGE_PLAYER_COMMAND_BOX: '&f &8▪ &fKlicken Sie hier, um den Befehl in den Chat einzufügen.'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/

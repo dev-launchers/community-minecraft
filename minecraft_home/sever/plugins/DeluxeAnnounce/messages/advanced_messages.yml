@@ -1,0 +1,81 @@
+#                    ___                         ___           ___            ___
+#     _____         /\__\                       /\  \         /|  |          /\__\
+#    /::\  \       /:/ _/_                      \:\  \       |:|  |         /:/ _/_
+#   /:/\:\  \     /:/ /\__\                      \:\  \      |:|  |        /:/ /\__\
+#  /:/  \:\__\   /:/ /:/ _/_   ___     ___   ___  \:\  \   __|:|__|       /:/ /:/ _/_
+# /:/__/ \:|__| /:/_/:/ /\__\ /\  \   /\__\ /\  \  \:\__\ /::::\__\_____ /:/_/:/ /\__\
+# \:\  \ /:/  / \:\/:/ /:/  / \:\  \ /:/  / \:\  \ /:/  / ~~~~\::::/___/ \:\/:/ /:/  /
+#  \:\  /:/  /   \::/_/:/  /   \:\  /:/  /   \:\  /:/  /      |:|~~|      \::/_/:/  /
+#   \:\/:/  /     \:\/:/  /     \:\/:/  /     \:\/:/  /       |:|  |       \:\/:/  /
+#    \::/  /       \::/  /       \::/  /       \::/  /        |:|__|        \::/  /
+#     \/__/         \/__/         \/__/         \/__/         |/__/          \/__/
+
+ANNOUNCEMENT:
+  # true -> If this is true it will send the announcements in the game.
+  # false -> If this is false it will not send the announcements in the game.
+  # If you use bungeecord and no ads appear put that ('true') or ('false') in quotes to make it work!
+  ENABLED: false # This completely disable the automatic announcement ...
+  PREFIX: '&bDeluxe Announce'
+  URL:
+    - 'https://minotar.net/helm/{Player}/8.png'
+    - 'https://cravatar.eu/helmavatar/{Player}/8.png'
+    - 'https://mc-heads.net/avatar/{Player}/8'
+  ENABLE:
+    SEND_PARTICLES: true # This only works on spigot versions 1.10x - 1.15x...
+    SEND_TITLES: true # This works on both spigot and bungee cord ...
+    SEND_ACTIONBAR: true # This works on both spigot and bungee cord ...
+    SEND_SOUNDS: true # This works in spigot, there is no bungee cord support ...
+  SEND_EACH: 300 # You have to set this in seconds...
+SKIN_PLAYER_AD:
+  1:
+    SEND_SOUND: 'EXPLODE; 10.0f; 10.0f'
+    WORLDS:
+      - 'world'
+    SEND_EFFECTS:
+      - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+      - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+      - 'NOTE;60;2.0;2.0;2.0;2.0'
+    SEND_MESSAGE:
+      - ''
+      - '<center>&bDeluxe Announce &ePremium</center>'
+      - ''
+      - '<center>&fexample message</center>'
+      - '<center>&fline 5</center>'
+      - '<center>&7line 6</center>'
+      - ''
+      - '<center>&eCopyright © 2020</center>'
+    SEND_TITLES:
+      - '{Prefix};10;10;50;&7&o(( &fexample &7&o));10;10;50'
+    SEND_ACTIONBAR: '&7&o(( &fexample &7&o))'
+  2:
+    SEND_SOUND: 'EXPLODE; 10.0f; 10.0f'
+    WORLDS:
+      - 'world'
+    SEND_EFFECTS:
+      - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+      - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+      - 'NOTE;60;2.0;2.0;2.0;2.0'
+    SEND_MESSAGE:
+      - ''
+      - '<center>&bDeluxe Announce &ePremium</center>'
+      - ''
+      - '<center>&fif you use minecraft 1.16 use hex colors!</center>'
+      - '<center>&#0F0640 C&#8DFCFF O&#00F064 L&#000F64 O&#7AA300 R&#FF0099 S</center>'
+      - '<center>test messaje</center>'
+      - ''
+      - '<center>&eCopyright © 2020</center>'
+    SEND_TITLES:
+      - '{Prefix};10;10;50;&7&o(( &fexample &7&o));10;10;50'
+    SEND_ACTIONBAR: '&7&o(( &fexample &7&o))'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/

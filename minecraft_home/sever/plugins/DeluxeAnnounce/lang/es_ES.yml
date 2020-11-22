@@ -1,0 +1,108 @@
+#                    ___                         ___           ___            ___
+#     _____         /\__\                       /\  \         /|  |          /\__\
+#    /::\  \       /:/ _/_                      \:\  \       |:|  |         /:/ _/_
+#   /:/\:\  \     /:/ /\__\                      \:\  \      |:|  |        /:/ /\__\
+#  /:/  \:\__\   /:/ /:/ _/_   ___     ___   ___  \:\  \   __|:|__|       /:/ /:/ _/_
+# /:/__/ \:|__| /:/_/:/ /\__\ /\  \   /\__\ /\  \  \:\__\ /::::\__\_____ /:/_/:/ /\__\
+# \:\  \ /:/  / \:\/:/ /:/  / \:\  \ /:/  / \:\  \ /:/  / ~~~~\::::/___/ \:\/:/ /:/  /
+#  \:\  /:/  /   \::/_/:/  /   \:\  /:/  /   \:\  /:/  /      |:|~~|      \::/_/:/  /
+#   \:\/:/  /     \:\/:/  /     \:\/:/  /     \:\/:/  /       |:|  |       \:\/:/  /
+#    \::/  /       \::/  /       \::/  /       \::/  /        |:|__|        \::/  /
+#     \/__/         \/__/         \/__/         \/__/         |/__/          \/__/
+
+# ===================
+# Language: Spanish =
+# By: Ruben_Artz    =
+# ===================
+MESSAGE_USING: '&cEste servidor está usando Deluxe Announce <ver>'
+MESSAGE_USING_BOX: '&f &8▪ &fHaga clic para ver los comandos.'
+MESSAGE_TIP: '&9TIP&f, Coloque el cursor en el mensaje y haga clic para seleccionar.'
+MESSAGE_RELOAD: '&7Cargue la configuración del complemento.'
+MESSAGE_RELOAD_BOX: '&f &8▪ &fCargue la configuración del complemento.'
+MESSAGE_HELP: '&7Ver los comandos disponibles.'
+MESSAGE_HELP_BOX: '&f &8▪ &fHaga clic para ver los comandos.'
+MESSAGE_ANNOUNCE: '&7Envía el mensaje global.'
+MESSAGE_ANNOUNCE_BOX: '&f §8▪ &fEnvía el mensaje global.'
+MESSAGE_GUI: '&7Configure el complemento desde la interfaz gráfica de usuario.'
+MESSAGE_GUI_BOX: '&f &8▪ &fHaga clic para abrir la interfaz gráfica de usuario.'
+MESSAGE_OLD_VER: '&fTienes una versión anterior del complemento. Usted está'
+MESSAGE_OLD_NEW: '&fUsando &e<old>&f, versión disponible &e<new>'
+MESSAGE_TITLE_UPDATE:
+  - '&8[&9Deluxe Announce&8];10;10;50;&fVersión antigua &e<old> &fNueva versión &e<new>;10;10;50;'
+MESSAGE_UPDATE_ACTIONBAR: '&cDescargue la última versión &e<new>'
+MESSAGE_RELOAD_CONFIGS: '&aEl {File} archivo fue recargado!'
+MESSAGE_FILE_NOT_FOUND: '&cEl archivo con nombre {File} ¡extraviado!'
+MESSAGE_NO_ARGS: '&cUso Correcto: /acs announce <text>'
+MESSAGE_DONATE: '&7¡Envía un mensaje a un jugador de tu donación!'
+MESSAGE_DONATE_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
+MESSAGE_ACTIONBAR: '&7Envía un mensaje global.'
+MESSAGE_ACTIONBAR_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
+MESSAGE_BOSSBAR: '&7Envía un mensaje global.'
+MESSAGE_BOSSBAR_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
+MESSAGE_TOGGLE: '&7Activa o desactiva la entrada del sorteo.'
+MESSAGE_TOGGLE_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
+MESSAGE_GIVEAWAY: '&7Elige el ganador.'
+MESSAGE_GIVEAWAY_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
+MESSAGE_CLEAR_MESSAGE: '&7Borrar todas las entradas del sorteo.'
+MESSAGE_CLEAR_MESSAGE_BOX: '&f &8▪ &fHaga clic para ejecutar el comando.'
+MESSAGE_COMMAND_RELOAD:
+  MESSAGE_RELOAD:
+    - '&aRecargando configuraciones ...'
+    - '&a¡Complemento cargado correctamente!'
+  MESSAGE_TITLE:
+    - '<exclusive>;10;10;50;&7(( Todas las configuraciones se reiniciarón. ));10;10;50'
+INVALID_MESSAGE_FOR_BOSSBAR: '&cEste comando solo se puede usar en las versiones de Minecraft (1.9-1.16) y está ejecutando la versión {Invalid}'
+MESSAGE_DONATOR_SEND: '&eEl mensaje y los efectos fueron enviados al jugador &6{Player} &econ el paquete llamado &6{Package}'
+HELP_TO_TRANSLATE:
+  MESSAGE:
+    - '&a&m---------------------------------------------------'
+    - '&eHaga clic en el siguiente enlace para descubrir cómo ayudarnos a traducir STN Studios &8(&6Resources & Plugins&8)'
+    - '&6https://stn-studios.com/translate'
+    - '&a&m----------------------------------------------------'
+MESSAGE_CHANGE_OF_LANGUAGE: '&aEstablece el idioma del complemento en {Language}!'
+MESSAGE_AD_ACTIVATED: '&a¡Has activado este anuncio con éxito!'
+MESSAGE_AD_DISABLED: '&c¡Has desactivado este anuncio con éxito!'
+MESSAGE_INVALID_ANNOUNCEMENT: '&cLo siento, parece que la versión que estás usando no es compatible con los anuncios automáticos de la barra de jefes, solo las versiones de Minecraft (1.9-1.16) son compatibles, estás usando 1.8.8 {Invalid}'
+MESSAGE_INVALID_CONSOLE: '&cLo siento, este comando sólo se puede ejecutar en el juego.'
+ANNOUNCEMENT_MESSAGES:
+  MESSAGE_SOUND: 'ENDERDRAGON_GROWL; 10.0f; 10.0f'
+  MESSAGE_TITLE_PERMISSIONS:
+    - '&c&l** ERROR FATAL **;10;10;50;&f&o(( Actualice su rango a: &b[MVP] &f&o));10;10;50'
+  MESSAGE_INVALID_ANNOUNCEMENT: "&cPerdón anuncio con el nombre '{Invalid}' no existe, pongan el cursor &4&lAQUÍ &cpara ver la lista de &canuncios."
+  MESSAGE_TOGGLE_ENABLED:
+    - '&a&l** HABILITADO: {Announce} **;10;10;50;&7(( Ha activado con éxito este anuncio. ));10;10;50'
+  MESSAGE_SOUND_ENABLED: 'VILLAGER_YES; 10.0f; 10.0f'
+  MESSAGE_TOGGLE_DISABLED:
+    - '&c&l** CANCELADO: {Announce} **;10;10;50;&7(( Ha desactivado con éxito este anuncio. ));10;10;50'
+  MESSAGE_SOUND_DISABLED: 'ENDERDRAGON_WINGS; 10.0f; 10.0f'
+MESSAGE_CLICK_COMMAND: '&fHaga clic aquí para ejecutar el comando.'
+MESSAGE_COMMAND_ACTIONBAR: '&7Activar y desactivar el anuncio de la barra de acción.'
+MESSAGE_COMMAND_ADVANCED: '&7Activar y desactivar el anuncio avanzado.'
+MESSAGE_COMMAND_BOSSBAR: '&7Activar y desactivar el anuncio del bar del jefe.'
+MESSAGE_COMMAND_PERMISSIONS: '&7Habilitar y deshabilitar el anuncio de permisos'
+MESSAGE_COMMAND_SIMPLE: '&7Activar y desactivar el anuncio simple.'
+MESSAGE_COMMAND_TITLE: '&7Activar y desactivar el anuncio del título.'
+MESSAGE_BACK: '&8[&cBack ←&8] &7Vuelva a la siguiente página.'
+MESSAGE_BACK_BOX: '&f &8▪ &fVuelve a la lista principal de comandos.'
+MESSAGE_NEXT: '&8[&aNext →&8] &7Pasa a la siguiente página.'
+MESSAGE_NEXT_BOX: '&f &8▪ &fVe a la siguiente página de comandos.'
+MESSAGE_DELETE_ANNOUNCE: '&c¡Has eliminado este anuncio con éxito!'
+MESSAGE_SOUND_DELETE: 'ENDERDRAGON_GROWL; 10.0f; 10.0f'
+MESSAGE_CREATE_ANNOUNCE:
+  - '&bAgregar mensaje;10;10;50;&7Escribe el mensaje en el chat;10;10;50'
+MESSAGE_SEND_PRIVATE_MESSAGE: "&aSe ha enviado un mensaje privado al jugador '{Player}' con éxito."
+MESSAGE_SEND_ALL_PLAYERS: '&a¡Se ha enviado un mensaje a todos los jugadores con éxito!'
+MESSAGE_USE_PLAYER_COMMAND: '&cComando no encontrado use /acs player <mensaje> para enviar un mensaje privado a un jugador.'
+MESSAGE_PLAYER_COMMAND: '&7Send a private message to the player'
+MESSAGE_PLAYER_COMMAND_BOX: '&f &8▪ &fHaga click aquí para pegar el comando en el chat.'
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/

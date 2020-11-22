@@ -1,0 +1,216 @@
+#                    ___                         ___           ___            ___
+#     _____         /\__\                       /\  \         /|  |          /\__\
+#    /::\  \       /:/ _/_                      \:\  \       |:|  |         /:/ _/_
+#   /:/\:\  \     /:/ /\__\                      \:\  \      |:|  |        /:/ /\__\
+#  /:/  \:\__\   /:/ /:/ _/_   ___     ___   ___  \:\  \   __|:|__|       /:/ /:/ _/_
+# /:/__/ \:|__| /:/_/:/ /\__\ /\  \   /\__\ /\  \  \:\__\ /::::\__\_____ /:/_/:/ /\__\
+# \:\  \ /:/  / \:\/:/ /:/  / \:\  \ /:/  / \:\  \ /:/  / ~~~~\::::/___/ \:\/:/ /:/  /
+#  \:\  /:/  /   \::/_/:/  /   \:\  /:/  /   \:\  /:/  /      |:|~~|      \::/_/:/  /
+#   \:\/:/  /     \:\/:/  /     \:\/:/  /     \:\/:/  /       |:|  |       \:\/:/  /
+#    \::/  /       \::/  /       \::/  /       \::/  /        |:|__|        \::/  /
+#     \/__/         \/__/         \/__/         \/__/         |/__/          \/__/
+
+MAIN:
+  MENUS:
+    ADMIN: '&8Deluxe Announce &aVisible'
+    PLAYER: '&8Deluxe Announce &aPlayer'
+    FILL_EMPTY: true
+  ACTIONBAR:
+    NAME: '&aToggle Action bar &7(Right click)'
+    VALUE: '17732caeb88cce8d18593df0ffa343305341741be647aac42e4ce4d250675765'
+    SLOT: 2
+    LORE:
+      - ''
+      - '&7Enable and disable the announcement'
+      - '&7that bother you so much by'
+      - '&7clicking on the item below.'
+      - ''
+      - '&7Requires: &a[VIP]'
+      - ''
+      - '&eClick to modify your settings!'
+  ADVANCED:
+    NAME: '&aToggle Advanced &7(Right click)'
+    VALUE: 'f1f17fcd6380a184903fc0f4ac63e8cfb871d04640a17b60915ab422be0c8976'
+    SLOT: 3
+    LORE:
+      - ''
+      - '&7Enable and disable the announcement'
+      - '&7that bother you so much by'
+      - '&7clicking on the item below.'
+      - ''
+      - '&7Requires: &a[VIP]'
+      - ''
+      - '&eClick to modify your settings!'
+  BOSSBAR:
+    NAME: '&aToggle Boss bar &7(Right click)'
+    VALUE: '3cc7c8f7a89b68eecf9d4417b8589f9f6d1115cbffb63b1f3491e8c52338'
+    SLOT: 5
+    LORE:
+      - ''
+      - '&7Enable and disable the announcement'
+      - '&7that bother you so much by'
+      - '&7clicking on the item below.'
+      - ''
+      - '&7Requires: &a[VIP]'
+      - ''
+      - '&eClick to modify your settings!'
+  PERMISSIONS:
+    NAME: '&aToggle Permissions &7(Right click)'
+    VALUE: 'c738b8af8d7ce1a26dc6d40180b3589403e11ef36a66d7c4590037732829542e'
+    SLOT: 6
+    LORE:
+      - ''
+      - '&7Enable and disable the announcement'
+      - '&7that bother you so much by'
+      - '&7clicking on the item below.'
+      - ''
+      - '&7Requires: &a[VIP]'
+      - ''
+      - '&eClick to modify your settings!'
+  SIMPLE:
+    NAME: '&aToggle Simple &7(Right click)'
+    VALUE: 'e9f4aacfc627ee64a3257ad52783555f2b358cb7cccb864040997403a5b1bd52'
+    SLOT: 19
+    LORE:
+      - ''
+      - '&7Enable and disable the announcement'
+      - '&7that bother you so much by'
+      - '&7clicking on the item below.'
+      - ''
+      - '&7Requires: &a[VIP]'
+      - ''
+      - '&eClick to modify your settings!'
+  TITLES:
+    NAME: '&aToggle Titles &7(Right click)'
+    VALUE: '7f763b85db1714e0fa572469f5afc3ec4dc2aa569751219f736b56a0229335d8'
+    SLOT: 20
+    LORE:
+      - ''
+      - '&7Enable and disable the announcement'
+      - '&7that bother you so much by'
+      - '&7clicking on the item below.'
+      - ''
+      - '&7Requires: &a[VIP]'
+      - ''
+      - '&eClick to modify your settings!'
+  HELP:
+    MATERIAL: 'ITEM_FRAME'
+    NAME: '&aCommand list &7(Right Click)'
+    SLOT: 52
+    LORE:
+      - ''
+      - '&7Click on this item to show the command'
+      - '&7list in which you can disable the'
+      - '&7announcements through the commands.'
+      - ''
+      - '&eClick to confirm!'
+  BOOLEAN:
+    MATERIAL_ENABLED: 'GREEN_STAINED_GLASS_PANE'
+    MATERIAL_DISABLED: 'RED_STAINED_GLASS_PANE'
+    OTHER_ENABLED: 'ORANGE_STAINED_GLASS_PANE'
+    OTHER_DISABLED: 'RED_STAINED_GLASS_PANE'
+    NAME_ENABLED: '&aActivated &7(Right Click)'
+    NAME_DISABLED: '&cDisabled &7(Right Click)'
+    SLOTS:
+      ACTIONBAR:
+        BOOLEAN: 11
+      ADVANCED:
+        BOOLEAN: 12
+      BOSSBAR:
+        BOOLEAN: 14
+      PERMISSIONS:
+        BOOLEAN: 15
+      SIMPLE:
+        BOOLEAN: 28
+      TITLE:
+        BOOLEAN: 29
+      SOUNDS:
+        BOOLEAN: 33
+      PARTICLES:
+        BOOLEAN: 34
+    LORE_ENABLED:
+      - ''
+      - '&7Click to show the announcement'
+      - '&7you need a special permission to use this item.'
+      - ''
+      - '&eClick to confirm!'
+    LORE_DISABLED:
+      - ''
+      - '&7Click to show the announcement'
+      - '&7you need a special permission to use this item.'
+      - ''
+      - '&eClick to confirm!'
+  SOUND:
+    NAME: '&aSounds &7(Right click)'
+    SLOT: 24
+    LORE:
+      - ''
+      - '&7Enable or disable &7all automatic,'
+      - '&7announcement sounds.'
+      - ''
+      - '&7Requires: &a[VIP]'
+      - ''
+      - '&eClick to modify your settings!'
+    VALUE: '7beb2d7368bfb8656f3948e126df8b858c70ddf54283f494fe1c1675056178b4'
+    LORE_ENABLED:
+      - ''
+      - '&7Disable all automatic announcement'
+      - '&7sounds (Only works for automatic'
+      - '&7announcements)'
+      - ''
+      - '&eClick to confirm!'
+    LORE_DISABLED:
+      - ''
+      - '&7Enable all automatic announcement'
+      - '&7sounds (Only works for automatic'
+      - '&7announcements)'
+      - ''
+      - '&eClick to confirm!'
+  PARTICLES:
+    NAME: '&aParticles &7(Right click)'
+    SLOT: 25
+    LORE:
+      - ''
+      - '&7Enable or disable &7all automatic,'
+      - '&7announcement particles.'
+      - ''
+      - '&7Requires: &a[VIP]'
+      - ''
+      - '&eClick to modify your settings!'
+    VALUE: '47f243a072fcfa6e6fe5792dde6a397404e93bded21110d2deb4796e2a057e25'
+    LORE_ENABLED:
+      - ''
+      - '&7Disable all automatic announcement'
+      - '&7particles (Only works for automatic'
+      - '&7announcements)'
+      - ''
+      - '&eClick to confirm!'
+    LORE_DISABLED:
+      - ''
+      - '&7Enable all automatic announcement'
+      - '&7particles (Only works for automatic'
+      - '&7announcements)'
+      - ''
+      - '&eClick to confirm!'
+  RETURN:
+    MATERIAL: 'ARROW'
+    NAME: '&aGo Back'
+    SLOT: 45
+    LORE: []
+  CLOSE:
+    MATERIAL: 'RED_DYE'
+    NAME: '&cClose &7(Right click)'
+    SLOT: 49
+    LORE:
+      - '&7To in-game'
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/

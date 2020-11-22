@@ -1,0 +1,58 @@
+#                    ___                         ___           ___            ___
+#     _____         /\__\                       /\  \         /|  |          /\__\
+#    /::\  \       /:/ _/_                      \:\  \       |:|  |         /:/ _/_
+#   /:/\:\  \     /:/ /\__\                      \:\  \      |:|  |        /:/ /\__\
+#  /:/  \:\__\   /:/ /:/ _/_   ___     ___   ___  \:\  \   __|:|__|       /:/ /:/ _/_
+# /:/__/ \:|__| /:/_/:/ /\__\ /\  \   /\__\ /\  \  \:\__\ /::::\__\_____ /:/_/:/ /\__\
+# \:\  \ /:/  / \:\/:/ /:/  / \:\  \ /:/  / \:\  \ /:/  / ~~~~\::::/___/ \:\/:/ /:/  /
+#  \:\  /:/  /   \::/_/:/  /   \:\  /:/  /   \:\  /:/  /      |:|~~|      \::/_/:/  /
+#   \:\/:/  /     \:\/:/  /     \:\/:/  /     \:\/:/  /       |:|  |       \:\/:/  /
+#    \::/  /       \::/  /       \::/  /       \::/  /        |:|__|        \::/  /
+#     \/__/         \/__/         \/__/         \/__/         |/__/          \/__/
+
+ANNOUNCEMENT:
+  # true -> If this is true it will send the announcements in the game.
+  # false -> If this is false it will not send the announcements in the game.
+  # If you use bungeecord and no ads appear put that ('true') or ('false') in quotes to make it work!
+  ENABLED: false # This completely disable the automatic announcement ...
+  PREFIX: '&bDeluxe Announce'
+  ENABLE:
+    SEND_PARTICLES: true # This only works on spigot versions 1.10x - 1.15x...
+    SEND_TITLES: true # This works on both spigot and bungee cord ...
+    SEND_ACTIONBAR: true # This works on both spigot and bungee cord ...
+    SEND_SOUNDS: true # This works in spigot, there is no bungee cord support ...
+  SEND_EACH: 970 # You have to set this in seconds...
+SIMPLE_MESSAGES:
+  1:
+    SEND_SOUND: 'EXPLODE; 10.0f; 10.0f'
+    WORLDS:
+      - 'world'
+    SEND_EFFECTS:
+      - 'VILLAGER_ANGRY;50;2.0;2.0;2.0;2.0'
+      - 'VILLAGER_HAPPY;50;2.0;2.0;2.0;2.0'
+      - 'NOTE;60;2.0;2.0;2.0;2.0'
+    SEND_MESSAGE:
+      - ''
+      - '<center>&bDeluxe Announce</center>'
+      - ''
+      - '<center>&fNew method now you can</center>'
+      - '<center>&fSend messages without your head!</center>'
+      - '<center>&7https://stn-studios.com/</center>'
+      - ''
+      - '<center>&eCopyright © 2020</center>'
+      - ''
+    SEND_TITLE:
+      - '{Prefix};10;10;50;&7&o(( Thanks for shopping! ));10;10;50'
+    SEND_ACTIONBAR: '&7&o(( Thanks for shopping! ))'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/
