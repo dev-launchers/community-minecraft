@@ -6,7 +6,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    app: community-minecraft
+    app: community-minecraft-waterfall-app
   ports:
     - name: minecraft-tcp
       protocol: TCP
