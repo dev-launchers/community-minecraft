@@ -3,6 +3,9 @@ wget https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/artifact/Essentia
 wget https://ci.lucko.me/job/LuckPerms/1205/artifact/bukkit/build/libs/LuckPerms-Bukkit-5.2.40.jar
 wget https://media.forgecdn.net/files/3004/933/Broadcaster-2.3.0.jar
 wget https://media.forgecdn.net/files/3000/482/PocketKnife-2.0.0.jar
+<<<<<<< HEAD
 wget -o tab.jar https://uc36f6cb066efcdc69db435c2e3e.dl.dropboxusercontent.com/cd/0/get/BDqNA1w9qHg6eeIo5kJqFxwoF0knBe3jMH9Yccdsa8LFrUb_rOOUcCd2Yw8SgQE3PN3MKymjMp9k63YByTF_y2J1yTWorFrkvnfNG7NdYPeX9qSVIoktTeqjkYhBB456Wbw/file?dl=1#
 wget https://ci.lucko.me/job/BungeeGuard/lastSuccessfulBuild/artifact/bungeeguard-universal/target/BungeeGuard.jar
+=======
+>>>>>>> parent of b72c532... added server files before waterfall
 
