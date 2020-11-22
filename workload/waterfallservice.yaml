@@ -8,11 +8,11 @@ spec:
   selector:
     app: community-minecraft-waterfall-app
   ports:
-    - name: minecraft-tcp
+    - name: minecraft-tcp-waterfall
       protocol: TCP
       port: 25566
-      nodePort: 31673
-    - name: minecraft-udp
+      nodePort: 31683
+    - name: minecraft-udp-waterfall
       protocol: UDP
       port: 25566
-      nodePort: 31674
+      nodePort: 31684
