@@ -39,6 +39,29 @@ spec:
         volumeMounts:
         - name: ssh-config
           mountPath: "/root/.ssh"
+      - name: community-minecraft-waterfall
+      image: devlaunchers/community-minecraft:sha-a515498
+        ports:
+        - containerPort: 80
+          protocol: TCP
+        - containerPort: 8080
+          protocol: TCP
+        - containerPort: 25565
+          protocol: TCP
+        - containerPort: 25565
+          protocol: UDP
+        - containerPort: 22
+          protocol: TCP
+        resources:
+          limits:
+            cpu: 5000m
+            memory: 3072Mi
+          requests:
+            cpu: 4000m
+            memory: 2048Mi
+        volumeMounts:
+        - name: ssh-config
+          mountPath: "/root/.ssh"
       volumes:
       - name: ssh-config
         secret:
