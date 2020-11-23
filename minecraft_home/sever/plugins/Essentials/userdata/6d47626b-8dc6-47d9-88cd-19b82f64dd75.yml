@@ -1,4 +1,12 @@
 lastAccountName: ZeztyZed
 timestamps:
   login: 1606101949494
+  logout: 1606104858809
 ipAddress: 10.1.76.1
+logoutlocation:
+  world: world
+  x: 4576.5519758999135
+  y: 76.0
+  z: 5052.07320254302
+  yaw: -56.586426
+  pitch: 46.20014

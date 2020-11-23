@@ -1,19 +1,19 @@
 lastAccountName: ChuckInAllen
 timestamps:
   login: 1606103016711
-  logout: 1606102873443
+  logout: 1606108093737
 ipAddress: 10.1.76.1
 lastlocation:
   world: world
-  x: 4621.645793362615
-  y: 42.0
-  z: 5025.300000011921
-  yaw: -278.59375
-  pitch: 55.200905
+  x: 4771.896436775697
+  y: 63.5
+  z: 5028.390997128787
+  yaw: 271.77933
+  pitch: 19.200354
 logoutlocation:
   world: world
-  x: 4772.926616626173
+  x: 4770.19911578806
   y: 64.0
-  z: 5032.266129934091
-  yaw: 149.69241
-  pitch: 12.899887
+  z: 5032.283037411538
+  yaw: 176.27893
+  pitch: 6.7502265
