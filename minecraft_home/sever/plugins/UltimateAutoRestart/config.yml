@@ -1,0 +1,136 @@
+# UltimateAutoRestart, a free resource by Norska. https://norska.dev
+# Support Discord: https://norska.dev/discord
+# WIKI: https://gitlab.com/norska/UltimateAutoRestart/-/wikis/Home/
+
+# Notes:
+# 1. All of the restarts must follow this specific format: "DAY;HOUR;MINUTE". e.g "Friday;23;00" will create an entry to have a restart on Fridays at 23:00 or 11PM.
+# 1a. Valid day entries are: Monday , Tuesday , Wednesday , Thursday , Friday , Saturday , Sunday
+#
+# 2. messageAtInterval entries are in seconds, 1800 seconds = 30 minutes, 600 seconds = 10 minutes, 60 seconds = 1 minute etc. Same goes for soundAtIntervals.
+#
+# 3. If you want to execute bungee commands make sure to add [bungee] in-front of the command.
+# 3a. EXAMPLE USAGE OF USING A BUNGEE COMMAND (e.g Sending all skyblock players to the lobby):
+# 3a: EXAMPLE COMMAND: '[bungee] send skyblock lobby'
+# 3a: GENERAL FORMAT OF THE ABOVE EXAMPLE: '[bungee] send <CURRENT SERVER NAME> <SERVER TO SEND PLAYERS TO>'
+# 3a: NOTE: You must specifically use the current server's name, using "current" will not work because the command is executed via bungee.
+#
+# 4: You can create timed commands that will execute x seconds before the restart.
+# 4a. GENERAL FORMAT OF A TIMED COMMAND: '[time:<INTERVAL>] <COMMAND>' (e.g '[time:10] time set day', will set the time to day 10 seconds before the restart).
+#
+# 5: You can create timed bungee commands that will execute x seconds before the restart.
+# 5a. GENERAL FORMAT OF A TIMED BUNGEE COMMAND: '[bungee:<INTERVAL>] <COMMAND>' (e.g '[bungee:10] send skyblock lobby', will send all skyblock players to the lobby 10 seconds before the restart).
+# 
+# 6: commandsAfterReboot can only be timed bukkit/bungee commands.
+
+# delayRestart Notes:
+# 1. Enabling this sytem will check <configurable time> seconds before restart if there are <x> players online, if there are it'll delay the restart by <configurable time> seconds.
+# 2. minimumPlayers: 10 ---> This means that if there are 10 or more players online it'll delay the restart.
+# 3. MAKE SURE THAT YOUR checkSecondsBeforeRestart AND delaybySeconds VALUES DO NOT INTERFERE WITH restartCommands ENTRIES!
+# 4. informUsersWithPermission ---> Whether or not to send a message to users with "uar.notifydelay" that a delay happened.
+
+delayRestart:
+  enabled: true
+  checkSecondsBeforeRestart: 30
+  minimumPlayers: 5
+  delayBySeconds: 600
+  informUsersWithPermission: true
+  delayNotification:
+  - '&7[RestartSystem] The restart has been delayed due to exceeding the online players
+    threshold!'
+
+settings:
+  restartCommands:
+  - '[time:15] broadcastworld world 15 Secounds until restart!'
+  - save-all
+  - restart
+   #- '[bungee:20] command to execute via bungee 20 seconds before restart'
+   #- '[time:15] command to execute 15 seconds before restart'
+   #- '[time:10] command to execute 10 seconds before restart'
+   #- '[bungee] broadcast The server is restarting!'
+  commandsAfterReboot:
+  - '[time:15] broadcastworld world Sever Reboot complete!'
+   #- '[bungee:30] command to be executed via bungee 30 seconds after server startup'
+  restarts:
+  - Monday;00;00
+  - Tuesday;00;00
+  - Wednesday;00;00
+  - Thursday;00;00
+  - Friday;00;00
+  - Saturday;00;00
+  - Sunday;00;00
+  messageAtIntervals:
+  - '1800'
+  - '600'
+  - '60'
+  - '30'
+  - '3'
+  - '2'
+  - '1'
+  soundsEnabled: true
+  sound: ENTITY_PLAYER_LEVELUP
+  soundAtIntervals:
+  - '1800'
+  - '600'
+  - '60'
+  - '30'
+  - '3'
+  - '2'
+  - '1'
+   
+format:
+  seconds: s
+  second: s
+  minutes: 'm '
+  minute: 'm '
+  hours: 'h '
+  hour: 'h '
+  splitter: 'and '
+   
+messages:
+  requestWhileNoAutoReboot: '&f&lN/A'
+  interval:
+    actionbar: false
+    actionbarMessage: '&e&nRestart:&r &fA restart will happen in &7$interval&f!'
+    title: false
+    titleMessage: '&e&nRESTART!'
+    subtitleMessage: '&fA restart will happen in &7$interval&f!'
+    chat: true
+    chatMessage:
+    - '&e&nRestart:&r &fA restart will happen in &7$interval&f!'
+    console: true
+    consoleMessage: '&cUltimateAutoRestart: Server restart in &f$interval&c!'
+  requestedInterval:
+    actionbar: false
+    actionbarMessage: '&e&nRestart:&r &fA restart will happen in &7$interval&f!'
+    title: false
+    titleMessage: '&e&nRESTART!'
+    subtitleMessage: '&fA restart will happen in &7$interval&f!'
+    chat: true
+    chatMessage:
+    - '&e&nRestart:&r &fA restart will happen in &7$interval&f!'
+  forceRestart:
+  - '&eRestart &f»&r &7You force started an auto-restart &f(Interval: $interval)&7!'
+  noForceInterval:
+  - '&eRestart &f»&r &7Please specify an interval!'
+  intervalNotANumber:
+  - '&eRestart &f»&r &7Your input &f($input) &7is not a number!'
+  intervalTooSmall:
+  - '&eRestart &f»&r &7Intervals must be positive!'
+  stoppedReboot:
+  - '&eRestart &f»&r &7You have manually stopped the scheduled restart!'
+  autoRebootNotOn:
+  - '&eRestart &f»&r &7Could not stop the scheduled restart because the task is currently
+    not running!'
+  noPermission:
+  - '&eRestart &f»&r &7You do not have permission to do this!'
+  reloadMessage:
+  - '&eRestart &f»&r &7You reloaded the plugin configuration!'
+
+# Do not change this if you don't know what you're doing.
+# Changing this will require you to modify timed commands, messages and sounds with values that are of the seconds (from ticks) multiplier. Example: intervalTicks = 40, will force you to use multipliers of 2 only.
+# Example: Changing this to 200 will make the interval go down by 10 every 10 seconds (instead of 1 every 1 second).
+other:
+  intervalTicks: 20
+   
+updates:
+  notifications: true

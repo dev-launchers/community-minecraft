@@ -33,7 +33,7 @@ settings:
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   log-villager-deaths: true
-  bungeecord: true
+  bungeecord: false
   debug: false
   attribute:
     maxHealth:

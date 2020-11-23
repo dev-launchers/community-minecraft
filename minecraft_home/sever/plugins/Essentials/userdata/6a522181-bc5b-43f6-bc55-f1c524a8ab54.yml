@@ -1,0 +1,20 @@
+lastAccountName: ShayEveryDay
+timestamps:
+  login: 1606103445637
+  logout: 1606100262754
+ipAddress: 10.1.76.1
+lastlocation:
+  world: world
+  x: 5008.300000011921
+  y: 64.41999998688698
+  z: 5124.196230874766
+  yaw: 88.69211
+  pitch: 17.099781
+afk: false
+logoutlocation:
+  world: world
+  x: 5010.699999988079
+  y: 65.875
+  z: 5121.300000011921
+  yaw: 44.891468
+  pitch: 25.049742

@@ -1,0 +1,16 @@
+# KixsAutoAnnouncer by kixmc
+# ...
+# Hey! Did you know you can use some snazzy commands in-game to change almost
+# all of these settings? Use "/announcer" OR "/an" in-game!
+# ...
+temp-prefix: none
+broadcasts-enabled: 'true'
+prefix: '&c[Server] '
+header: ''
+footer: ''
+broadcast-interval: 300
+messages:
+- '::: Enjoying the server? Great! Let us know how we can improve in the minecraft
+  thread in discord!'
+- '::: Having an issue? Please let a online staff member know or, let us know on the
+  minecraft thread.'
