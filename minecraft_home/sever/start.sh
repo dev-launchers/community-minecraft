@@ -1,1 +1,1 @@
-java -jar paperserver.jar 
+java -jar paperserver.jar nogui

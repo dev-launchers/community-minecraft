@@ -1,0 +1,26 @@
+(12:16:34) Matrix Enabled!
+(12:16:34) Version: 5.4.0
+(12:43:58) kittytechie failed BadPackets check | (timer) send 39 moving packets in 1010ms | tag: limit (+10) | vl:10 ping:0 tps:19.48 lp:28 component: net.timer
+(12:44:04) kittytechie failed BadPackets check | (timer) send 41 moving packets in 996ms | tag: limit (+5) | vl:15 ping:798 tps:20.0 lp:41 component: net.timer
+(12:44:04) kittytechie failed Speed check | suspicious movement (move: 1.604, predict: 0.29, friction: 0.6, ground:false, motY: -1.128, increase:0.026, preMove:0.264, motion: 1.596,-1.128,0.165, attribute: 0.13, cm: false, di: false, tag: pred) (+5) | vl:5 ping:798 tps:20.0 lp:41 component: move.xz
+(12:44:04) kittytechie failed Fly check | suspicious movement:-1.128 predict:-0.078 lm:0.083 hard_pred:0.003 sev_pred:0.003 air_t:5 fall_t:1 g:-- tag:gn (+5) | vl:5 ping:798 tps:20.0 lp:41 component: fly.main
+(12:44:04) kittytechie failed BadPackets check | (timer) moved too many times (timer: 1.647, t:607, buffer:20, tag: timer) (+5) | vl:20 ping:798 tps:20.0 lp:41 component: net.timer
+(12:44:05) kittytechie failed BadPackets check | (timer) moved too many times (timer: 1.259, t:794, buffer:20, tag: timer) (+5) | vl:25 ping:798 tps:19.98 lp:38 component: net.timer
+(12:56:44) kittytechie failed Fly check | ground spoof (expect: --, move: 0.0,0.0,0.0, at: 4673.768,61.941,4953.793, type: air, pkt: true) (+5) | vl:5 ping:50 tps:20.0 lp:24 component: fly.gf
+(13:05:28) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:14 tps:20.0 lp:12 component: blk.fb.dly
+(13:07:59) kittytechie failed Speed check | suspicious movement (move: 0.566, predict: 0.442, friction: 0.6, ground:true, motY: 0.111, increase:0.764, preMove:0.112, motion: -0.152,0.111,0.545, attribute: 0.13, cm: false, di: true, tag: pred) (+5) | vl:5 ping:5 tps:19.99 lp:7 component: move.xz
+(13:16:42) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:55 tps:20.0 lp:18 component: blk.fb.dly
+(13:16:55) kittytechie failed Block check | break block without delay (+4) | vl:8 ping:49 tps:20.0 lp:25 component: blk.fb.dly
+(13:27:46) kittytechie failed Fly check | suspicious movement:0.5 predict:0.42 air:0 tag:dmj (+12) | vl:12 ping:58 tps:20.0 lp:5 component: fly.main
+(13:34:35) seesta failed BadPackets check | (timer) send 36 moving packets in 997ms | tag: limit (+5) | vl:5 ping:1889 tps:19.93 lp:48 component: net.timer
+(13:34:50) seesta failed BadPackets check | (timer) send 42 moving packets in 1144ms | tag: limit (+5) | vl:5 ping:2299 tps:20.0 lp:48 component: net.timer
+(13:36:03) seesta failed BadPackets check | (timer) moved too many times (timer: 4.975, t:201, buffer:20, tag: timer) (+5) | vl:5 ping:590 tps:20.0 lp:46 component: net.timer
+(13:36:03) seesta failed BadPackets check | (timer) send 65 moving packets in 998ms | tag: limit (+5) | vl:10 ping:590 tps:20.0 lp:46 component: net.timer
+(13:36:03) seesta failed Speed check | suspicious movement (move: 6.439, expect: 0.6235, tag: c) (+18) | vl:18 ping:590 tps:20.0 lp:46 component: speed.main
+(13:36:03) seesta failed Speed check | suspicious movement (move: 6.439, vet: 1.0, tag: d) (+2) | vl:20 ping:590 tps:20.0 lp:46 component: speed.main
+(13:36:03) seesta failed Speed check | suspicious movement (move: 6.439, predict: 0.588, friction: 0.6, ground:true, motY: 1.0, increase:0.43, preMove:0.158, motion: 0.347,1.0,-6.429, attribute: 0.13, cm: false, di: false, tag: pred) (+5) | vl:25 ping:590 tps:20.0 lp:46 component: move.xz
+(13:36:03) seesta failed Fly check | step | p: 1 | m:1.0 ev:-0.078 lm:0.99 (+2) | vl:2 ping:590 tps:20.0 lp:46 component: speed.step
+(13:36:03) seesta failed BadPackets check | (timer) moved too many times (timer: 1.252, t:799, buffer:20, tag: timer) (+5) | vl:15 ping:590 tps:20.0 lp:39 component: net.timer
+(13:36:07) seesta failed Fly check | step | p:3 (+4) | vl:4 ping:1444 tps:20.0 lp:42 component: speed.step
+(13:40:45) seesta failed BadPackets check | (timer) send 36 moving packets in 1004ms | tag: limit (+5) | vl:5 ping:173 tps:20.0 lp:37 component: net.timer
+(13:45:16) kittytechie failed KillAura check | (machine learning) machine learning analyse | m: #27,1,10 | amount: 2 (+8) | vl:8 ping:57 tps:20.0 lp:23 component: ka.ml
