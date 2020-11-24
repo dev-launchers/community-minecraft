@@ -101,6 +101,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2020-11-23 19:27:02 -0500"
+    },
+    "done": true
+  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2020-06-10 16:37:43 -0400"
@@ -401,10 +407,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2020-11-23 19:27:02 -0500"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2020-11-22 19:45:59 -0500",
       "cooked_mutton": "2020-07-27 11:10:52 -0400",
+      "sweet_berries": "2020-11-23 14:24:15 -0500",
       "beef": "2020-11-16 17:38:09 -0500",
       "baked_potato": "2020-11-18 13:44:28 -0500",
       "porkchop": "2020-11-16 17:37:54 -0500",
@@ -426,6 +439,12 @@
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2020-06-27 06:16:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2020-11-23 14:21:39 -0500"
     },
     "done": true
   },
@@ -468,6 +487,12 @@
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2020-11-22 21:34:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2020-11-23 19:27:02 -0500"
     },
     "done": true
   },
@@ -579,6 +604,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2020-11-23 19:27:02 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2020-06-10 16:43:45 -0400"
@@ -591,6 +622,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2020-11-23 19:27:02 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2020-07-28 11:41:45 -0400"
@@ -600,6 +637,12 @@
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_sand": "2020-07-27 10:50:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2020-11-23 19:27:02 -0500"
     },
     "done": true
   },
@@ -1002,7 +1045,8 @@
       "minecraft:creeper": "2020-07-30 18:40:00 -0400",
       "minecraft:phantom": "2020-11-22 21:51:41 -0500",
       "minecraft:witch": "2020-08-06 15:53:29 -0400",
-      "minecraft:zombie": "2020-07-27 11:14:29 -0400"
+      "minecraft:zombie": "2020-07-27 11:14:29 -0400",
+      "minecraft:drowned": "2020-11-23 15:54:28 -0500"
     },
     "done": false
   },
@@ -1093,6 +1137,12 @@
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2020-06-10 17:03:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2020-11-23 14:21:39 -0500"
     },
     "done": true
   },
@@ -1210,6 +1260,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2020-11-23 19:27:02 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
     "criteria": {
       "has_potato": "2020-06-10 16:42:46 -0400"
@@ -1243,6 +1299,12 @@
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2020-06-10 16:28:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2020-11-23 16:37:07 -0500"
     },
     "done": true
   },
@@ -1570,6 +1632,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2020-11-23 19:27:02 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2020-07-27 12:05:43 -0400"
@@ -1606,6 +1674,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2020-11-23 19:27:02 -0500"
+    },
+    "done": true
+  },
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2020-07-27 11:09:57 -0400"
@@ -1615,6 +1689,12 @@
   "minecraft:recipes/decorations/orange_banner": {
     "criteria": {
       "has_orange_wool": "2020-11-22 19:44:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2020-11-23 19:27:02 -0500"
     },
     "done": true
   },
@@ -1663,6 +1743,12 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2020-07-27 11:48:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2020-11-23 19:27:02 -0500"
     },
     "done": true
   },
@@ -1973,6 +2059,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2020-11-23 14:21:39 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2020-06-10 16:28:58 -0400"
@@ -2084,6 +2176,12 @@
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2020-06-10 17:03:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2020-11-23 19:27:02 -0500"
     },
     "done": true
   },

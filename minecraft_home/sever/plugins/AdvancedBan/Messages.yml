@@ -1,5 +1,5 @@
 General:
-  Prefix: "&c&lServer Message&8&l»"
+  Prefix: "&c&lAdvancedBan &8&l»"
   NoPerms: "&cYou don't have perms for that!"
   LayoutNotFound: "&cThere is no layout called %NAME%"
   # This will be the replacement for the %DURATION% variable

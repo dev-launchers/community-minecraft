@@ -1,12 +1,19 @@
 lastAccountName: kay_car
 timestamps:
-  login: 1606141982969
-  logout: 1606142386197
+  login: 1606169467979
+  logout: 1606169518250
 ipAddress: 10.1.76.1
 logoutlocation:
   world: world
-  x: 733.731286460446
+  x: 735.1433782465098
   y: 84.0
-  z: 800.4201009119188
-  yaw: 29.248169
-  pitch: 13.049218
+  z: 799.2151334766282
+  yaw: 245.1007
+  pitch: 14.549854
+lastlocation:
+  world: world
+  x: 735.1444985277044
+  y: 84.0
+  z: 800.5910063488526
+  yaw: 296.07135
+  pitch: 40.949387

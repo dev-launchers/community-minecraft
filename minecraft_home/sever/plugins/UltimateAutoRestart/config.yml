@@ -51,13 +51,13 @@ settings:
   - '[time:15] broadcastworld world Sever Reboot complete!'
    #- '[bungee:30] command to be executed via bungee 30 seconds after server startup'
   restarts:
-  - Monday;00;00
-  - Tuesday;00;00
-  - Wednesday;00;00
-  - Thursday;00;00
-  - Friday;00;00
-  - Saturday;00;00
-  - Sunday;00;00
+  - Monday;01;00
+  - Tuesday;01;00
+  - Wednesday;01;00
+  - Thursday;01;00
+  - Friday;01;00
+  - Saturday;01;00
+  - Sunday;01;00
   messageAtIntervals:
   - '1800'
   - '600'

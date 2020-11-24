@@ -486,13 +486,13 @@ send-info-after-death: false
 # Should players with permissions be able to join and part silently?
 # You can control this with essentials.silentjoin and essentials.silentquit permissions if it is enabled.
 # In addition, people with essentials.silentjoin.vanish will be vanished on join.
-allow-silent-join-quit: false
+allow-silent-join-quit: true
 
 # You can set custom join and quit messages here. Set this to "none" to use the default Minecraft message,
 # or set this to "" to hide the message entirely.
 # You may use color codes, {USERNAME} for the player's name, and {PLAYER} for the player's displayname.
-custom-join-message: "none"
-custom-quit-message: "none"
+custom-join-message: ""
+custom-quit-message: ""
 
 # You can disable join and quit messages when the player count reaches a certain limit.
 # When the player count is below this number, join/quit messages will always be shown.

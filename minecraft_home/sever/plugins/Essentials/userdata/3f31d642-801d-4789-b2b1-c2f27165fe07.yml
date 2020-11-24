@@ -1,19 +1,21 @@
 lastAccountName: seesta
 timestamps:
-  login: 1606156826343
-  logout: 1606157146738
+  login: 1606181584055
+  logout: 1606181835682
+  jail: 0
 ipAddress: 10.1.76.1
 logoutlocation:
   world: world
-  x: 4935.674250869678
-  y: 64.0
-  z: 5130.106041151726
-  yaw: 184.79878
-  pitch: 13.199935
+  x: 4717.317025790938
+  y: 63.0
+  z: 4720.376362467039
+  yaw: 14.825439
+  pitch: 7.5005155
 lastlocation:
   world: world
-  x: 4991.660904251507
-  y: 63.0
-  z: 5050.562073962497
-  yaw: -121.371796
-  pitch: 15.150252
+  x: 4650.163664352818
+  y: 66.0
+  z: 4866.70336462566
+  yaw: 93.555786
+  pitch: 4.799733
+jailed: false
