@@ -1,21 +1,21 @@
 lastAccountName: marsboy18
 timestamps:
-  login: 1606183773763
-  logout: 1606184058361
-  lastteleport: 1606166602989
+  login: 1606350363904
+  logout: 1606350679238
+  lastteleport: 1606279363148
 ipAddress: 10.1.76.1
 lastlocation:
   world: world
-  x: 4769.9908882014215
-  y: 75.86792597450953
-  z: 5033.851924742266
-  yaw: -359.7005
-  pitch: 87.30008
+  x: 4712.715689384228
+  y: 87.50078730208985
+  z: 4841.887914199786
+  yaw: -131.71838
+  pitch: 16.050207
 afk: false
 logoutlocation:
   world: world
-  x: 4767.677313864211
-  y: 64.0
-  z: 5038.092845199118
-  yaw: -288.1491
-  pitch: 19.649988
+  x: 4712.715689384228
+  y: 87.50078730208985
+  z: 4841.887914199786
+  yaw: -131.71838
+  pitch: 16.050207

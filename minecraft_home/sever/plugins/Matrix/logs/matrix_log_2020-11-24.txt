@@ -1,0 +1,441 @@
+(00:02:21) UsualSpace failed Interact check | interact block through solid (through: CARTOGRAPHY_TABLE, block:CHEST) (+1) | vl:1 ping:57 tps:19.99 lp:2 component: interact.through
+(00:03:29) StevoDasher101 failed Speed check | (toggle) send release use item packet frequently: 39 (+2) | vl:2 ping:104 tps:19.99 lp:26 component: speed.noslow.toggle
+(00:11:23) StevoDasher101 failed BadPackets check | (timer) send 41 moving packets in 1037ms | tag: limit (+10) | vl:10 ping:421 tps:20.0 lp:24 component: net.timer
+(00:14:31) StevoDasher101 failed BadPackets check | (timer) send 41 moving packets in 1030ms | tag: limit (+10) | vl:10 ping:94 tps:20.0 lp:27 component: net.timer
+(00:14:51) StevoDasher101 failed BadPackets check | (timer) send 40 moving packets in 1013ms | tag: limit (+10) | vl:10 ping:86 tps:20.0 lp:23 component: net.timer
+(00:16:07) StevoDasher101 failed BadPackets check | (timer) send 40 moving packets in 999ms | tag: limit (+5) | vl:5 ping:107 tps:20.0 lp:25 component: net.timer
+(00:22:07) StevoDasher101 failed BadPackets check | (timer) send 40 moving packets in 997ms | tag: limit (+5) | vl:5 ping:202 tps:20.0 lp:25 component: net.timer
+(00:44:30) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:52 tps:20.0 lp:25 component: blk.fb.dly
+(01:01:03) Matrix Enabled!
+(01:01:03) Version: 5.4.0
+(09:44:07) seesta failed BadPackets check | (timer) send 36 moving packets in 1053ms | tag: limit (+10) | vl:10 ping:0 tps:20.0 lp:9 component: net.timer
+(09:53:00) seesta failed Block check | break block without delay (+4) | vl:4 ping:143 tps:20.0 lp:15 component: blk.fb.dly
+(09:54:43) seesta failed Block check | break block without delay (+4) | vl:4 ping:140 tps:19.99 lp:8 component: blk.fb.dly
+(09:58:09) seesta failed Inventory check | t: chest steal  m:click a=73 (+1) | vl:1 ping:142 tps:20.0 lp:27 component: inv.cs.b
+(10:09:23) seesta failed Block check | break block without delay (+4) | vl:4 ping:146 tps:20.0 lp:3 component: blk.fb.dly
+(10:10:23) seesta failed Block check | break block without delay (+4) | vl:4 ping:149 tps:19.99 lp:24 component: blk.fb.dly
+(10:13:00) seesta failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:152 tps:20.0 lp:16 component: interact.through
+(10:17:15) seesta failed Interact check | interact block through solid (through: DIRT, block:CHEST) (+1) | vl:1 ping:147 tps:20.0 lp:11 component: interact.through
+(10:25:58) seesta failed Interact check | breaking a block without looking at it (block: OAK_LEAVES) (+1) | vl:1 ping:144 tps:20.0 lp:19 component: interact.break
+(10:31:52) seesta failed Block check | break block without delay (+4) | vl:4 ping:157 tps:20.0 lp:13 component: blk.fb.dly
+(10:35:16) seesta failed Block check | break block without delay (+4) | vl:4 ping:139 tps:20.0 lp:10 component: blk.fb.dly
+(10:35:22) seesta failed Block check | break block without delay (+4) | vl:8 ping:142 tps:20.0 lp:10 component: blk.fb.dly
+(10:35:23) seesta failed Block check | break block without delay (+4) | vl:12 ping:142 tps:20.0 lp:10 component: blk.fb.dly
+(10:35:23) Execute command: matrix notify seesta tried to place/break a block too quickly (FastPlace/FastBreak)
+(10:35:33) seesta failed Block check | break block without delay (+4) | vl:16 ping:141 tps:20.0 lp:21 component: blk.fb.dly
+(10:35:33) seesta failed Block check | break block without delay (+4) | vl:20 ping:141 tps:20.0 lp:21 component: blk.fb.dly
+(10:35:33) Execute command: matrix kick seesta FastPlace/FastBreak Hacks
+(10:50:40) seesta failed Speed check | suspicious movement (move: 0.181, expect:0.177, t:18, sprint: false, attr: 0.1, tag: a,noslow) (+9) | vl:9 ping:157 tps:20.0 lp:11 component: speed.main
+(10:54:10) seesta failed Interact check | breaking a block without looking at it (block: OAK_LEAVES) (+1) | vl:1 ping:141 tps:20.0 lp:21 component: interact.break
+(11:00:29) MrPatro25 failed Speed check | suspicious movement (move: 0.184, expect:0.177, t:29, sprint: false, attr: 0.1, tag: a,noslow) (+9) | vl:9 ping:198 tps:20.0 lp:14 component: speed.main
+(11:01:35) seesta failed Chat check | chat too fast | delay: 2911 (+1) | vl:1 ping:158 tps:20.0 lp:23 component: chat.delay
+(11:03:58) seesta failed Chat check | chat too fast | delay: 1112 (+1) | vl:1 ping:141 tps:20.0 lp:3 component: chat.delay
+(11:05:02) MrPatro25 failed BadPackets check | (timer) send 42 moving packets in 1017ms | tag: limit (+10) | vl:10 ping:129 tps:19.99 lp:16 component: net.timer
+(11:05:02) MrPatro25 failed Speed check | suspicious movement (move: 2.493, expect: 0.3665, tag: ea) (+20) | vl:20 ping:129 tps:19.99 lp:16 component: speed.main
+(11:05:02) MrPatro25 failed Speed check | suspicious movement (2.493, air_t: 12, lm:0.278 acc: 2.214823679785812, tag: ed) (+15) | vl:35 ping:129 tps:19.99 lp:16 component: speed.main
+(11:05:02) MrPatro25 failed Speed check | suspicious movement (move: 2.493, predict: 0.279, friction: 0.6, ground:false, motY: 1.09, increase:0.026, preMove:0.253, motion: -2.492,1.09,0.057, attribute: 0.13, cm: false, di: false, tag: pred) (+5) | vl:40 ping:129 tps:19.99 lp:16 component: move.xz
+(11:05:02) MrPatro25 failed Fly check | step | p: 1 | m:1.09 ev:0.42 lm:0.99 (+7) | vl:7 ping:129 tps:19.99 lp:16 component: speed.step
+(11:06:23) seesta failed Chat check | chat too fast | delay: 1749 (+1) | vl:1 ping:144 tps:20.0 lp:7 component: chat.delay
+(11:15:41) seesta failed Chat check | chat too fast | delay: 1864 (+1) | vl:1 ping:164 tps:20.0 lp:13 component: chat.delay
+(11:20:32) MrPatro25 failed Speed check | t: spin (+10) | vl:10 ping:129 tps:19.99 lp:10 component: speed.spin
+(11:20:32) MrPatro25 failed Speed check | t: spin (+10) | vl:20 ping:129 tps:19.99 lp:10 component: speed.spin
+(11:31:48) seesta failed Interact check | interact block through solid (through: DIRT, block:CHEST) (+1) | vl:1 ping:187 tps:20.0 lp:22 component: interact.through
+(11:41:26) seesta failed Chat check | chat too fast | delay: 2667 (+1) | vl:1 ping:181 tps:20.0 lp:16 component: chat.delay
+(11:42:05) seesta failed Chat check | chat too fast | delay: 1265 (+1) | vl:1 ping:155 tps:19.92 lp:4 component: chat.delay
+(11:42:18) seesta failed Chat check | chat too fast | delay: 914 (+1) | vl:1 ping:183 tps:20.0 lp:4 component: chat.delay
+(11:42:50) seesta failed Speed check | (toggle) send release use item packet frequently: 43 (+2) | vl:2 ping:163 tps:19.99 lp:4 component: speed.noslow.toggle
+(11:43:26) seesta failed Fly check | suspicious movement:0.034 predict:-0.078 vel:-0.155 air_t:12 tag:m4 (+10) | vl:10 ping:172 tps:20.0 lp:5 component: fly.main
+(11:46:29) seesta failed Fly check | step | p:2 | val: 0.40122083551324295 (+7) | vl:7 ping:498 tps:19.99 lp:10 component: speed.step
+(11:47:21) seesta failed Block check | break block without delay (+4) | vl:4 ping:173 tps:20.0 lp:17 component: blk.fb.dly
+(11:56:52) seesta failed Chat check | chat too fast | delay: 989 (+1) | vl:1 ping:171 tps:20.0 lp:6 component: chat.delay
+(12:29:36) seesta failed Chat check | chat too fast | delay: 2595 (+1) | vl:1 ping:146 tps:19.99 lp:12 component: chat.delay
+(12:31:06) seesta failed Chat check | chat too fast | delay: 1253 (+1) | vl:1 ping:143 tps:19.99 lp:8 component: chat.delay
+(12:31:08) seesta failed Chat check | chat too fast | delay: 1842 (+1) | vl:2 ping:143 tps:19.99 lp:8 component: chat.delay
+(12:45:06) seesta failed BadPackets check | (timer) send 37 moving packets in 1768ms | tag: limit (+5) | vl:5 ping:141 tps:20.0 lp:67 component: net.timer
+(12:45:39) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.231, module: solid) (+5) | vl:5 ping:146 tps:20.0 lp:27 component: jesus.solid
+(12:45:39) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.304, module: solid) (+5) | vl:10 ping:146 tps:20.0 lp:27 component: jesus.solid
+(12:51:38) seesta failed Chat check | chat too fast | delay: 1468 (+1) | vl:1 ping:138 tps:20.0 lp:12 component: chat.delay
+(12:54:08) seesta failed Block check | break block without delay (+4) | vl:4 ping:140 tps:20.0 lp:11 component: blk.fb.dly
+(13:09:00) seesta failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.396, ver: 16) (+2) | vl:2 ping:141 tps:19.96 lp:5 component: heal
+(13:13:17) seesta failed Chat check | chat too fast | delay: 2622 (+1) | vl:1 ping:142 tps:20.0 lp:19 component: chat.delay
+(13:16:59) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.155, module: solid) (+5) | vl:5 ping:138 tps:20.0 lp:7 component: jesus.solid
+(13:16:59) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.231, module: solid) (+5) | vl:10 ping:138 tps:20.0 lp:7 component: jesus.solid
+(13:16:59) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.304, module: solid) (+5) | vl:15 ping:138 tps:20.0 lp:7 component: jesus.solid
+(13:16:59) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.377, module: solid) (+5) | vl:20 ping:138 tps:20.0 lp:13 component: jesus.solid
+(13:16:59) Execute command: matrix notify seesta tried to move illegally in liquid (Jesus)
+(13:19:50) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.231, module: solid) (+5) | vl:5 ping:142 tps:20.0 lp:8 component: jesus.solid
+(13:19:50) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.304, module: solid) (+5) | vl:10 ping:142 tps:20.0 lp:8 component: jesus.solid
+(13:19:50) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.377, module: solid) (+5) | vl:15 ping:142 tps:20.0 lp:8 component: jesus.solid
+(13:20:01) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.155, module: solid) (+5) | vl:20 ping:139 tps:20.0 lp:5 component: jesus.solid
+(13:20:01) Execute command: matrix notify seesta tried to move illegally in liquid (Jesus)
+(13:21:45) ZeztyZed failed Interact check | break block through walls (through: spruce_leaves, block: spruce_log) (+1) | vl:1 ping:70 tps:20.0 lp:19 component: interact.break
+(13:21:46) ZeztyZed failed Interact check | break block through walls (through: spruce_leaves, block: spruce_log) (+1) | vl:2 ping:70 tps:19.99 lp:14 component: interact.break
+(13:21:55) ZeztyZed failed Block check | break block without delay (+4) | vl:4 ping:68 tps:20.0 lp:17 component: blk.fb.dly
+(13:22:02) seesta failed Block check | break block without delay (+4) | vl:4 ping:141 tps:20.0 lp:18 component: blk.fb.dly
+(13:24:31) seesta failed Block check | break block without delay (+4) | vl:4 ping:142 tps:20.0 lp:9 component: blk.fb.dly
+(13:26:10) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.155, module: solid) (+5) | vl:5 ping:138 tps:20.0 lp:4 component: jesus.solid
+(13:26:10) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.304, module: solid) (+5) | vl:10 ping:138 tps:20.0 lp:4 component: jesus.solid
+(13:27:56) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.155, module: solid) (+5) | vl:5 ping:143 tps:20.0 lp:4 component: jesus.solid
+(13:27:56) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.231, module: solid) (+5) | vl:10 ping:143 tps:20.0 lp:4 component: jesus.solid
+(13:27:56) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.304, module: solid) (+5) | vl:15 ping:143 tps:20.0 lp:4 component: jesus.solid
+(13:27:56) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.377, module: solid) (+5) | vl:20 ping:143 tps:20.0 lp:4 component: jesus.solid
+(13:27:56) Execute command: matrix notify seesta tried to move illegally in liquid (Jesus)
+(13:30:42) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.231, module: solid) (+5) | vl:5 ping:140 tps:20.0 lp:3 component: jesus.solid
+(13:30:42) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.304, module: solid) (+5) | vl:10 ping:140 tps:19.99 lp:3 component: jesus.solid
+(13:30:42) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.377, module: solid) (+5) | vl:15 ping:140 tps:19.99 lp:3 component: jesus.solid
+(13:33:28) ZeztyZed failed Block check | break block without delay (+4) | vl:4 ping:66 tps:20.0 lp:11 component: blk.fb.dly
+(13:36:28) seesta failed Speed check | suspicious movement (move: 0.63, expect: 0.6235, tag: c) (+10) | vl:10 ping:140 tps:20.0 lp:3 component: speed.main
+(13:36:28) seesta failed Speed check | suspicious movement (move: 0.369, expect: 0.3665, tag: ea) (+5) | vl:15 ping:140 tps:20.0 lp:3 component: speed.main
+(13:36:48) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.304, module: solid) (+5) | vl:5 ping:139 tps:20.0 lp:7 component: jesus.solid
+(13:37:29) seesta failed Fly check | ground spoof (expect: --, move: 0.0,0.0,0.0, at: 4859.755,67.166,690.114, type: air, pkt: true) (+5) | vl:5 ping:138 tps:20.0 lp:4 component: fly.gf
+(13:42:04) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.231, module: solid) (+5) | vl:5 ping:141 tps:20.0 lp:10 component: jesus.solid
+(13:42:04) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.304, module: solid) (+5) | vl:10 ping:141 tps:20.0 lp:10 component: jesus.solid
+(13:46:16) seesta failed Chat check | chat too fast | delay: 2988 (+1) | vl:1 ping:146 tps:20.0 lp:16 component: chat.delay
+(13:47:50) SirPineappleIII failed Speed check | change direction in mid-air (dist: 0.343, angle:95.419, pre:0.28) (+5) | vl:5 ping:57 tps:18.95 lp:5 component: speed.strafe
+(13:48:28) seesta failed Speed check | suspicious movement (move: 0.626, expect: 0.6235, tag: c) (+10) | vl:10 ping:137 tps:19.99 lp:3 component: speed.main
+(13:48:28) seesta failed Speed check | suspicious movement (move: 0.367, expect: 0.3665, tag: ea) (+5) | vl:15 ping:137 tps:19.99 lp:3 component: speed.main
+(13:48:48) SirPineappleIII failed Speed check | suspicious movement (move: 0.294, expect:0.289, t:0, sprint: true, attr: 0.13, tag: a) (+9) | vl:9 ping:56 tps:20.0 lp:5 component: speed.main
+(13:48:58) SirPineappleIII failed Fly check | suspicious movement:0.434 predict:-0.437 air:11 tag:dmf (+10) | vl:10 ping:56 tps:20.0 lp:24 component: fly.main
+(13:50:31) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.304, module: solid) (+5) | vl:5 ping:142 tps:19.22 lp:5 component: jesus.solid
+(13:50:31) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.377, module: solid) (+5) | vl:10 ping:142 tps:19.22 lp:5 component: jesus.solid
+(13:51:20) SirPineappleIII failed Fly check | ground spoof (expect: --, move: 0.0,0.0,0.0, at: 4961.3,42.0,4811.676, type: air, pkt: false) (+5) | vl:5 ping:58 tps:20.0 lp:7 component: fly.gf
+(13:51:20) SirPineappleIII failed Fly check | ground spoof (expect: --, move: 0.0,0.0,0.0, at: 4961.3,42.0,4811.676, type: air, pkt: false) (+5) | vl:10 ping:58 tps:20.0 lp:7 component: fly.gf
+(13:52:35) seesta failed BadPackets check | (timer) moved too many times (timer: 66.667, t:15, buffer:20, tag: timer) (+0) | vl:0 ping:141 tps:19.99 lp:47 component: net.timer
+(13:52:35) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 47.619, t:21, buffer:20, tag: timer) (+0) | vl:0 ping:65 tps:19.99 lp:47 component: net.timer
+(13:52:35) seesta failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:141 tps:19.99 lp:48 component: net.timer
+(13:52:35) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 125.0, t:8, buffer:20, tag: timer) (+0) | vl:0 ping:65 tps:19.99 lp:47 component: net.timer
+(13:52:35) seesta failed BadPackets check | (timer) moved too many times (timer: 9.223372036854776E15, t:0, buffer:20, tag: timer) (+0) | vl:0 ping:141 tps:19.99 lp:48 component: net.timer
+(13:52:35) seesta failed BadPackets check | (timer) moved too many times (timer: 200.0, t:5, buffer:20, tag: timer) (+0) | vl:0 ping:141 tps:19.99 lp:49 component: net.timer
+(13:52:35) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 111.111, t:9, buffer:20, tag: timer) (+0) | vl:0 ping:65 tps:19.99 lp:47 component: net.timer
+(13:52:35) seesta failed BadPackets check | (timer) moved too many times (timer: 9.223372036854776E15, t:0, buffer:20, tag: timer) (+0) | vl:0 ping:141 tps:19.99 lp:49 component: net.timer
+(13:52:35) seesta failed BadPackets check | (timer) moved too many times (timer: 200.0, t:5, buffer:20, tag: timer) (+0) | vl:0 ping:141 tps:19.99 lp:49 component: net.timer
+(13:52:35) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 166.667, t:6, buffer:20, tag: timer) (+0) | vl:0 ping:65 tps:19.99 lp:47 component: net.timer
+(13:52:35) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:65 tps:19.99 lp:47 component: net.timer
+(13:52:35) seesta failed BadPackets check | (timer) moved too many times (timer: 200.0, t:5, buffer:20, tag: timer) (+0) | vl:0 ping:141 tps:19.99 lp:49 component: net.timer
+(13:52:35) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 62.5, t:16, buffer:20, tag: timer) (+0) | vl:0 ping:65 tps:19.99 lp:47 component: net.timer
+(13:52:35) seesta failed BadPackets check | (timer) moved too many times (timer: 83.333, t:12, buffer:20, tag: timer) (+0) | vl:0 ping:141 tps:19.99 lp:49 component: net.timer
+(13:52:35) ZeztyZed failed Fly check | ground spoof (expect: --, move: 0.0,0.0,0.0, at: 5106.274,73.001,5156.524, type: air, pkt: true) (+0) | vl:0 ping:65 tps:19.99 lp:47 component: fly.gf
+(13:52:35) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 333.333, t:3, buffer:20, tag: timer) (+0) | vl:0 ping:65 tps:19.99 lp:49 component: net.timer
+(13:52:35) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:65 tps:19.99 lp:49 component: net.timer
+(13:52:35) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 9.223372036854776E15, t:0, buffer:20, tag: timer) (+0) | vl:0 ping:65 tps:19.99 lp:49 component: net.timer
+(13:52:35) seesta failed BadPackets check | (timer) moved too many times (timer: 1.869, t:535, buffer:20, tag: timer) (+5) | vl:5 ping:164 tps:19.99 lp:46 component: net.timer
+(13:52:35) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 1.698, t:589, buffer:20, tag: timer) (+5) | vl:5 ping:236 tps:19.99 lp:49 component: net.timer
+(13:52:36) ZeztyZed failed BadPackets check | (timer) send 267 moving packets in 999ms | tag: limit (+0) | vl:5 ping:236 tps:2.73 lp:41 component: net.timer
+(13:52:36) ZeztyZed failed Speed check | suspicious movement (move: 1.304, predict: 0.59, friction: 0.6, ground:false, motY: -1.835, increase:0.276, preMove:0.314, motion: -1.29,-1.835,0.193, attribute: 0.13, cm: false, di: false, tag: pred) (+0) | vl:0 ping:236 tps:2.73 lp:41 component: move.xz
+(13:52:36) seesta failed BadPackets check | (timer) send 257 moving packets in 1020ms | tag: limit (+0) | vl:5 ping:164 tps:2.73 lp:46 component: net.timer
+(13:52:36) seesta failed Speed check | suspicious movement (move: 0.902, predict: 0.667, friction: 0.6, ground:true, motY: -0.232, increase:0.48, preMove:0.187, motion: 0.701,-0.232,-0.568, attribute: 0.13, cm: false, di: false, tag: pred) (+0) | vl:0 ping:164 tps:2.73 lp:46 component: move.xz
+(13:52:36) SirPineappleIII failed BadPackets check | (timer) send 66 moving packets in 1224ms | tag: limit (+0) | vl:0 ping:54 tps:2.73 lp:38 component: net.timer
+(13:53:29) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.155, module: solid) (+5) | vl:5 ping:140 tps:19.99 lp:4 component: jesus.solid
+(13:53:29) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.231, module: solid) (+5) | vl:10 ping:140 tps:19.99 lp:7 component: jesus.solid
+(13:53:29) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.304, module: solid) (+5) | vl:15 ping:140 tps:19.99 lp:7 component: jesus.solid
+(13:53:29) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.377, module: solid) (+5) | vl:20 ping:140 tps:19.99 lp:7 component: jesus.solid
+(13:53:29) Execute command: matrix notify seesta tried to move illegally in liquid (Jesus)
+(13:54:23) SirPineappleIII failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:58 tps:20.0 lp:11 component: interact.through
+(13:56:40) seesta failed Chat check | chat too fast | delay: 2072 (+1) | vl:1 ping:143 tps:16.33 lp:3 component: chat.delay
+(13:57:29) SirPineappleIII failed HitBox check | missed entity hitbox (entity: skeleton, angle: 46.519, move: true) (+1) | vl:1 ping:51 tps:18.23 lp:6 component: hb.mis
+(13:57:30) SirPineappleIII failed HitBox check | missed entity hitbox (entity: skeleton, angle: 39.122, move: true) (+1) | vl:2 ping:51 tps:18.23 lp:6 component: hb.mis
+(14:18:14) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.155, module: solid) (+5) | vl:5 ping:142 tps:19.96 lp:7 component: jesus.solid
+(14:18:14) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.231, module: solid) (+5) | vl:10 ping:142 tps:19.96 lp:7 component: jesus.solid
+(14:18:14) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.304, module: solid) (+5) | vl:15 ping:142 tps:19.96 lp:7 component: jesus.solid
+(14:18:14) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.377, module: solid) (+5) | vl:20 ping:142 tps:19.96 lp:7 component: jesus.solid
+(14:18:14) Execute command: matrix notify seesta tried to move illegally in liquid (Jesus)
+(14:19:24) SirPineappleIII failed Interact check | breaking a block without looking at it (block: IRON_ORE) (+1) | vl:1 ping:53 tps:20.0 lp:26 component: interact.break
+(14:19:24) SirPineappleIII failed Interact check | break block through walls (through: stone, block: iron_ore) (+1) | vl:2 ping:53 tps:20.0 lp:26 component: interact.break
+(14:20:13) SirPineappleIII failed Block check | break block without delay (+4) | vl:4 ping:47 tps:19.77 lp:12 component: blk.fb.dly
+(14:20:16) SirPineappleIII failed Block check | break block without delay (+4) | vl:8 ping:47 tps:20.0 lp:14 component: blk.fb.dly
+(14:23:26) SirPineappleIII failed Block check | break block with timer (block: iron_ore, point: 336) (+4) | vl:4 ping:65 tps:19.95 lp:15 component: block.fb.timer
+(14:23:50) SirPineappleIII failed Chat check | chat too fast | delay: 2011 (+1) | vl:1 ping:53 tps:19.69 lp:18 component: chat.delay
+(14:25:45) seesta failed Jesus check | suspicious movement in liquid (motion: 0.0,0.0,0.0, down: WATER, vel: -0.377, module: solid) (+5) | vl:5 ping:143 tps:20.0 lp:9 component: jesus.solid
+(14:27:36) kittytechie failed Speed check | change direction in mid-air (dist: 0.322, angle:57.727, pre:0.533) (+5) | vl:5 ping:53 tps:18.89 lp:6 component: speed.strafe
+(14:29:05) kittytechie failed Scaffold check | scaffold-like placement | type A (+1) | vl:1 ping:52 tps:19.86 lp:7 component: sfd.place.a
+(14:29:05) kittytechie failed Scaffold check | scaffold-like placement | type B (+7) | vl:8 ping:52 tps:19.86 lp:7 component: sfd.place.b
+(14:30:29) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:64 tps:20.0 lp:15 component: blk.fb.dly
+(14:30:33) kittytechie failed Block check | break block with timer (block: stone, point: 315) (+4) | vl:8 ping:64 tps:20.0 lp:33 component: block.fb.timer
+(14:31:24) seesta failed Inventory check | t: chest steal  m:click a=51 (+1) | vl:1 ping:145 tps:20.0 lp:24 component: inv.cs.b
+(14:31:32) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:59 tps:19.66 lp:20 component: blk.fb.dly
+(14:34:15) SirPineappleIII failed Speed check | change direction in mid-air (dist: 0.336, angle:58.199, pre:0.327) (+5) | vl:5 ping:56 tps:18.99 lp:7 component: speed.strafe
+(14:34:15) kittytechie failed Speed check | change direction in mid-air (dist: 0.285, angle:58.069, pre:0.215) (+5) | vl:5 ping:52 tps:18.99 lp:7 component: speed.strafe
+(14:46:11) SirPineappleIII failed HitBox check | missed entity hitbox (entity: enderman, angle: 38.295, move: true) (+1) | vl:1 ping:52 tps:20.0 lp:5 component: hb.mis
+(14:51:08) seesta failed BadPackets check | (timer) send 57 moving packets in 1067ms | tag: limit (+10) | vl:10 ping:0 tps:20.0 lp:50 component: net.timer
+(14:51:08) seesta failed BadPackets check | (timer) moved too many times (timer: 1.171, t:854, buffer:20, tag: timer) (+10) | vl:20 ping:756 tps:20.0 lp:57 component: net.timer
+(14:51:09) kittytechie failed Block check | break block too fast (digs: 2/4, block: grass_block, j: false) (+4) | vl:4 ping:63 tps:20.0 lp:17 component: block.fastbreak.expect
+(14:54:15) seesta failed Chat check | chat too fast | delay: 2459 (+1) | vl:1 ping:148 tps:20.0 lp:7 component: chat.delay
+(14:55:05) seesta failed Chat check | chat too fast | delay: 2504 (+1) | vl:1 ping:158 tps:19.99 lp:10 component: chat.delay
+(14:55:40) seesta failed Chat check | chat too fast | delay: 2400 (+1) | vl:1 ping:158 tps:20.0 lp:23 component: chat.delay
+(15:02:06) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:53 tps:20.0 lp:17 component: blk.fb.dly
+(15:02:13) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:58 tps:20.0 lp:17 component: blk.fb.dly
+(15:02:53) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:59 tps:20.0 lp:8 component: blk.fb.dly
+(15:03:41) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:60 tps:20.0 lp:8 component: blk.fb.dly
+(15:05:35) seesta failed Block check | break block without delay (+4) | vl:4 ping:147 tps:20.0 lp:30 component: blk.fb.dly
+(15:07:42) seesta failed Block check | break block without delay (+4) | vl:4 ping:141 tps:20.0 lp:10 component: blk.fb.dly
+(15:20:12) seesta failed Interact check | interact block through solid (through: DIRT, block:CHEST) (+1) | vl:1 ping:150 tps:20.0 lp:4 component: interact.through
+(15:28:18) seesta failed Interact check | breaking a block without looking at it (block: OAK_LEAVES) (+1) | vl:1 ping:138 tps:20.0 lp:11 component: interact.break
+(15:28:18) seesta failed Interact check | break block through walls (through: oak_leaves, block: oak_leaves) (+1) | vl:2 ping:138 tps:20.0 lp:11 component: interact.break
+(15:30:53) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:55 tps:20.0 lp:8 component: blk.fb.dly
+(15:31:57) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:51 tps:20.0 lp:17 component: blk.fb.dly
+(15:35:26) kittytechie failed Scaffold check | scaffold-like placement | type A (+1) | vl:1 ping:54 tps:20.0 lp:5 component: sfd.place.a
+(15:44:13) kittytechie failed Speed check | suspicious movement (move: 0.442, expect: 0.429, g_tk:1, tag: b) (+8) | vl:8 ping:50 tps:20.0 lp:2 component: speed.main
+(15:44:46) kittytechie failed Interact check | interact block through solid (through: DIORITE, block:CHEST) (+1) | vl:1 ping:49 tps:20.0 lp:11 component: interact.through
+(15:50:04) kittytechie failed HitBox check | missed entity hitbox (entity: pillager, angle: 44.09, move: true) (+1) | vl:1 ping:58 tps:19.99 lp:3 component: hb.mis
+(15:51:35) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:59 tps:19.99 lp:23 component: blk.fb.dly
+(15:55:16) kittytechie failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:50 tps:20.0 lp:20 component: interact.through
+(16:01:24) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:51 tps:19.99 lp:22 component: blk.fb.dly
+(16:01:34) kittytechie failed Block check | break block without delay (+4) | vl:8 ping:54 tps:20.0 lp:11 component: blk.fb.dly
+(16:16:21) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:54 tps:20.0 lp:21 component: blk.fb.dly
+(16:16:32) kittytechie failed Block check | break block without delay (+4) | vl:8 ping:56 tps:20.0 lp:11 component: blk.fb.dly
+(16:21:11) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:47 tps:20.0 lp:23 component: blk.fb.dly
+(16:22:19) ZeztyZed failed BadPackets check | (timer) send 37 moving packets in 1035ms | tag: limit (+10) | vl:10 ping:1092 tps:20.0 lp:24 component: net.timer
+(16:26:19) kittytechie failed Fly check | ground spoof (expect: --, move: 0.0,0.0,0.0, at: 4593.618,72.001,4950.729, type: air, pkt: true) (+0) | vl:0 ping:59 tps:20.0 lp:19 component: fly.gf
+(16:26:20) kittytechie failed BadPackets check | (timer) send 50 moving packets in 1009ms | tag: limit (+10) | vl:10 ping:59 tps:20.0 lp:22 component: net.timer
+(16:26:20) kittytechie failed Speed check | suspicious movement (move: 5.073, expect: 0.6565000000000001, tag: ea) (+20) | vl:20 ping:59 tps:11.76 lp:22 component: speed.main
+(16:26:20) kittytechie failed Speed check | suspicious movement (move: 5.073, predict: 0.32, friction: 0.6, ground:false, motY: -0.997, increase:0.026, preMove:0.294, motion: 5.071,-0.997,0.164, attribute: 0.13, cm: false, di: false, tag: pred) (+5) | vl:25 ping:59 tps:11.76 lp:22 component: move.xz
+(16:26:20) ZeztyZed failed BadPackets check | (timer) send 51 moving packets in 1041ms | tag: limit (+0) | vl:0 ping:57 tps:11.76 lp:16 component: net.timer
+(16:26:20) ZeztyZed failed Speed check | suspicious movement (move: 4.639, predict: 0.704, friction: 0.6, ground:true, motY: 1.252, increase:0.58, preMove:0.124, motion: 3.925,1.252,2.473, attribute: 0.13, cm: false, di: false, tag: pred) (+0) | vl:0 ping:57 tps:11.76 lp:16 component: move.xz
+(16:26:20) ZeztyZed failed Fly check | step | p: 1 | m:1.252 ev:0.42 lm:0.99 (+0) | vl:0 ping:57 tps:11.76 lp:16 component: speed.step
+(16:27:01) ZeztyZed failed BadPackets check | (timer) send 43 moving packets in 1067ms | tag: limit (+10) | vl:10 ping:61 tps:19.99 lp:21 component: net.timer
+(16:27:01) ZeztyZed failed Speed check | suspicious movement (move: 0.578, expect:0.289, t:0, sprint: false, attr: 0.1, tag: a) (+9) | vl:9 ping:61 tps:19.99 lp:21 component: speed.main
+(16:27:01) ZeztyZed failed Speed check | suspicious movement (move: 0.578, predict: 0.13, friction: 0.6, ground:true, motY: 0.0, increase:0.13, preMove:0.0, motion: -0.578,0.0,0.013, attribute: 0.13, cm: false, di: false, tag: pred) (+5) | vl:14 ping:61 tps:19.99 lp:21 component: move.xz
+(16:28:12) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:48 tps:20.0 lp:19 component: blk.fb.dly
+(16:30:07) MrPatro25 failed Block check | break block without delay (+4) | vl:4 ping:140 tps:20.0 lp:6 component: blk.fb.dly
+(16:31:03) MrPatro25 failed Block check | break block too fast (digs: 5/11, block: nether_quartz_ore, j: false) (+3) | vl:3 ping:122 tps:20.0 lp:25 component: block.fastbreak.expect
+(16:31:04) kittytechie failed BadPackets check | (timer) send 42 moving packets in 1042ms | tag: limit (+0) | vl:0 ping:52 tps:13.72 lp:15 component: net.timer
+(16:31:04) kittytechie failed Speed check | suspicious movement (move: 1.073, predict: 0.678, friction: 0.6, ground:true, motY: 1.177, increase:0.58, preMove:0.098, motion: 0.077,1.177,-1.07, attribute: 0.13, cm: false, di: false, tag: pred) (+0) | vl:0 ping:52 tps:13.72 lp:15 component: move.xz
+(16:31:04) kittytechie failed Fly check | step | p: 1 | m:1.177 ev:0.42 lm:0.99 (+0) | vl:0 ping:52 tps:13.72 lp:15 component: speed.step
+(16:31:34) kittytechie failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: net.timer
+(16:31:34) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:1725 tps:19.99 lp:49 component: net.timer
+(16:31:34) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 500.0, t:2, buffer:20, tag: timer) (+0) | vl:0 ping:1725 tps:19.99 lp:49 component: net.timer
+(16:31:34) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:1725 tps:19.99 lp:49 component: net.timer
+(16:31:34) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:1725 tps:19.99 lp:49 component: net.timer
+(16:31:34) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 500.0, t:2, buffer:20, tag: timer) (+0) | vl:0 ping:1725 tps:19.99 lp:49 component: net.timer
+(16:31:34) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 500.0, t:2, buffer:20, tag: timer) (+0) | vl:0 ping:140 tps:19.99 lp:49 component: net.timer
+(16:31:34) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 333.333, t:3, buffer:20, tag: timer) (+0) | vl:0 ping:1725 tps:19.99 lp:49 component: net.timer
+(16:31:34) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:1725 tps:19.99 lp:49 component: net.timer
+(16:31:34) ZeztyZed failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:1725 tps:19.99 lp:49 component: net.timer
+(16:31:34) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 200.0, t:5, buffer:20, tag: timer) (+0) | vl:0 ping:140 tps:19.99 lp:49 component: net.timer
+(16:31:34) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 333.333, t:3, buffer:20, tag: timer) (+0) | vl:0 ping:140 tps:19.99 lp:49 component: net.timer
+(16:31:34) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:140 tps:19.99 lp:49 component: net.timer
+(16:31:34) kittytechie failed BadPackets check | (timer) moved too many times (timer: 50.0, t:20, buffer:20, tag: timer) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: net.timer
+(16:31:34) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 500.0, t:2, buffer:20, tag: timer) (+0) | vl:0 ping:140 tps:19.99 lp:49 component: net.timer
+(16:31:34) kittytechie failed BadPackets check | (timer) moved too many times (timer: 500.0, t:2, buffer:20, tag: timer) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: net.timer
+(16:31:34) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:140 tps:19.99 lp:49 component: net.timer
+(16:31:34) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 500.0, t:2, buffer:20, tag: timer) (+0) | vl:0 ping:140 tps:19.99 lp:49 component: net.timer
+(16:31:34) kittytechie failed BadPackets check | (timer) moved too many times (timer: 500.0, t:2, buffer:20, tag: timer) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: net.timer
+(16:31:34) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 9.223372036854776E15, t:0, buffer:20, tag: timer) (+0) | vl:0 ping:140 tps:19.99 lp:49 component: net.timer
+(16:31:34) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 111.111, t:9, buffer:20, tag: timer) (+0) | vl:0 ping:140 tps:19.99 lp:49 component: net.timer
+(16:31:34) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 9.223372036854776E15, t:0, buffer:20, tag: timer) (+0) | vl:0 ping:140 tps:19.99 lp:49 component: net.timer
+(16:31:34) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:140 tps:19.99 lp:49 component: net.timer
+(16:31:34) kittytechie failed BadPackets check | (timer) moved too many times (timer: 55.556, t:18, buffer:20, tag: timer) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: net.timer
+(16:31:34) kittytechie failed BadPackets check | (timer) moved too many times (timer: 9.223372036854776E15, t:0, buffer:20, tag: timer) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: net.timer
+(16:31:34) kittytechie failed BadPackets check | (timer) moved too many times (timer: 500.0, t:2, buffer:20, tag: timer) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: net.timer
+(16:31:34) kittytechie failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: net.timer
+(16:31:34) kittytechie failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: net.timer
+(16:31:34) kittytechie failed BadPackets check | (timer) moved too many times (timer: 500.0, t:2, buffer:20, tag: timer) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: net.timer
+(16:31:34) kittytechie failed BadPackets check | (timer) moved too many times (timer: 90.909, t:11, buffer:20, tag: timer) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: net.timer
+(16:31:34) kittytechie failed BadPackets check | (timer) moved too many times (timer: 166.667, t:6, buffer:20, tag: timer) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: net.timer
+(16:31:34) kittytechie failed Fly check | ground spoof (expect: --, move: 0.0,0.0,0.0, at: 4710.643,70.024,4870.441, type: air, pkt: true) (+0) | vl:0 ping:51 tps:19.99 lp:49 component: fly.gf
+(16:31:35) kittytechie failed BadPackets check | (timer) moved too many times (timer: 1.447, t:691, buffer:20, tag: timer) (+10) | vl:10 ping:53 tps:19.99 lp:39 component: net.timer
+(16:31:35) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 1.144, t:874, buffer:20, tag: timer) (+5) | vl:5 ping:214 tps:19.99 lp:34 component: net.timer
+(16:31:35) MrPatro25 failed BadPackets check | (timer) send 298 moving packets in 1022ms | tag: limit (+5) | vl:10 ping:214 tps:19.99 lp:34 component: net.timer
+(16:31:35) kittytechie failed BadPackets check | (timer) send 318 moving packets in 1035ms | tag: limit (+10) | vl:20 ping:53 tps:19.99 lp:39 component: net.timer
+(16:31:35) MrPatro25 failed Speed check | suspicious movement (move: 2.203, tag: gv-) (+10) | vl:10 ping:214 tps:19.99 lp:34 component: speed.main
+(16:31:35) MrPatro25 failed Speed check | suspicious movement (move: 2.203, predict: 0.33, friction: 0.6, ground:true, motY: -2.695, increase:0.33, preMove:0.0, motion: 2.197,-2.695,-0.155, attribute: 0.13, cm: false, di: false, tag: pred) (+5) | vl:15 ping:214 tps:19.99 lp:34 component: move.xz
+(16:31:35) ZeztyZed failed BadPackets check | (timer) send 228 moving packets in 1454ms | tag: limit (+5) | vl:5 ping:246 tps:19.99 lp:49 component: net.timer
+(16:37:16) ZeztyZed failed Interact check | interact block through solid (through: DIRT, block:CHEST) (+1) | vl:1 ping:72 tps:19.2 lp:10 component: interact.through
+(16:38:15) MrPatro25 failed Fly check | suspicious movement:0.0 predict:-0.228 vel:-0.152 air_t:12 tag:m4 (+0) | vl:0 ping:125 tps:14.42 lp:12 component: fly.main
+(16:38:48) ZeztyZed failed Fly check | suspicious movement:0.168 predict:-0.078 air:6 tag:dmf (+10) | vl:10 ping:76 tps:17.23 lp:14 component: fly.main
+(16:38:54) kittytechie failed Speed check | change direction in mid-air (dist: 0.311, angle:123.494, pre:0.215) (+5) | vl:5 ping:50 tps:18.03 lp:3 component: speed.strafe
+(16:39:29) kittytechie failed Speed check | change direction in mid-air (dist: 0.24, angle:75.149, pre:0.169) (+5) | vl:5 ping:48 tps:18.72 lp:3 component: speed.strafe
+(16:39:53) ZeztyZed failed Speed check | sprint with weird direction (dist: 0.282, angle:128.599) (+0) | vl:0 ping:98 tps:20.0 lp:17 component: speed.sprint
+(16:39:54) ZeztyZed failed BadPackets check | (timer) send 49 moving packets in 1016ms | tag: limit (+0) | vl:0 ping:76 tps:11.64 lp:26 component: net.timer
+(16:39:54) ZeztyZed failed Speed check | suspicious movement (move: 3.344, predict: 0.533, friction: 0.6, ground:true, motY: 0.0, increase:0.38, preMove:0.153, motion: 2.378,0.0,-2.352, attribute: 0.13, cm: false, di: false, tag: pred) (+0) | vl:0 ping:76 tps:11.64 lp:26 component: move.xz
+(16:39:54) MrPatro25 failed BadPackets check | (timer) send 39 moving packets in 1485ms | tag: limit (+0) | vl:0 ping:116 tps:11.64 lp:19 component: net.timer
+(16:40:04) MrPatro25 failed Scaffold check | scaffold-like placement | type A (+1) | vl:1 ping:129 tps:19.49 lp:19 component: sfd.place.a
+(16:41:15) MrPatro25 failed Speed check | t: spin (+10) | vl:10 ping:145 tps:17.6 lp:24 component: speed.spin
+(16:41:15) MrPatro25 failed Speed check | t: spin (+10) | vl:20 ping:145 tps:17.6 lp:24 component: speed.spin
+(16:42:31) MrPatro25 failed Block check | break block without delay (+4) | vl:4 ping:134 tps:17.63 lp:18 component: blk.fb.dly
+(16:42:57) MrPatro25 failed Block check | break block without delay (+4) | vl:4 ping:122 tps:20.0 lp:22 component: blk.fb.dly
+(16:43:14) MrPatro25 failed Block check | break block too fast (digs: 4/11, block: nether_quartz_ore, j: false) (+3) | vl:7 ping:123 tps:19.76 lp:26 component: block.fastbreak.expect
+(16:46:41) ZeztyZed failed Block check | break block too fast (digs: 5/6, block: spruce_leaves, j: false) (+4) | vl:4 ping:66 tps:19.16 lp:14 component: block.fastbreak.expect
+(16:47:04) ZeztyZed failed Speed check | suspicious movement (move: 0.297, expect:0.289, t:0, sprint: true, attr: 0.13, tag: a) (+9) | vl:9 ping:67 tps:20.0 lp:4 component: speed.main
+(16:47:11) MrPatro25 failed Speed check | t: spin (+10) | vl:10 ping:139 tps:19.69 lp:8 component: speed.spin
+(16:47:11) MrPatro25 failed Speed check | t: spin (+10) | vl:20 ping:139 tps:19.69 lp:8 component: speed.spin
+(16:47:22) MrPatro25 failed Speed check | t: spin (+10) | vl:10 ping:131 tps:20.0 lp:15 component: speed.spin
+(16:48:13) ZeztyZed failed Jesus check | suspicious movement in liquid (motion: -0.098,0.42,0.291, down: WATER, vel: -0.43, module: solid) (+5) | vl:5 ping:88 tps:20.0 lp:4 component: jesus.solid
+(16:48:36) ZeztyZed failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.415, ver: 16) (+2) | vl:2 ping:69 tps:20.0 lp:18 component: heal
+(16:49:24) ZeztyZed failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.412, ver: 16) (+2) | vl:2 ping:72 tps:20.0 lp:8 component: heal
+(16:50:00) ZeztyZed failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.412, ver: 16) (+2) | vl:2 ping:61 tps:20.0 lp:5 component: heal
+(16:50:08) MrPatro25 failed Speed check | t: spin (+10) | vl:10 ping:171 tps:18.67 lp:5 component: speed.spin
+(16:50:25) ZeztyZed failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.379, ver: 16) (+2) | vl:2 ping:68 tps:20.0 lp:3 component: heal
+(16:50:25) ZeztyZed failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.415, ver: 16) (+2) | vl:4 ping:68 tps:20.0 lp:11 component: heal
+(16:50:59) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:51 tps:17.87 lp:23 component: blk.fb.dly
+(16:51:27) ZeztyZed failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.397, ver: 16) (+2) | vl:2 ping:61 tps:20.0 lp:12 component: heal
+(16:51:28) kittytechie failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.416, ver: 16) (+2) | vl:2 ping:52 tps:20.0 lp:4 component: heal
+(16:51:30) kittytechie failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.383, ver: 16) (+2) | vl:4 ping:52 tps:20.0 lp:4 component: heal
+(16:51:30) kittytechie failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.37, ver: 16) (+2) | vl:6 ping:52 tps:20.0 lp:4 component: heal
+(16:52:20) ZeztyZed failed Interact check | breaking a block without looking at it (block: SAND) (+1) | vl:1 ping:61 tps:20.0 lp:11 component: interact.break
+(16:53:06) ZeztyZed failed HitBox check | missed entity hitbox (entity: zombie, angle: 51.081, move: true) (+1) | vl:1 ping:72 tps:19.46 lp:4 component: hb.mis
+(16:54:11) kittytechie failed HitBox check | missed entity hitbox (entity: zombie, angle: 43.689, move: true) (+1) | vl:1 ping:49 tps:20.0 lp:5 component: hb.mis
+(16:54:11) ZeztyZed failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.407, ver: 16) (+2) | vl:2 ping:69 tps:20.0 lp:8 component: heal
+(16:59:02) ZeztyZed failed Fly check | suspicious movement: 0.118/0.15 vel: -0.12 tag:nc (+8) | vl:8 ping:72 tps:20.0 lp:5 component: fly.main
+(17:01:17) kittytechie failed Fly check | ground spoof (expect: --, move: 0.0,0.0,0.0, at: 4762.214,79.001,4791.359, type: air, pkt: true) (+5) | vl:5 ping:58 tps:20.0 lp:3 component: fly.gf
+(17:10:03) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:51 tps:17.72 lp:15 component: blk.fb.dly
+(17:18:56) MrPatro25 failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.343, ver: 16) (+2) | vl:2 ping:125 tps:20.0 lp:2 component: heal
+(17:19:58) MrPatro25 failed BadPackets check | (timer) moved too many times (timer: 1.451, t:689, buffer:20, tag: timer) (+5) | vl:5 ping:0 tps:20.0 lp:35 component: net.timer
+(17:23:30) ZeztyZed failed Fly check | suspicious movement:0.083 predict:-0.078 vel:-0.228 air_t:12 tag:m4 (+10) | vl:10 ping:66 tps:20.0 lp:4 component: fly.main
+(17:23:30) ZeztyZed failed Fly check | suspicious movement:0.003 predict:-0.078 vel:-0.228 air_t:12 tag:m4 (+10) | vl:20 ping:66 tps:20.0 lp:4 component: fly.main
+(17:25:37) ZeztyZed failed Block check | break block too fast (digs: 1/24, block: white_wool, j: false) (+4) | vl:4 ping:64 tps:20.0 lp:19 component: block.fastbreak.expect
+(17:35:47) ZeztyZed failed Block check | break block without delay (+4) | vl:4 ping:82 tps:19.99 lp:15 component: blk.fb.dly
+(17:38:28) MrPatro25 failed Block check | break block without delay (+4) | vl:4 ping:129 tps:20.0 lp:18 component: blk.fb.dly
+(17:38:28) MrPatro25 failed Block check | break block without delay (+4) | vl:8 ping:129 tps:20.0 lp:18 component: blk.fb.dly
+(17:38:31) MrPatro25 failed Block check | break block without delay (+4) | vl:12 ping:127 tps:20.0 lp:18 component: blk.fb.dly
+(17:38:31) Execute command: matrix notify MrPatro25 tried to place/break a block too quickly (FastPlace/FastBreak)
+(17:39:09) MrPatro25 failed Speed check | t: spin (+10) | vl:10 ping:161 tps:20.0 lp:25 component: speed.spin
+(17:44:34) MrPatro25 failed Interact check | breaking a block without looking at it (block: STONE) (+1) | vl:1 ping:142 tps:19.99 lp:15 component: interact.break
+(17:45:12) ZeztyZed failed BadPackets check | (timer) send 50 moving packets in 1042ms | tag: limit (+5) | vl:5 ping:1794 tps:20.0 lp:34 component: net.timer
+(17:45:12) ZeztyZed failed Speed check | suspicious movement (move: 0.875, expect:0.289, t:0, sprint: false, attr: 0.1, tag: a) (+9) | vl:9 ping:1794 tps:20.0 lp:34 component: speed.main
+(17:45:12) ZeztyZed failed Speed check | suspicious movement (move: 0.875, predict: 0.213, friction: 0.6, ground:true, motY: 0.0, increase:0.13, preMove:0.083, motion: -0.875,0.0,0.03, attribute: 0.13, cm: false, di: false, tag: pred) (+5) | vl:14 ping:1794 tps:20.0 lp:34 component: move.xz
+(17:53:01) ZeztyZed failed Speed check | suspicious movement (move: 0.482, expect: 0.469, g_tk:1, tag: b) (+8) | vl:8 ping:100 tps:20.0 lp:20 component: speed.main
+(17:54:40) ZeztyZed failed Block check | break block without delay (+4) | vl:4 ping:62 tps:20.0 lp:32 component: blk.fb.dly
+(17:55:06) ZeztyZed failed Block check | break block without delay (+4) | vl:4 ping:63 tps:20.0 lp:19 component: blk.fb.dly
+(17:55:27) ZeztyZed failed Block check | break block without delay (+4) | vl:4 ping:60 tps:20.0 lp:30 component: blk.fb.dly
+(17:59:38) ZeztyZed failed Interact check | breaking a block without looking at it (block: WHITE_WOOL) (+1) | vl:1 ping:57 tps:20.0 lp:20 component: interact.break
+(17:59:38) ZeztyZed failed Interact check | break block through walls (through: white_wool, block: white_wool) (+1) | vl:2 ping:57 tps:20.0 lp:20 component: interact.break
+(18:03:03) ZeztyZed failed Block check | break block without delay (+4) | vl:4 ping:61 tps:20.0 lp:27 component: blk.fb.dly
+(18:11:12) ZeztyZed failed Block check | break block without delay (+4) | vl:4 ping:58 tps:19.99 lp:24 component: blk.fb.dly
+(19:14:48) CoolAs_aFish failed Speed check | t: spin (+10) | vl:10 ping:294 tps:20.0 lp:61 component: speed.spin
+(19:14:50) CoolAs_aFish failed Speed check | t: spin (+10) | vl:20 ping:294 tps:20.0 lp:62 component: speed.spin
+(19:16:11) CoolAs_aFish failed BadPackets check | (timer) send 47 moving packets in 1114ms | tag: limit (+5) | vl:5 ping:643 tps:20.0 lp:56 component: net.timer
+(19:16:11) CoolAs_aFish failed Speed check | suspicious movement (move: 2.306, expect: 0.6235, tag: c) (+18) | vl:18 ping:643 tps:20.0 lp:56 component: speed.main
+(19:16:11) CoolAs_aFish failed Speed check | suspicious movement (move: 2.306, vet: 1.249, tag: d) (+2) | vl:20 ping:643 tps:20.0 lp:56 component: speed.main
+(19:16:11) CoolAs_aFish failed Speed check | suspicious movement (move: 2.306, predict: 0.448, friction: 0.6, ground:true, motY: 1.249, increase:0.33, preMove:0.118, motion: 2.187,1.249,0.731, attribute: 0.13, cm: false, di: false, tag: pred) (+5) | vl:25 ping:643 tps:20.0 lp:56 component: move.xz
+(19:16:11) CoolAs_aFish failed Fly check | step | p: 1 | m:1.249 ev:0.42 lm:0.99 (+2) | vl:2 ping:643 tps:20.0 lp:56 component: speed.step
+(19:19:28) CoolAs_aFish failed Speed check | t: spin (+10) | vl:10 ping:153 tps:20.0 lp:53 component: speed.spin
+(19:26:20) CoolAs_aFish failed Speed check | t: spin (+10) | vl:10 ping:157 tps:20.0 lp:57 component: speed.spin
+(19:27:11) CoolAs_aFish failed Block check | break block with timer (block: spruce_planks, point: 360) (+4) | vl:4 ping:120 tps:20.0 lp:48 component: block.fb.timer
+(19:27:29) CoolAs_aFish failed Interact check | breaking a block without looking at it (block: SPRUCE_PLANKS) (+1) | vl:1 ping:116 tps:20.0 lp:74 component: interact.break
+(19:27:29) CoolAs_aFish failed Interact check | break block through walls (through: white_wool, block: spruce_planks) (+1) | vl:2 ping:116 tps:20.0 lp:74 component: interact.break
+(19:28:19) CoolAs_aFish failed Interact check | breaking a block without looking at it (block: SPRUCE_PLANKS) (+1) | vl:1 ping:65 tps:20.0 lp:74 component: interact.break
+(19:28:19) CoolAs_aFish failed Interact check | break block through walls (through: spruce_planks, block: spruce_planks) (+1) | vl:2 ping:65 tps:20.0 lp:74 component: interact.break
+(19:35:46) CoolAs_aFish failed BadPackets check | (timer) send 47 moving packets in 1287ms | tag: limit (+5) | vl:5 ping:216 tps:20.0 lp:45 component: net.timer
+(19:35:46) CoolAs_aFish failed Speed check | suspicious movement (move: 2.59, expect:0.289, t:0, sprint: false, attr: 0.1, tag: a) (+9) | vl:9 ping:216 tps:20.0 lp:45 component: speed.main
+(19:35:46) CoolAs_aFish failed Speed check | suspicious movement (move: 2.59, predict: 0.248, friction: 0.6, ground:true, motY: 0.0, increase:0.13, preMove:0.118, motion: 0.363,0.0,2.564, attribute: 0.13, cm: false, di: false, tag: pred) (+5) | vl:14 ping:216 tps:20.0 lp:45 component: move.xz
+(19:39:57) CoolAs_aFish failed Block check | break block with timer (block: white_wool, point: 428) (+4) | vl:4 ping:129 tps:20.0 lp:59 component: block.fb.timer
+(20:26:05) King_Coding failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.401, ver: 16) (+2) | vl:2 ping:64 tps:19.99 lp:29 component: heal
+(20:26:07) King_Coding failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.39, ver: 16) (+2) | vl:4 ping:64 tps:20.0 lp:29 component: heal
+(20:26:08) King_Coding failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.357, ver: 16) (+2) | vl:6 ping:64 tps:20.0 lp:29 component: heal
+(20:26:08) King_Coding failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.418, ver: 16) (+2) | vl:8 ping:64 tps:20.0 lp:29 component: heal
+(20:30:09) King_Coding failed HitBox check | missed entity hitbox (entity: zombie, angle: 51.656, move: true) (+1) | vl:1 ping:89 tps:20.0 lp:22 component: hb.mis
+(20:30:10) King_Coding failed Speed check | (toggle) send release use item packet frequently: 43 (+2) | vl:2 ping:89 tps:20.0 lp:21 component: speed.noslow.toggle
+(20:35:04) King_Coding failed BadPackets check | (timer) moved too many times (timer: 1.603, t:624, buffer:20, tag: timer) (+10) | vl:10 ping:75 tps:20.0 lp:35 component: net.timer
+(20:35:04) King_Coding failed BadPackets check | (timer) send 78 moving packets in 1013ms | tag: limit (+10) | vl:20 ping:75 tps:20.0 lp:35 component: net.timer
+(20:35:04) King_Coding failed Speed check | suspicious movement (move: 2.714, expect: 0.3665, tag: ea) (+20) | vl:20 ping:75 tps:20.0 lp:35 component: speed.main
+(20:35:04) King_Coding failed Speed check | suspicious movement (move: 2.714, predict: 0.423, friction: 0.6, ground:false, motY: -1.42, increase:0.126, preMove:0.297, motion: -0.952,-1.42,2.542, attribute: 0.13, cm: false, di: false, tag: pred) (+5) | vl:25 ping:75 tps:20.0 lp:35 component: move.xz
+(20:37:10) King_Coding failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.306, ver: 16) (+2) | vl:2 ping:68 tps:20.0 lp:11 component: heal
+(20:46:52) marsboy18 failed Speed check | t: spin (+10) | vl:10 ping:0 tps:20.0 lp:10 component: speed.spin
+(20:47:38) King_Coding failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.409, ver: 16) (+2) | vl:2 ping:70 tps:20.0 lp:16 component: heal
+(21:26:23) seesta failed BadPackets check | (timer) send 40 moving packets in 3522ms | tag: limit (+10) | vl:10 ping:0 tps:19.99 lp:16 component: net.timer
+(21:26:27) seesta failed BadPackets check | (timer) moved too many times (timer: 2.37, t:422, buffer:20, tag: timer) (+10) | vl:10 ping:0 tps:20.0 lp:43 component: net.timer
+(21:26:28) seesta failed BadPackets check | (timer) send 92 moving packets in 1142ms | tag: limit (+10) | vl:20 ping:0 tps:20.0 lp:44 component: net.timer
+(21:26:32) seesta failed BadPackets check | (timer) send 41 moving packets in 1178ms | tag: limit (+10) | vl:30 ping:7519 tps:20.0 lp:49 component: net.timer
+(21:39:45) kittytechie failed BadPackets check | (timer) send 53 moving packets in 1008ms | tag: limit (+10) | vl:10 ping:59 tps:19.99 lp:31 component: net.timer
+(21:39:45) kittytechie failed Speed check | suspicious movement (move: 3.533, expect: 0.3665, tag: ea) (+20) | vl:20 ping:59 tps:19.99 lp:31 component: speed.main
+(21:39:45) kittytechie failed Speed check | suspicious movement (move: 3.533, predict: 0.137, friction: 0.6, ground:false, motY: -4.0, increase:0.026, preMove:0.111, motion: 3.529,-4.0,0.175, attribute: 0.13, cm: false, di: false, tag: pred) (+5) | vl:25 ping:59 tps:19.99 lp:31 component: move.xz
+(21:39:45) kittytechie failed Fly check | suspicious movement:-4.0 predict:-0.075 lm:0.003 hard_pred:-0.075 sev_pred:-1.081 air_t:6 fall_t:1 g:-- tag:gn (+5) | vl:5 ping:59 tps:19.99 lp:31 component: fly.main
+(21:39:45) kittytechie failed Fly check | suspicious movement: 0.42 vel: -0.078 pred: -0.078 (jump) (+5) | vl:10 ping:59 tps:19.99 lp:31 component: fly.jmp
+(21:40:51) UsualSpace failed Speed check | suspicious movement (0.318, air_t: 12, lm:0.297 acc: 0.021456289322864086, tag: ed) (+15) | vl:15 ping:56 tps:20.0 lp:7 component: speed.main
+(21:41:01) UsualSpace failed Interact check | interact block through solid (through: ANDESITE, block:CHEST) (+1) | vl:1 ping:57 tps:19.99 lp:10 component: interact.through
+(21:41:07) kittytechie failed KillAura check | critical hit without correct jumping | tag: mini-jump | d:0.11663266928498217 (+5) | vl:5 ping:51 tps:20.0 lp:26 component: ka.critical.hop
+(21:41:10) UsualSpace failed Velocity check | (respond) ignore server velocity: -0.128,0.361,0.379 (+5) | vl:5 ping:55 tps:20.0 lp:6 component: vel.expect
+(21:42:01) UsualSpace failed Chat check | chat too fast | delay: 1844 (+1) | vl:1 ping:57 tps:20.0 lp:4 component: chat.delay
+(21:42:09) kittytechie failed Interact check | interact block through solid (through: CRAFTING_TABLE, block:CHEST) (+1) | vl:1 ping:63 tps:20.0 lp:20 component: interact.through
+(21:44:25) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:53 tps:20.0 lp:12 component: blk.fb.dly
+(21:46:00) kittytechie failed KillAura check | (onehit) attack in an abnormal state (pattern: #01, val: 3) (+4) | vl:4 ping:66 tps:20.0 lp:13 component: ka.one.1
+(21:47:49) kittytechie failed KillAura check | (machine learning) machine learning analyse | m: #95,93,21 | amount: 3 (+8) | vl:8 ping:55 tps:20.0 lp:9 component: ka.ml
+(21:50:34) kittytechie failed HitBox check | missed entity hitbox (entity: skeleton, angle: 57.587, move: true) (+1) | vl:1 ping:50 tps:19.99 lp:11 component: hb.mis
+(21:51:56) UsualSpace failed Interact check | breaking a block without looking at it (block: STONE) (+1) | vl:1 ping:57 tps:20.0 lp:25 component: interact.break
+(21:56:50) Knight_Sparrow failed Block check | break block without delay (+4) | vl:4 ping:315 tps:20.0 lp:24 component: blk.fb.dly
+(21:56:50) UsualSpace failed Interact check | breaking a block without looking at it (block: STONE) (+1) | vl:1 ping:58 tps:19.97 lp:18 component: interact.break
+(22:03:20) kittytechie failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.39, ver: 16) (+2) | vl:2 ping:52 tps:20.0 lp:14 component: heal
+(22:03:21) kittytechie failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.412, ver: 16) (+2) | vl:4 ping:52 tps:20.0 lp:15 component: heal
+(22:03:21) kittytechie failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.413, ver: 16) (+2) | vl:6 ping:52 tps:20.0 lp:15 component: heal
+(22:08:27) kittytechie failed BadPackets check | (timer) send 61 moving packets in 1041ms | tag: limit (+5) | vl:5 ping:670 tps:20.0 lp:30 component: net.timer
+(22:08:27) kittytechie failed Jesus check | liquid speed (speed: 1.538, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:3 ping:670 tps:20.0 lp:30 component: jesus.speed.in
+(22:08:57) kittytechie failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.395, ver: 16) (+2) | vl:2 ping:67 tps:19.97 lp:11 component: heal
+(22:09:23) kittytechie failed Jesus check | liquid speed (speed: 0.126, expect:0.12, dmg: false, flw:false, module: in) (+3) | vl:3 ping:66 tps:20.0 lp:7 component: jesus.speed.in
+(22:09:23) kittytechie failed Jesus check | liquid speed (speed: 0.12, expect:0.12, dmg: false, flw:false, module: in) (+3) | vl:6 ping:66 tps:20.0 lp:7 component: jesus.speed.in
+(22:12:19) kittytechie failed BadPackets check | (timer) send 53 moving packets in 1012ms | tag: limit (+10) | vl:10 ping:915 tps:19.99 lp:22 component: net.timer
+(22:13:15) ChuckInAllen failed Interact check | breaking a block without looking at it (block: DIRT) (+1) | vl:1 ping:77 tps:20.0 lp:11 component: interact.break
+(22:13:15) ChuckInAllen failed Interact check | break block through walls (through: gravel, block: dirt) (+1) | vl:2 ping:77 tps:20.0 lp:11 component: interact.break
+(22:13:47) kittytechie failed Interact check | interact block through solid (through: ANDESITE, block:CHEST) (+1) | vl:1 ping:57 tps:19.99 lp:10 component: interact.through
+(22:22:22) kittytechie failed Interact check | breaking a block without looking at it (block: GRASS) (+1) | vl:1 ping:59 tps:20.0 lp:18 component: interact.break
+(22:22:22) kittytechie failed Interact check | break block through walls (through: granite, block: grass) (+1) | vl:2 ping:59 tps:20.0 lp:18 component: interact.break
+(22:46:20) ChuckInAllen failed BadPackets check | (timer) send 36 moving packets in 1001ms | tag: limit (+5) | vl:5 ping:161 tps:19.99 lp:40 component: net.timer
+(22:47:51) ChuckInAllen failed BadPackets check | (timer) send 38 moving packets in 1070ms | tag: limit (+0) | vl:0 ping:79 tps:15.12 lp:23 component: net.timer
+(22:50:56) ChuckInAllen failed Block check | break block with timer (block: grass_block, point: 349) (+4) | vl:4 ping:32 tps:20.0 lp:30 component: block.fb.timer
+(22:50:56) ChuckInAllen failed Fly check | suspicious movement:0.42 predict:0.338 vel:0.0 air_t:1 tag:vt (+5) | vl:5 ping:32 tps:20.0 lp:30 component: fly.main
+(22:50:57) ChuckInAllen failed Fly check | suspicious movement:0.333 predict:0.253 vel:-0.155 air_t:2 tag:vt (+5) | vl:10 ping:32 tps:20.0 lp:30 component: fly.main
+(22:50:57) ChuckInAllen failed Fly check | suspicious movement:0.248 predict:0.17 vel:-0.304 air_t:3 tag:vt (+5) | vl:15 ping:32 tps:20.0 lp:30 component: fly.main
+(22:50:57) ChuckInAllen failed Fly check | suspicious movement:0.165 predict:0.088 vel:0.42 air_t:4 tag:vt (+5) | vl:20 ping:32 tps:20.0 lp:30 component: fly.main
+(22:50:57) kavcat failed BadPackets check | (timer) send 36 moving packets in 1025ms | tag: limit (+0) | vl:0 ping:842 tps:15.44 lp:29 component: net.timer
+(22:54:09) King_Coding failed BadPackets check | (timer) send 36 moving packets in 1098ms | tag: limit (+0) | vl:0 ping:76 tps:11.52 lp:40 component: net.timer
+(22:54:52) King_Coding failed Interact check | interact block through solid (through: DIRT, block:CHEST) (+1) | vl:1 ping:67 tps:20.0 lp:20 component: interact.through
+(22:56:23) King_Coding failed Speed check | change direction in mid-air (dist: 0.3, angle:101.414, pre:0.197) (+5) | vl:5 ping:80 tps:18.48 lp:23 component: speed.strafe
+(22:56:52) ChuckInAllen failed BadPackets check | (timer) send 38 moving packets in 1372ms | tag: limit (+10) | vl:10 ping:31 tps:19.4 lp:39 component: net.timer
+(22:56:53) ChuckInAllen failed Speed check | sprint with weird direction (dist: 0.269, angle:119.223) (+5) | vl:5 ping:31 tps:19.78 lp:38 component: speed.sprint
+(22:59:50) Knight_Sparrow failed BadPackets check | (timer) moved too many times (timer: 16.667, t:60, buffer:20, tag: timer) (+5) | vl:5 ping:4563 tps:18.32 lp:48 component: net.timer
+(22:59:50) Knight_Sparrow failed BadPackets check | (timer) moved too many times (timer: 9.223372036854776E15, t:0, buffer:20, tag: timer) (+5) | vl:10 ping:4563 tps:18.32 lp:48 component: net.timer
+(22:59:51) Knight_Sparrow failed BadPackets check | (timer) moved too many times (timer: 3.356, t:298, buffer:20, tag: timer) (+5) | vl:15 ping:4563 tps:18.32 lp:51 component: net.timer
+(22:59:51) Knight_Sparrow failed BadPackets check | (timer) moved too many times (timer: 1000.0, t:1, buffer:20, tag: timer) (+5) | vl:20 ping:4563 tps:18.32 lp:51 component: net.timer
+(22:59:51) Knight_Sparrow failed BadPackets check | (timer) moved too many times (timer: 10.526, t:95, buffer:20, tag: timer) (+5) | vl:25 ping:4563 tps:18.32 lp:51 component: net.timer
+(22:59:51) Knight_Sparrow failed BadPackets check | (timer) send 167 moving packets in 1010ms | tag: limit (+5) | vl:30 ping:4563 tps:18.32 lp:51 component: net.timer
+(22:59:51) Knight_Sparrow failed Jesus check | liquid speed (speed: 0.178, expect:0.16, dmg: false, flow:false, module: out) (+4) | vl:4 ping:4563 tps:18.32 lp:51 component: jesus.out
+(23:01:03) kavcat failed Chat check | chat too fast | delay: 1890 (+1) | vl:1 ping:66 tps:17.45 lp:16 component: chat.delay
+(23:01:11) kavcat failed Speed check | suspicious movement (move: 0.627, expect: 0.6235, tag: c) (+10) | vl:10 ping:66 tps:19.18 lp:14 component: speed.main
+(23:01:53) King_Coding failed Speed check | change direction in mid-air (dist: 0.306, angle:72.98, pre:0.483) (+5) | vl:5 ping:165 tps:18.77 lp:36 component: speed.strafe
+(23:01:58) kavcat failed Phase check | moved into block (block: grass_block, move: -0.071,0.038,0.307, at: 4999.273,64.0,5057.76, dist: 0.315, loop: false) (+4) | vl:4 ping:47 tps:17.58 lp:7 component: phase.main
+(23:02:28) Knight_Sparrow failed Speed check | suspicious movement (move: 0.511, predict: 0.33, friction: 0.6, ground:true, motY: 0.3, increase:0.827, preMove:0.0, motion: -0.504,0.3,0.08, attribute: 0.13, cm: false, di: true, tag: pred) (+0) | vl:0 ping:348 tps:14.11 lp:43 component: move.xz
+(23:04:14) Knight_Sparrow failed Speed check | suspicious movement (move: 0.739, predict: 0.553, friction: 0.6, ground:true, motY: 0.42, increase:0.862, preMove:0.123, motion: -0.025,0.42,0.738, attribute: 0.13, cm: false, di: true, tag: pred) (+5) | vl:5 ping:336 tps:20.0 lp:25 component: move.xz
+(23:05:14) Knight_Sparrow failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.392, ver: 16) (+1) | vl:1 ping:338 tps:20.0 lp:53 component: heal
+(23:05:39) Knight_Sparrow failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.419, ver: 16) (+1) | vl:1 ping:278 tps:20.0 lp:25 component: heal
+(23:05:41) Knight_Sparrow failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.39, ver: 16) (+2) | vl:3 ping:278 tps:20.0 lp:24 component: heal
+(23:06:00) ChuckInAllen failed Fly check | ground spoof (expect: --, move: 0.0,0.0,0.0, at: 4690.466,62.073,4924.171, type: air, pkt: true) (+5) | vl:5 ping:29 tps:19.93 lp:18 component: fly.gf
+(23:09:38) ChuckInAllen failed Interact check | breaking a block without looking at it (block: SAND) (+1) | vl:1 ping:93 tps:20.0 lp:22 component: interact.break
+(23:10:07) ChuckInAllen failed Interact check | breaking a block without looking at it (block: SAND) (+1) | vl:1 ping:140 tps:19.65 lp:8 component: interact.break
+(23:10:07) ChuckInAllen failed Interact check | break block through walls (through: dirt, block: sand) (+1) | vl:2 ping:140 tps:19.65 lp:8 component: interact.break
+(23:10:12) ChuckInAllen failed Interact check | breaking a block without looking at it (block: SAND) (+1) | vl:3 ping:48 tps:20.0 lp:8 component: interact.break
+(23:10:12) ChuckInAllen failed Interact check | break block through walls (through: dirt, block: sand) (+1) | vl:4 ping:48 tps:20.0 lp:8 component: interact.break
+(23:15:10) King_Coding failed Speed check | (toggle) send release use item packet frequently: 49 (+2) | vl:2 ping:52 tps:20.0 lp:32 component: speed.noslow.toggle
+(23:17:04) UsualSpace failed Chat check | chat too fast | delay: 1781 (+1) | vl:1 ping:56 tps:19.99 lp:3 component: chat.delay
+(23:17:48) ChuckInAllen failed Scaffold check | scaffold-like placement | type A (+1) | vl:1 ping:31 tps:20.0 lp:9 component: sfd.place.a
+(23:19:05) King_Coding failed KillAura check | critical hit without correct jumping | tag: mini-jump | d:0.0625 (+5) | vl:5 ping:72 tps:19.99 lp:35 component: ka.critical.hop
+(23:20:19) ChuckInAllen failed KillAura check | (onehit) attack in an abnormal state (pattern: #03, val: 8.0) (+4) | vl:4 ping:34 tps:17.63 lp:8 component: ka.one.3
+(23:20:20) ChuckInAllen failed HitBox check | missed entity hitbox (entity: zombie, angle: 36.353, move: true) (+1) | vl:1 ping:34 tps:20.0 lp:7 component: hb.mis
+(23:21:38) ChuckInAllen failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.411, ver: 16) (+2) | vl:2 ping:39 tps:20.0 lp:10 component: heal
+(23:23:16) UsualSpace failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:55 tps:19.99 lp:2 component: interact.through
+(23:24:03) UsualSpace failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:56 tps:20.0 lp:8 component: interact.through
+(23:24:22) UsualSpace failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:2 ping:57 tps:20.0 lp:8 component: interact.through
+(23:25:01) King_Coding failed Speed check | (toggle) send release use item packet frequently: 43 (+2) | vl:2 ping:62 tps:20.0 lp:11 component: speed.noslow.toggle
+(23:29:43) UsualSpace failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.295, ver: 16) (+2) | vl:2 ping:55 tps:20.0 lp:13 component: heal
+(23:30:48) UsualSpace failed Interact check | interact block through solid (through: DIRT, block:CHEST) (+1) | vl:1 ping:57 tps:19.92 lp:4 component: interact.through
+(23:31:05) ChuckInAllen failed Interact check | breaking a block without looking at it (block: COBBLESTONE) (+1) | vl:1 ping:38 tps:20.0 lp:10 component: interact.break
+(23:31:05) ChuckInAllen failed Interact check | break block through walls (through: dirt, block: cobblestone) (+1) | vl:2 ping:38 tps:20.0 lp:10 component: interact.break
+(23:31:23) UsualSpace failed Speed check | suspicious movement (0.303, air_t: 12, lm:0.275 acc: 0.028105378343651344, tag: ed) (+15) | vl:15 ping:56 tps:19.99 lp:6 component: speed.main
+(23:31:23) UsualSpace failed Speed check | suspicious movement (0.336, air_t: 12, lm:0.303 acc: 0.03263505810139761, tag: ed) (+15) | vl:30 ping:56 tps:19.99 lp:6 component: speed.main
+(23:35:36) UsualSpace failed Chat check | chat too fast | delay: 1466 (+1) | vl:1 ping:57 tps:19.99 lp:13 component: chat.delay
+(23:38:01) King_Coding failed HitBox check | missed entity hitbox (entity: skeleton, angle: 50.455, move: true) (+1) | vl:1 ping:151 tps:20.0 lp:42 component: hb.mis
+(23:41:11) UsualSpace failed Interact check | breaking a block without looking at it (block: GRASS_BLOCK) (+1) | vl:1 ping:67 tps:20.0 lp:5 component: interact.break
+(23:41:11) UsualSpace failed Interact check | break block through walls (through: stone, block: grass_block) (+1) | vl:2 ping:67 tps:20.0 lp:5 component: interact.break
+(23:41:14) King_Coding failed Fly check | ground spoof (expect: --, move: 0.0,0.0,0.0, at: 4673.071,67.001,4902.442, type: air, pkt: true) (+5) | vl:5 ping:166 tps:20.0 lp:13 component: fly.gf
+(23:41:22) King_Coding failed HitBox check | missed entity hitbox (entity: skeleton, angle: 47.242, move: true) (+1) | vl:1 ping:74 tps:19.96 lp:15 component: hb.mis
+(23:41:23) UsualSpace failed Block check | break block without delay (+4) | vl:4 ping:55 tps:20.0 lp:19 component: blk.fb.dly
+(23:41:30) UsualSpace failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:55 tps:20.0 lp:11 component: interact.through
+(23:42:53) UsualSpace failed Interact check | breaking a block without looking at it (block: DIRT) (+1) | vl:1 ping:56 tps:19.78 lp:10 component: interact.break
+(23:42:53) UsualSpace failed Interact check | break block through walls (through: stone, block: dirt) (+1) | vl:2 ping:56 tps:19.78 lp:10 component: interact.break
+(23:43:27) UsualSpace failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:57 tps:20.0 lp:4 component: interact.through
+(23:43:35) UsualSpace failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:2 ping:58 tps:19.62 lp:5 component: interact.through
+(23:43:42) King_Coding failed HitBox check | missed entity hitbox (entity: enderman, angle: 104.02, move: true) (+2) | vl:2 ping:110 tps:20.0 lp:10 component: hb.mis
+(23:45:18) ChuckInAllen failed HitBox check | missed entity hitbox (entity: phantom, angle: 35.891, move: true) (+1) | vl:1 ping:27 tps:20.0 lp:10 component: hb.mis
+(23:46:00) UsualSpace failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:58 tps:19.94 lp:6 component: interact.through
+(23:46:27) ChuckInAllen failed BadPackets check | (timer) send 36 moving packets in 1001ms | tag: limit (+10) | vl:10 ping:30 tps:20.0 lp:41 component: net.timer
+(23:47:43) UsualSpace failed Block check | break block without delay (+4) | vl:4 ping:57 tps:20.0 lp:9 component: blk.fb.dly
+(23:51:03) UsualSpace failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:59 tps:20.0 lp:7 component: interact.through

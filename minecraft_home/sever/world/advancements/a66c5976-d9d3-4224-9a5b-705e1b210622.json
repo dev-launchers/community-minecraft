@@ -535,6 +535,7 @@
       "minecraft:creeper": "2020-11-08 23:54:48 -0500",
       "minecraft:phantom": "2020-11-13 22:24:06 -0500",
       "minecraft:zombified_piglin": "2020-11-08 21:15:37 -0500",
+      "minecraft:witch": "2020-11-25 14:20:53 -0500",
       "minecraft:cave_spider": "2020-11-08 01:36:40 -0500",
       "minecraft:piglin": "2020-11-08 21:13:30 -0500",
       "minecraft:enderman": "2020-11-08 18:20:53 -0500",
@@ -658,6 +659,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2020-11-25 13:16:29 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2020-11-08 01:30:52 -0500"
@@ -697,6 +704,12 @@
   "minecraft:recipes/decorations/light_gray_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2020-11-14 22:30:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2020-11-25 13:51:27 -0500"
     },
     "done": true
   },
@@ -1181,6 +1194,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis": "2020-11-25 13:16:29 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_carpet": {
     "criteria": {
       "has_yellow_wool": "2020-11-08 20:13:11 -0500"
@@ -1538,7 +1557,9 @@
       "cooked_beef": "2020-11-08 22:49:38 -0500",
       "baked_potato": "2020-11-19 20:44:47 -0500",
       "apple": "2020-11-08 01:29:54 -0500",
+      "potato": "2020-11-24 20:30:43 -0500",
       "cooked_cod": "2020-11-21 12:03:13 -0500",
+      "bread": "2020-11-23 21:31:20 -0500",
       "rotten_flesh": "2020-11-08 18:16:44 -0500",
       "dried_kelp": "2020-11-08 18:24:22 -0500",
       "cooked_chicken": "2020-11-08 18:17:52 -0500",
@@ -1935,6 +1956,12 @@
   "minecraft:recipes/decorations/red_glazed_terracotta": {
     "criteria": {
       "has_red_terracotta": "2020-11-08 01:31:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2020-11-25 12:53:31 -0500"
     },
     "done": true
   },

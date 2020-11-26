@@ -675,3 +675,210 @@
 (21:14:12) kittytechie failed Fly check | step | p: 1 | m:1.001 ev:0.42 lm:0.99 (+0) | vl:0 ping:68 tps:13.93 lp:32 component: speed.step
 (21:14:13) kittytechie failed BadPackets check | (timer) send 38 moving packets in 1014ms | tag: limit (+0) | vl:0 ping:68 tps:13.93 lp:26 component: net.timer
 (21:14:13) ChuckInAllen failed BadPackets check | (timer) send 38 moving packets in 1016ms | tag: limit (+0) | vl:10 ping:74 tps:13.93 lp:35 component: net.timer
+(21:19:09) Matrix Enabled!
+(21:19:09) Version: 5.4.0
+(21:24:11) King_Coding failed Speed check | suspicious movement (move: 0.137, predict: 0.115, friction: 0.6, ground:false, motY: -0.232, increase:0.026, preMove:0.089, motion: -0.116,-0.232,-0.073, attribute: 0.13, cm: false, di: false, tag: pred) (+5) | vl:5 ping:72 tps:19.43 lp:21 component: move.xz
+(21:29:25) King_Coding failed Speed check | suspicious movement (move: 0.505, predict: 0.455, friction: 0.6, ground:true, motY: 0.2, increase:0.73, preMove:0.124, motion: -0.163,0.2,0.478, attribute: 0.13, cm: false, di: true, tag: pred) (+5) | vl:5 ping:66 tps:19.98 lp:24 component: move.xz
+(21:31:02) kittytechie failed HitBox check | missed player hitbox (raytrace: 6/16 positions, lag: 8, prep: true) (+2) | vl:2 ping:43 tps:19.87 lp:15 component: hb.mis
+(21:31:28) kittytechie failed KillAura check | (machine learning) machine learning analyse | m: #10,72,1 | amount: 2 (+8) | vl:8 ping:416 tps:20.0 lp:6 component: ka.ml
+(21:31:54) kittytechie failed Interact check | attack entity through oak_planks block (d: 1.34) (+1) | vl:1 ping:64 tps:20.0 lp:12 component: interact.attack
+(21:33:47) kittytechie failed Jesus check | liquid speed (speed: 0.229, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:3 ping:45 tps:20.0 lp:5 component: jesus.speed.in
+(21:33:47) kittytechie failed Jesus check | liquid speed (speed: 0.225, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:6 ping:45 tps:20.0 lp:5 component: jesus.speed.in
+(21:33:47) kittytechie failed Jesus check | liquid speed (speed: 0.222, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:9 ping:45 tps:20.0 lp:5 component: jesus.speed.in
+(21:33:47) kittytechie failed Jesus check | liquid speed (speed: 0.22, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:12 ping:45 tps:20.0 lp:5 component: jesus.speed.in
+(21:33:47) kittytechie failed Jesus check | liquid speed (speed: 0.217, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:15 ping:45 tps:20.0 lp:5 component: jesus.speed.in
+(21:33:47) kittytechie failed Jesus check | liquid speed (speed: 0.215, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:18 ping:45 tps:20.0 lp:5 component: jesus.speed.in
+(21:38:30) King_Coding failed Speed check | suspicious movement (move: 0.649, expect: 0.6235, tag: c) (+10) | vl:10 ping:71 tps:20.0 lp:8 component: speed.main
+(21:38:30) King_Coding failed Speed check | suspicious movement (move: 0.38, expect: 0.3665, tag: ea) (+5) | vl:15 ping:71 tps:20.0 lp:8 component: speed.main
+(21:38:30) King_Coding failed Speed check | suspicious movement (move: 0.371, expect: 0.3665, tag: ea) (+5) | vl:20 ping:71 tps:20.0 lp:8 component: speed.main
+(21:56:21) kittytechie failed Fly check | suspicious movement:0.0 predict:-0.078 air_t:11 tag:md (+10) | vl:10 ping:63 tps:20.0 lp:16 component: fly.main
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 20) (+1) | vl:1 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 20) (+1) | vl:2 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 21) (+1) | vl:3 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 22) (+1) | vl:4 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 23) (+1) | vl:5 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 24) (+1) | vl:6 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 25) (+1) | vl:7 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 26) (+1) | vl:8 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 27) (+1) | vl:9 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 27) (+1) | vl:10 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) Execute command: matrix notify kittytechie tried to place/break a block too quickly (FastPlace/FastBreak)
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 28) (+1) | vl:11 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 29) (+1) | vl:12 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 30) (+1) | vl:13 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 31) (+1) | vl:14 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 32) (+1) | vl:15 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 33) (+1) | vl:16 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 34) (+1) | vl:17 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 35) (+1) | vl:18 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 36) (+1) | vl:19 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 37) (+1) | vl:20 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) Execute command: matrix kick kittytechie FastPlace/FastBreak Hacks
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 38) (+1) | vl:21 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 39) (+1) | vl:22 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 40) (+1) | vl:23 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 41) (+1) | vl:24 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 42) (+1) | vl:25 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 43) (+1) | vl:26 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 44) (+1) | vl:27 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 45) (+1) | vl:28 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 46) (+1) | vl:29 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 47) (+1) | vl:30 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 48) (+1) | vl:31 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 49) (+1) | vl:32 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 50) (+1) | vl:33 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 51) (+1) | vl:34 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 52) (+1) | vl:35 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 53) (+1) | vl:36 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 54) (+1) | vl:37 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 55) (+1) | vl:38 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 56) (+1) | vl:39 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 57) (+1) | vl:40 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 58) (+1) | vl:41 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 59) (+1) | vl:42 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 60) (+1) | vl:43 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 61) (+1) | vl:44 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 62) (+1) | vl:45 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 63) (+1) | vl:46 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 64) (+1) | vl:47 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 65) (+1) | vl:48 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 66) (+1) | vl:49 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 67) (+1) | vl:50 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:57:24) kittytechie failed Block check | send block breaking packets too frequently(vl: 68) (+1) | vl:51 ping:68 tps:20.0 lp:9 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57975) (+1) | vl:1 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57976) (+1) | vl:2 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57977) (+1) | vl:3 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57978) (+1) | vl:4 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57979) (+1) | vl:5 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57980) (+1) | vl:6 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57981) (+1) | vl:7 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57982) (+1) | vl:8 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57983) (+1) | vl:9 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57984) (+1) | vl:10 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) Execute command: matrix notify kittytechie tried to place/break a block too quickly (FastPlace/FastBreak)
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57985) (+1) | vl:11 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57986) (+1) | vl:12 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57987) (+1) | vl:13 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57988) (+1) | vl:14 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57989) (+1) | vl:15 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57990) (+1) | vl:16 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57991) (+1) | vl:17 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57992) (+1) | vl:18 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57993) (+1) | vl:19 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57994) (+1) | vl:20 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) Execute command: matrix kick kittytechie FastPlace/FastBreak Hacks
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57995) (+1) | vl:21 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57996) (+1) | vl:22 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57997) (+1) | vl:23 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57998) (+1) | vl:24 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 57999) (+1) | vl:25 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58000) (+1) | vl:26 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58001) (+1) | vl:27 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58002) (+1) | vl:28 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58003) (+1) | vl:29 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58004) (+1) | vl:30 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58005) (+1) | vl:31 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58006) (+1) | vl:32 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58007) (+1) | vl:33 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58008) (+1) | vl:34 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58009) (+1) | vl:35 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58010) (+1) | vl:36 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58011) (+1) | vl:37 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58012) (+1) | vl:38 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58013) (+1) | vl:39 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58014) (+1) | vl:40 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58015) (+1) | vl:41 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58016) (+1) | vl:42 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58017) (+1) | vl:43 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58018) (+1) | vl:44 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58019) (+1) | vl:45 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58020) (+1) | vl:46 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58021) (+1) | vl:47 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58022) (+1) | vl:48 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58023) (+1) | vl:49 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58024) (+1) | vl:50 ping:63 tps:20.0 lp:8 component: blk.nuker
+(21:58:50) kittytechie failed Block check | send block breaking packets too frequently(vl: 58025) (+1) | vl:51 ping:63 tps:20.0 lp:8 component: blk.nuker
+(22:01:14) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:1 tag:sam (+0) | vl:0 ping:55 tps:12.76 lp:14 component: fly.main
+(22:01:14) kittytechie failed Fly check | suspicious movement:0.2 predict:0.17 vel:0.0 air_t:3 tag:vt (+0) | vl:0 ping:55 tps:12.76 lp:14 component: fly.main
+(22:01:14) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:4 tag:sam (+0) | vl:0 ping:55 tps:12.76 lp:14 component: fly.main
+(22:01:14) kittytechie failed Fly check | suspicious movement:0.2 predict:0.088 vel:-0.078 air_t:4 tag:vt (+0) | vl:0 ping:55 tps:12.76 lp:14 component: fly.main
+(22:01:14) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:5 tag:sam (+0) | vl:0 ping:55 tps:12.76 lp:14 component: fly.main
+(22:01:14) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:6 tag:sam (+0) | vl:0 ping:55 tps:12.76 lp:14 component: fly.main
+(22:01:16) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:1 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:16 component: fly.main
+(22:01:16) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:2 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:12 component: fly.main
+(22:01:16) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:3 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:12 component: fly.main
+(22:01:16) kittytechie failed Fly check | suspicious movement:0.2 predict:0.17 vel:0.0 air_t:3 tag:vt (+0) | vl:0 ping:55 tps:14.8 lp:12 component: fly.main
+(22:01:16) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:4 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:12 component: fly.main
+(22:01:16) kittytechie failed Fly check | suspicious movement:0.2 predict:0.088 vel:-0.078 air_t:4 tag:vt (+0) | vl:0 ping:55 tps:14.8 lp:12 component: fly.main
+(22:01:16) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:5 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:12 component: fly.main
+(22:01:16) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:6 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:12 component: fly.main
+(22:01:16) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:7 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:12 component: fly.main
+(22:01:17) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:1 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:14 component: fly.main
+(22:01:17) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:2 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:14 component: fly.main
+(22:01:17) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:3 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:14 component: fly.main
+(22:01:17) kittytechie failed Fly check | suspicious movement:0.2 predict:0.17 vel:0.0 air_t:3 tag:vt (+0) | vl:0 ping:55 tps:14.8 lp:14 component: fly.main
+(22:01:17) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:4 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:14 component: fly.main
+(22:01:17) kittytechie failed Fly check | suspicious movement:0.2 predict:0.088 vel:-0.078 air_t:4 tag:vt (+0) | vl:0 ping:55 tps:14.8 lp:14 component: fly.main
+(22:01:17) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:5 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:14 component: fly.main
+(22:01:17) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:8 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:14 component: fly.main
+(22:01:17) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:9 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:14 component: fly.main
+(22:01:18) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:10 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:14 component: fly.main
+(22:01:18) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:11 tag:sam (+0) | vl:0 ping:55 tps:14.8 lp:14 component: fly.main
+(22:01:18) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 vel:-0.377 air_t:12 tag:m4 (+0) | vl:0 ping:55 tps:15.79 lp:16 component: fly.main
+(22:01:18) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 vel:-0.447 air_t:12 tag:m4 (+0) | vl:0 ping:55 tps:15.79 lp:16 component: fly.main
+(22:01:19) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 vel:-0.652 air_t:12 tag:m4 (+0) | vl:0 ping:55 tps:15.79 lp:16 component: fly.main
+(22:01:19) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:1 tag:sam (+0) | vl:0 ping:55 tps:15.79 lp:14 component: fly.main
+(22:01:19) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:2 tag:sam (+5) | vl:5 ping:55 tps:20.0 lp:14 component: fly.main
+(22:01:19) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:3 tag:sam (+5) | vl:10 ping:51 tps:20.0 lp:14 component: fly.main
+(22:01:19) kittytechie failed Fly check | suspicious movement:0.2 predict:0.17 vel:0.0 air_t:3 tag:vt (+5) | vl:15 ping:51 tps:20.0 lp:14 component: fly.main
+(22:01:19) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:4 tag:sam (+5) | vl:20 ping:51 tps:20.0 lp:14 component: fly.main
+(22:01:19) kittytechie failed Fly check | suspicious movement:0.2 predict:0.088 vel:-0.078 air_t:4 tag:vt (+5) | vl:25 ping:51 tps:20.0 lp:14 component: fly.main
+(22:01:20) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:5 tag:sam (+5) | vl:30 ping:51 tps:20.0 lp:14 component: fly.main
+(22:01:20) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:6 tag:sam (+5) | vl:35 ping:51 tps:20.0 lp:14 component: fly.main
+(22:01:20) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:7 tag:sam (+5) | vl:40 ping:51 tps:20.0 lp:14 component: fly.main
+(22:01:20) kittytechie failed Fly check | suspicious movement:0.2 predict:0.118 air_t:8 tag:sam (+5) | vl:45 ping:51 tps:20.0 lp:14 component: fly.main
+(22:02:45) UsualSpace failed Block check | no swing after place block | STONE (+1) | vl:1 ping:59 tps:20.0 lp:10 component: block.noswing
+(22:04:34) kittytechie failed HitBox check | missed entity hitbox (entity: salmon, angle: 80.023, move: true) (+2) | vl:2 ping:54 tps:20.0 lp:5 component: hb.mis
+(22:04:35) kittytechie failed Jesus check | liquid speed (speed: 0.242, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:3 ping:54 tps:20.0 lp:5 component: jesus.speed.in
+(22:04:35) kittytechie failed Jesus check | liquid speed (speed: 0.237, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:6 ping:54 tps:20.0 lp:5 component: jesus.speed.in
+(22:04:35) kittytechie failed Jesus check | liquid speed (speed: 0.233, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:9 ping:54 tps:20.0 lp:5 component: jesus.speed.in
+(22:04:35) kittytechie failed Jesus check | liquid speed (speed: 0.229, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:12 ping:54 tps:20.0 lp:5 component: jesus.speed.in
+(22:04:35) kittytechie failed Jesus check | liquid speed (speed: 0.226, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:15 ping:54 tps:20.0 lp:5 component: jesus.speed.in
+(22:04:35) kittytechie failed Jesus check | liquid speed (speed: 0.223, expect:0.21, dmg: false, flw:false, module: in) (+3) | vl:18 ping:54 tps:20.0 lp:5 component: jesus.speed.in
+(22:06:45) UsualSpace failed Chat check | chat too fast | delay: 2822 (+1) | vl:1 ping:71 tps:20.0 lp:7 component: chat.delay
+(22:07:23) UsualSpace failed Jesus check | move vertically too fast (motion: -0.652, expect: 0.6000000000000001, module: vertical) (+5) | vl:5 ping:58 tps:20.0 lp:10 component: jesus.ver
+(22:09:28) UsualSpace failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:61 tps:20.0 lp:2 component: interact.through
+(22:09:32) ChuckInAllen failed Jesus check | suspicious movement in liquid (motion: 0.125,0.0,-0.124, down: WATER, vel: -0.517, module: solid) (+5) | vl:5 ping:34 tps:19.99 lp:10 component: jesus.solid
+(22:09:32) ChuckInAllen failed Jesus check | suspicious movement in liquid (motion: 0.137,0.0,-0.138, down: WATER, vel: -0.585, module: solid) (+5) | vl:10 ping:34 tps:19.99 lp:10 component: jesus.solid
+(22:09:32) ChuckInAllen failed Jesus check | suspicious movement in liquid (motion: 0.142,0.0,-0.146, down: WATER, vel: -0.652, module: solid) (+5) | vl:15 ping:34 tps:19.99 lp:10 component: jesus.solid
+(22:09:32) ChuckInAllen failed Jesus check | suspicious movement in liquid (motion: 0.144,0.42,-0.152, down: WATER, vel: -0.717, module: solid) (+5) | vl:20 ping:34 tps:19.99 lp:10 component: jesus.solid
+(22:09:33) Execute command: matrix notify ChuckInAllen tried to move illegally in liquid (Jesus)
+(22:11:16) kittytechie failed Jesus check | liquid speed (speed: 0.122, expect:0.12, dmg: false, flw:false, module: in) (+3) | vl:3 ping:55 tps:20.0 lp:4 component: jesus.speed.in
+(22:11:39) kittytechie failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.406, ver: 16) (+2) | vl:2 ping:56 tps:19.61 lp:23 component: heal
+(22:11:40) kittytechie failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.371, ver: 16) (+2) | vl:4 ping:56 tps:20.0 lp:17 component: heal
+(22:11:40) kittytechie failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.403, ver: 16) (+2) | vl:6 ping:56 tps:20.0 lp:17 component: heal
+(22:11:40) kittytechie failed FastHeal check | regen health too fast (difficulty: easy, delay: 0.4, ver: 16) (+2) | vl:8 ping:56 tps:20.0 lp:12 component: heal
+(22:12:14) kittytechie failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:72 tps:20.0 lp:3 component: interact.through
+(22:12:51) kittytechie failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:59 tps:20.0 lp:3 component: interact.through
+(22:13:12) kittytechie failed HitBox check | missed entity hitbox (entity: trader_llama, angle: 51.415, move: true) (+1) | vl:1 ping:55 tps:20.0 lp:4 component: hb.mis
+(22:28:39) kavcat failed Speed check | suspicious movement (move: 0.432, expect: 0.429, g_tk:1, tag: b) (+8) | vl:8 ping:57 tps:20.0 lp:6 component: speed.main
+(22:47:14) ChuckInAllen failed BadPackets check | (timer) moved too many times (timer: 1.057, t:946, buffer:20, tag: timer) (+5) | vl:5 ping:212 tps:20.0 lp:41 component: net.timer
+(22:55:20) ChuckInAllen failed Scaffold check | scaffold-like placement | type A (+1) | vl:1 ping:39 tps:20.0 lp:11 component: sfd.place.a
+(23:03:02) kittytechie failed Block check | break block without delay (+4) | vl:4 ping:48 tps:20.0 lp:5 component: blk.fb.dly
+(23:29:39) SirPineappleIII failed Chat check | chat too fast | delay: 2169 (+1) | vl:1 ping:59 tps:20.0 lp:7 component: chat.delay
+(23:35:19) SirPineappleIII failed Chat check | chat too fast | delay: 2446 (+1) | vl:1 ping:51 tps:19.8 lp:3 component: chat.delay
+(23:41:09) UsualSpace failed Speed check | t: spin (+10) | vl:10 ping:55 tps:20.0 lp:12 component: speed.spin
+(23:41:12) UsualSpace failed HitBox check | missed entity hitbox (entity: wolf, angle: 43.227, move: true) (+1) | vl:1 ping:56 tps:20.0 lp:5 component: hb.mis
+(23:41:54) UsualSpace failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:56 tps:20.0 lp:4 component: interact.through
+(23:44:49) UsualSpace failed Interact check | interact block through solid (through: STONE, block:CHEST) (+1) | vl:1 ping:55 tps:20.0 lp:21 component: interact.through
+(23:47:08) kittytechie failed Velocity check | (respond) ignore server velocity: 0.325,0.361,0.233 (+5) | vl:5 ping:57 tps:19.98 lp:6 component: vel.expect
+(23:47:52) UsualSpace failed Speed check | suspicious movement (move: 0.715, predict: 0.539, friction: 0.6, ground:true, motY: 0.42, increase:0.768, preMove:0.209, motion: 0.658,0.42,-0.279, attribute: 0.13, cm: false, di: true, tag: pred) (+5) | vl:5 ping:58 tps:20.0 lp:1 component: move.xz
+(23:47:53) UsualSpace failed Velocity check | (respond) ignore server velocity: 0.432,0.361,-0.073 (+5) | vl:5 ping:58 tps:20.0 lp:1 component: vel.expect
+(23:48:00) UsualSpace failed Speed check | suspicious movement (move: 0.615, predict: 0.583, friction: 0.6, ground:true, motY: 0.42, increase:0.751, preMove:0.253, motion: -0.521,0.42,-0.327, attribute: 0.13, cm: false, di: true, tag: pred) (+5) | vl:10 ping:57 tps:20.0 lp:5 component: move.xz
+(23:48:01) UsualSpace failed Velocity check | (respond) ignore server velocity: -0.217,0.361,-0.361 (+5) | vl:10 ping:57 tps:20.0 lp:4 component: vel.expect
+(23:48:01) Execute command: matrix notify UsualSpace tried to ignore server velocity (Velocity)
+(23:48:04) UsualSpace failed Fly check | suspicious movement:0.571 predict:-0.351 air:9 tag:dmf (+10) | vl:10 ping:57 tps:20.0 lp:1 component: fly.main
+(23:49:43) kittytechie failed Jesus check | liquid speed (speed: 0.12, expect:0.12, dmg: false, flw:false, module: in) (+3) | vl:3 ping:143 tps:20.0 lp:6 component: jesus.speed.in
+(23:49:51) UsualSpace failed KillAura check | (onehit) attack in an abnormal state (pattern: #07, val: 146.88063, val2: 146.88063) (+4) | vl:4 ping:55 tps:19.99 lp:4 component: ka.one.7
+(23:55:17) kittytechie failed HitBox check | missed entity hitbox (entity: skeleton, angle: 40.181, move: true) (+1) | vl:1 ping:48 tps:19.99 lp:6 component: hb.mis
+(23:55:17) kittytechie failed HitBox check | missed entity hitbox (entity: skeleton, angle: 64.816, move: true) (+2) | vl:3 ping:48 tps:19.99 lp:6 component: hb.mis

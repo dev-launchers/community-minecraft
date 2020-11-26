@@ -665,6 +665,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2020-11-24 22:42:03 -0500"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2020-05-08 21:13:13 -0400"
@@ -838,6 +844,7 @@
       "minecraft:magma_cube": "2020-05-09 22:09:02 -0400",
       "minecraft:spider": "2020-05-08 22:05:35 -0400",
       "minecraft:creeper": "2020-05-09 17:09:19 -0400",
+      "minecraft:wither": "2020-11-23 22:53:14 -0500",
       "minecraft:slime": "2020-05-12 15:19:15 -0400",
       "minecraft:evoker": "2020-05-22 16:02:03 -0400",
       "minecraft:phantom": "2020-05-24 17:53:35 -0400",
@@ -895,6 +902,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2020-05-09 13:01:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_banner": {
+    "criteria": {
+      "has_yellow_wool": "2020-11-25 13:13:37 -0500"
     },
     "done": true
   },
@@ -1036,6 +1049,12 @@
   "minecraft:recipes/building_blocks/cyan_terracotta": {
     "criteria": {
       "has_terracotta": "2020-05-29 13:19:20 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed": {
+    "criteria": {
+      "has_yellow_wool": "2020-11-25 13:13:37 -0500"
     },
     "done": true
   },
@@ -1228,6 +1247,12 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-05-09 19:42:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2020-11-23 23:03:13 -0500"
     },
     "done": true
   },
@@ -1857,6 +1882,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2020-11-25 13:51:51 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cut_sandstone_slab": {
     "criteria": {
       "has_cut_sandstone": "2020-05-09 23:22:47 -0400"
@@ -1956,6 +1987,12 @@
   "minecraft:recipes/decorations/acacia_sign": {
     "criteria": {
       "has_acacia_planks": "2020-05-10 17:26:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_carpet": {
+    "criteria": {
+      "has_yellow_wool": "2020-11-25 13:13:37 -0500"
     },
     "done": true
   },
@@ -2431,6 +2468,12 @@
     },
     "done": true
   },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2020-11-23 22:52:40 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2020-05-20 20:45:54 -0400"
@@ -2821,6 +2864,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2020-05-09 12:59:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2020-11-23 22:53:16 -0500"
     },
     "done": true
   },

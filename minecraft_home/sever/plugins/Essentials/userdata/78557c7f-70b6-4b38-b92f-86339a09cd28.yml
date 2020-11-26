@@ -1,15 +1,16 @@
 lastAccountName: UsualSpace
 timestamps:
-  login: 1606099475802
-  logout: 1606100302024
+  login: 1606284885254
+  logout: 1606286551234
+  jail: 0
 ipAddress: 10.1.76.1
 logoutlocation:
   world: world
-  x: 4870.038339383652
-  y: 68.0
-  z: 4901.7018871774835
-  yaw: -237.61908
-  pitch: 27.450417
+  x: 4740.096341140682
+  y: 68.79673560066871
+  z: 4891.805373721378
+  yaw: -91.26318
+  pitch: 31.350098
 lastlocation:
   world: world
   x: 5008.036095498301
@@ -17,3 +18,4 @@ lastlocation:
   z: 5035.847925222684
   yaw: -10.006165
   pitch: 32.10019
+jailed: false
