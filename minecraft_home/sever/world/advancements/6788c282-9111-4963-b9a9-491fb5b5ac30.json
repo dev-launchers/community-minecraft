@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2020-11-26 00:24:44 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2020-11-22 18:42:19 -0500"
@@ -533,6 +539,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2020-11-26 00:24:44 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2020-11-23 13:11:20 -0500"
@@ -758,6 +770,12 @@
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2020-11-23 15:26:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2020-11-26 00:23:30 -0500"
     },
     "done": true
   },
@@ -1293,6 +1311,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2020-11-26 00:24:44 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2020-11-22 18:53:57 -0500"
@@ -1413,6 +1437,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2020-11-26 00:24:44 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2020-11-23 13:11:20 -0500"
@@ -1495,6 +1525,12 @@
   "minecraft:recipes/building_blocks/diorite_slab": {
     "criteria": {
       "has_diorite": "2020-11-22 19:58:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2020-11-26 00:24:44 -0500"
     },
     "done": true
   },
@@ -1711,6 +1747,12 @@
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2020-11-23 13:17:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2020-11-26 00:24:44 -0500"
     },
     "done": true
   },
@@ -1954,6 +1996,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2020-11-26 00:24:44 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2020-11-23 13:41:21 -0500"
@@ -2020,9 +2068,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2020-11-26 00:24:44 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2020-11-22 20:11:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2020-11-26 00:24:44 -0500"
     },
     "done": true
   },
@@ -2358,7 +2418,9 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "textures/entity/cat/jellie.png": "2020-11-23 23:20:52 -0500"
+      "textures/entity/cat/jellie.png": "2020-11-23 23:20:52 -0500",
+      "textures/entity/cat/siamese.png": "2020-11-26 11:16:55 -0500",
+      "textures/entity/cat/ragdoll.png": "2020-11-26 15:27:55 -0500"
     },
     "done": false
   },
@@ -2383,6 +2445,12 @@
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2020-11-23 23:32:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2020-11-26 01:22:08 -0500"
     },
     "done": true
   },

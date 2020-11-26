@@ -1,7 +1,7 @@
 lastAccountName: justapiccplayer
 timestamps:
-  login: 1606172215551
-  logout: 1606178432932
+  login: 1606418160193
+  logout: 1606426685271
 ipAddress: 10.1.76.1
 logoutlocation:
   world: world
@@ -10,3 +10,10 @@ logoutlocation:
   z: 5131.412262456279
   yaw: -224.49335
   pitch: 4.9497766
+lastlocation:
+  world: world
+  x: 4574.662048127672
+  y: 65.0
+  z: 5111.705834056616
+  yaw: 95.40371
+  pitch: 7.799962

@@ -1,15 +1,15 @@
 lastAccountName: SirPineappleIII
 timestamps:
-  login: 1606343564536
-  logout: 1606343728561
+  login: 1606358629760
+  logout: 1606359933463
 ipAddress: 10.1.76.1
 logoutlocation:
   world: world
-  x: 4684.685424423173
-  y: 69.5
-  z: 4859.46055598109
-  yaw: 206.59192
-  pitch: 23.435986
+  x: 5005.559666615422
+  y: 63.0
+  z: 5042.631274294893
+  yaw: -178.00165
+  pitch: 16.94434
 lastlocation:
   world: world
   x: 4852.156615130329

@@ -398,6 +398,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2020-11-15 23:40:55 -0500",
+      "sweet_berries": "2020-11-26 00:49:20 -0500",
       "cooked_beef": "2020-11-15 22:42:44 -0500",
       "baked_potato": "2020-11-18 14:13:52 -0500",
       "apple": "2020-11-24 18:10:44 -0500",
@@ -549,6 +550,12 @@
   "minecraft:recipes/decorations/magenta_carpet": {
     "criteria": {
       "has_magenta_wool": "2020-11-24 13:39:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2020-11-26 00:34:37 -0500"
     },
     "done": true
   },
@@ -1524,6 +1531,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2020-11-26 00:34:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2020-11-26 00:58:19 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2020-11-15 23:35:48 -0500"
@@ -1892,6 +1911,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2020-11-26 00:33:31 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2020-11-15 22:35:15 -0500"
@@ -1955,6 +1980,12 @@
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2020-11-15 23:10:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2020-11-26 00:24:46 -0500"
     },
     "done": true
   },

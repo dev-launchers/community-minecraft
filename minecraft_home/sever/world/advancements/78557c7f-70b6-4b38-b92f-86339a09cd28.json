@@ -596,6 +596,12 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2020-11-26 00:32:53 -0500"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2020-11-09 23:13:20 -0500"
@@ -1215,6 +1221,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2020-11-26 00:32:55 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
       "has_white_wool": "2020-11-13 22:21:54 -0500"
@@ -1736,6 +1748,12 @@
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2020-11-13 00:45:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2020-11-26 00:32:55 -0500"
     },
     "done": true
   },

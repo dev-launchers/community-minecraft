@@ -1,7 +1,7 @@
 lastAccountName: ChuckInAllen
 timestamps:
-  login: 1606280629495
-  logout: 1606280689345
+  login: 1606361090479
+  logout: 1606363958649
   jail: 0
 ipAddress: 10.1.76.1
 lastlocation:
@@ -13,9 +13,9 @@ lastlocation:
   pitch: 12.299938
 logoutlocation:
   world: world
-  x: 4673.9205804175235
-  y: 65.9375
-  z: 4905.69649125428
-  yaw: 182.20544
-  pitch: 10.649885
+  x: 4772.300000011921
+  y: 64.0
+  z: 5037.386300251077
+  yaw: 63.30967
+  pitch: 16.649988
 jailed: false

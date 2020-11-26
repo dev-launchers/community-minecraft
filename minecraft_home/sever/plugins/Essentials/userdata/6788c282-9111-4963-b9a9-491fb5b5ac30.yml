@@ -1,21 +1,21 @@
 lastAccountName: kittytechie
 timestamps:
-  login: 1606339671885
-  logout: 1606347225592
+  login: 1606417805846
+  logout: 1606423017077
   jail: 0
 ipAddress: 10.1.76.1
 lastlocation:
   world: world
-  x: 5552.207556818536
-  y: 74.00133597911214
-  z: 4259.395929682207
-  yaw: -229.3485
-  pitch: 36.299873
+  x: 4660.795808081321
+  y: 78.0
+  z: 4739.345837353688
+  yaw: -80.5448
+  pitch: 29.250072
 logoutlocation:
   world: world
-  x: 4704.7522646083635
-  y: 69.43717636799826
-  z: 4857.668067603763
-  yaw: -113.50647
-  pitch: 38.099968
+  x: 4711.769910791652
+  y: 69.0
+  z: 4876.274644945357
+  yaw: -219.43457
+  pitch: 13.800109
 jailed: false

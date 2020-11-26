@@ -1,19 +1,21 @@
 lastAccountName: Hextanium
 timestamps:
-  login: 1606348749124
-  logout: 1606348774348
+  login: 1606419541739
+  logout: 1606420306158
+  jail: 0
 ipAddress: 10.1.76.1
 lastlocation:
   world: world
-  x: 5029.812508180134
-  y: 69.0
-  z: 5106.8730866155765
-  yaw: 111.19852
-  pitch: 22.416069
+  x: 5164.699999988079
+  y: 42.0
+  z: 4718.300000011921
+  yaw: 340.0924
+  pitch: 45.14879
 logoutlocation:
   world: world
-  x: 4970.5
-  y: 63.0
-  z: 5136.5
-  yaw: 341.2437
-  pitch: 0.0
+  x: 4759.754085903743
+  y: 71.0
+  z: 4800.801367609193
+  yaw: 49.184814
+  pitch: 28.560064
+jailed: false
