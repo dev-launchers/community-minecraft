@@ -699,6 +699,7 @@
       "minecraft:phantom": "2020-11-10 02:58:33 -0500",
       "minecraft:zombified_piglin": "2020-11-08 22:15:55 -0500",
       "minecraft:witch": "2020-11-22 23:57:43 -0500",
+      "minecraft:piglin": "2020-11-27 19:36:24 -0500",
       "minecraft:enderman": "2020-11-10 04:59:47 -0500",
       "minecraft:zombie": "2020-11-08 02:33:30 -0500",
       "minecraft:drowned": "2020-11-08 03:00:08 -0500",
@@ -2058,6 +2059,7 @@
       "baked_potato": "2020-11-20 06:22:57 -0500",
       "porkchop": "2020-11-13 22:00:20 -0500",
       "apple": "2020-11-08 01:32:40 -0500",
+      "potato": "2020-11-27 19:51:39 -0500",
       "mutton": "2020-11-21 05:20:06 -0500",
       "bread": "2020-11-08 19:01:25 -0500",
       "rotten_flesh": "2020-11-08 01:54:23 -0500",
@@ -3091,6 +3093,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2020-11-27 19:33:54 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_slab": {
     "criteria": {
       "has_polished_granite": "2020-11-08 17:53:59 -0500"
@@ -3364,6 +3372,12 @@
   "minecraft:recipes/building_blocks/stripped_spruce_wood": {
     "criteria": {
       "has_log": "2020-11-12 21:26:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2020-11-27 19:33:54 -0500"
     },
     "done": true
   },

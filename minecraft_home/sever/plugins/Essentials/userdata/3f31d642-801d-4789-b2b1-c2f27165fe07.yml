@@ -1,23 +1,23 @@
 lastAccountName: seesta
 timestamps:
-  login: 1606418938696
-  logout: 1606426685272
+  login: 1606534185569
+  logout: 1606534412195
   jail: 0
 ipAddress: 10.1.76.1
 logoutlocation:
   world: world
-  x: 4791.945119156224
-  y: 81.5
-  z: 4802.701626142125
-  yaw: 91.82178
-  pitch: 25.049404
+  x: 9445.28451492963
+  y: 62.52326442898498
+  z: 6822.321649490204
+  yaw: 72.77582
+  pitch: 12.750477
 lastlocation:
   world: world
-  x: 4661.300000011921
-  y: 64.0
-  z: 4856.300000011921
-  yaw: 356.69434
-  pitch: 48.90068
+  x: 9679.111439105904
+  y: 62.073264971569444
+  z: 6707.992728371721
+  yaw: 267.75928
+  pitch: 17.999863
 jailed: false
 mail:
 - §6[§rmarsboy18§6] §rsorry for that, will fix tommoro!

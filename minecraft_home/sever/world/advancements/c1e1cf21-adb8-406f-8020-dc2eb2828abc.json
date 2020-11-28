@@ -1,329 +1,458 @@
 {
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
-      "has_planks": "2020-11-13 03:38:27 +0000"
+      "has_planks": "2020-11-12 22:38:27 -0500"
     },
     "done": true
   },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
-      "has_stick": "2020-11-13 03:38:42 +0000"
+      "has_stick": "2020-11-12 22:38:42 -0500"
     },
     "done": true
   },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2020-11-27 21:40:22 -0500"
     },
     "done": true
   },
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
-      "has_planks": "2020-11-13 03:38:27 +0000"
+      "has_planks": "2020-11-12 22:38:27 -0500"
     },
     "done": true
   },
   "minecraft:recipes/misc/paper": {
     "criteria": {
-      "has_reeds": "2020-11-13 03:34:43 +0000"
+      "has_reeds": "2020-11-12 22:34:43 -0500"
     },
     "done": true
   },
   "minecraft:story/mine_stone": {
     "criteria": {
-      "get_stone": "2020-11-13 03:38:47 +0000"
+      "get_stone": "2020-11-12 22:38:47 -0500"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
     },
     "done": true
   },
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2020-11-13 03:29:33 +0000",
-      "minecraft:deep_cold_ocean": "2020-11-13 03:29:24 +0000",
-      "minecraft:beach": "2020-11-13 03:29:01 +0000",
-      "minecraft:river": "2020-11-13 03:29:26 +0000",
-      "minecraft:wooded_hills": "2020-11-13 03:30:52 +0000"
+      "minecraft:cold_ocean": "2020-11-27 21:39:17 -0500",
+      "minecraft:forest": "2020-11-12 22:29:33 -0500",
+      "minecraft:deep_cold_ocean": "2020-11-12 22:29:24 -0500",
+      "minecraft:beach": "2020-11-12 22:29:01 -0500",
+      "minecraft:river": "2020-11-12 22:29:26 -0500",
+      "minecraft:wooded_hills": "2020-11-12 22:30:52 -0500",
+      "minecraft:plains": "2020-11-27 21:39:34 -0500"
     },
     "done": false
   },
-  "minecraft:recipes/decorations/campfire": {
+  "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
-      "has_stick": "2020-11-13 03:38:42 +0000"
+      "has_planks": "2020-11-27 21:44:56 -0500"
     },
     "done": true
   },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
-      "has_log": "2020-11-13 03:33:49 +0000"
+      "has_log": "2020-11-12 22:33:49 -0500"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "has_planks": "2020-11-13 03:38:27 +0000"
+      "has_planks": "2020-11-12 22:38:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2020-11-12 22:38:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2020-11-27 21:35:57 -0500"
     },
     "done": true
   },
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
-      "has_the_recipe": "2020-11-13 03:38:40 +0000"
+      "has_the_recipe": "2020-11-12 22:38:40 -0500"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
     },
     "done": true
   },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
-      "has_stick": "2020-11-13 03:38:42 +0000"
+      "has_stick": "2020-11-12 22:38:42 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "has_lots_of_items": "2020-11-13 03:39:36 +0000"
+      "consumed_item": "2020-11-27 21:35:44 -0500"
     },
     "done": true
   },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "in_water": "2020-11-13 03:29:07 +0000"
+      "in_water": "2020-11-12 22:29:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-11-12 22:39:36 -0500"
     },
     "done": true
   },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2020-11-27 21:44:56 -0500"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
-      "has_planks": "2020-11-13 03:38:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall": {
-    "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_planks": "2020-11-12 22:38:27 -0500"
     },
     "done": true
   },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
-      "has_planks": "2020-11-13 03:38:27 +0000"
+      "has_planks": "2020-11-12 22:38:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
     },
     "done": true
   },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
-      "has_stick": "2020-11-13 03:38:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/torch": {
-    "criteria": {
-      "has_stone_pickaxe": "2020-11-13 03:38:58 +0000"
+      "has_stick": "2020-11-12 22:38:42 -0500"
     },
     "done": true
   },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "in_water": "2020-11-13 03:29:07 +0000"
+      "in_water": "2020-11-12 22:29:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2020-11-12 22:38:58 -0500"
     },
     "done": true
   },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
     },
     "done": true
   },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
-      "has_planks": "2020-11-13 03:38:27 +0000"
+      "has_planks": "2020-11-12 22:38:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_birch_planks": "2020-11-27 21:44:56 -0500"
     },
     "done": true
   },
   "minecraft:recipes/misc/stick": {
     "criteria": {
-      "has_planks": "2020-11-13 03:38:27 +0000"
+      "has_planks": "2020-11-12 22:38:27 -0500"
     },
     "done": true
   },
   "minecraft:adventure/root": {
     "criteria": {
-      "killed_by_something": "2020-11-13 03:33:03 +0000"
+      "killed_by_something": "2020-11-12 22:33:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2020-11-27 21:36:07 -0500"
     },
     "done": true
   },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "in_water": "2020-11-13 03:29:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "in_water": "2020-11-12 22:29:07 -0500"
     },
     "done": true
   },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "in_water": "2020-11-13 03:29:07 +0000"
+      "in_water": "2020-11-12 22:29:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2020-11-27 21:44:56 -0500"
     },
     "done": true
   },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
-      "has_stick": "2020-11-13 03:38:42 +0000"
+      "has_stick": "2020-11-12 22:38:42 -0500"
     },
     "done": true
   },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
-      "has_logs": "2020-11-13 03:33:49 +0000"
+      "has_logs": "2020-11-12 22:33:49 -0500"
     },
     "done": true
   },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
     },
     "done": true
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "in_water": "2020-11-13 03:29:07 +0000"
+      "in_water": "2020-11-12 22:29:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2020-11-27 21:35:42 -0500"
     },
     "done": true
   },
   "minecraft:recipes/food/cake": {
     "criteria": {
-      "has_egg": "2020-11-13 03:34:24 +0000"
+      "has_egg": "2020-11-12 22:34:24 -0500"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2020-11-27 21:40:22 -0500"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
-      "has_reeds": "2020-11-13 03:34:43 +0000"
+      "has_reeds": "2020-11-12 22:34:43 -0500"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2020-11-27 21:44:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "potato": "2020-11-27 21:35:44 -0500",
+      "bread": "2020-11-27 21:36:35 -0500"
+    },
+    "done": false
+  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
-      "has_stick": "2020-11-13 03:38:42 +0000"
+      "has_stick": "2020-11-12 22:38:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-11-27 21:44:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2020-11-27 21:35:42 -0500"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
     },
     "done": true
   },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
-      "has_planks": "2020-11-13 03:38:27 +0000"
+      "has_planks": "2020-11-12 22:38:27 -0500"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2020-11-27 21:44:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2020-11-27 21:44:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2020-11-27 21:44:56 -0500"
     },
     "done": true
   },
   "minecraft:story/upgrade_tools": {
     "criteria": {
-      "stone_pickaxe": "2020-11-13 03:38:58 +0000"
+      "stone_pickaxe": "2020-11-12 22:38:58 -0500"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
-      "has_log": "2020-11-13 03:33:49 +0000"
+      "has_log": "2020-11-12 22:33:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-11-27 21:44:56 -0500"
     },
     "done": true
   },
   "minecraft:story/root": {
     "criteria": {
-      "crafting_table": "2020-11-13 03:38:30 +0000"
+      "crafting_table": "2020-11-12 22:38:30 -0500"
     },
     "done": true
   },
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
-      "has_planks": "2020-11-13 03:38:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_stick": "2020-11-13 03:38:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/crossbow": {
-    "criteria": {
-      "has_stick": "2020-11-13 03:38:42 +0000"
+      "has_planks": "2020-11-12 22:38:27 -0500"
     },
     "done": true
   },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "in_water": "2020-11-13 03:29:07 +0000"
+      "in_water": "2020-11-12 22:29:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2020-11-12 22:38:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2020-11-12 22:38:42 -0500"
     },
     "done": true
   },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
-      "has_cobblestone": "2020-11-13 03:38:47 +0000"
+      "has_cobblestone": "2020-11-12 22:38:47 -0500"
     },
     "done": true
   },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
-      "has_oak_planks": "2020-11-13 03:38:27 +0000"
+      "has_oak_planks": "2020-11-12 22:38:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2020-11-27 21:44:56 -0500"
     },
     "done": true
   },
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
-      "has_planks": "2020-11-13 03:38:27 +0000"
+      "has_planks": "2020-11-12 22:38:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2020-11-27 21:35:42 -0500"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
-      "has_planks": "2020-11-13 03:38:27 +0000"
+      "has_planks": "2020-11-12 22:38:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2020-11-27 21:35:57 -0500"
     },
     "done": true
   },

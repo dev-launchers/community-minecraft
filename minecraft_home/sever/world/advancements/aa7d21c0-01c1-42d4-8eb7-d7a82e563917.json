@@ -373,12 +373,15 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "chicken": "2020-11-26 18:03:03 -0500",
       "cooked_mutton": "2020-11-18 16:50:50 -0500",
+      "sweet_berries": "2020-11-26 17:13:44 -0500",
       "cooked_beef": "2020-11-24 16:54:30 -0500",
       "mutton": "2020-11-24 16:29:31 -0500",
       "bread": "2020-11-24 17:43:43 -0500",
       "rotten_flesh": "2020-11-23 17:32:07 -0500",
-      "cooked_chicken": "2020-11-19 16:45:50 -0500"
+      "cooked_chicken": "2020-11-19 16:45:50 -0500",
+      "cooked_salmon": "2020-11-26 18:14:43 -0500"
     },
     "done": false
   },
@@ -1956,6 +1959,12 @@
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_iron_block": "2020-11-25 13:01:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2020-11-26 17:19:26 -0500"
     },
     "done": true
   },
