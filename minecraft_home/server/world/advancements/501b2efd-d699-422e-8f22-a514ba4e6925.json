@@ -143,6 +143,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2020-11-29 19:24:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2020-11-29 18:36:14 +0000"
@@ -515,6 +521,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2020-11-29 19:24:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2020-11-29 18:48:20 +0000"
@@ -554,6 +566,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2020-11-29 17:47:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2020-11-29 19:34:51 +0000"
     },
     "done": true
   },
@@ -896,6 +914,7 @@
     "criteria": {
       "minecraft:skeleton": "2020-11-29 18:37:30 +0000",
       "minecraft:spider": "2020-11-29 18:52:26 +0000",
+      "minecraft:zombie": "2020-11-29 19:33:26 +0000",
       "minecraft:drowned": "2020-11-29 19:09:39 +0000"
     },
     "done": false
@@ -954,6 +973,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2020-11-29 19:34:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2020-11-29 18:42:57 +0000"
@@ -987,6 +1012,12 @@
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2020-11-29 18:42:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2020-11-29 19:34:51 +0000"
     },
     "done": true
   },
