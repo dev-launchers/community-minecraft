@@ -1,15 +1,15 @@
 lastAccountName: StevoDasher101
 timestamps:
   login: 1606604991599
-  logout: 1606533445920
+  logout: 1606605890833
 ipAddress: 10.1.76.1
 logoutlocation:
   world: world
-  x: 4706.937131730738
-  y: 74.1595229270393
-  z: 4793.907064444851
-  yaw: 281.39163
-  pitch: 19.350447
+  x: 4725.802951895208
+  y: 82.0
+  z: 4780.55101123484
+  yaw: -79.79767
+  pitch: 53.550476
 lastlocation:
   world: world
   x: 4730.581351363523

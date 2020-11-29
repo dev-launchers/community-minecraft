@@ -6,11 +6,11 @@ timestamps:
 ipAddress: 10.1.76.1
 lastlocation:
   world: world
-  x: 4805.910827253577
-  y: 63.0
-  z: 4836.603124433087
-  yaw: 65.09906
-  pitch: 4.800012
+  x: 4806.029570539853
+  y: 65.0
+  z: 4833.8721636974815
+  yaw: -273.00104
+  pitch: -2.2500525
 logoutlocation:
   world: world
   x: 4808.9646517706005
