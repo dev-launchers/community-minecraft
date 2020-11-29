@@ -12,3 +12,5 @@ apt-get install git -y
 git config --global --unset core.autocrlf
 java -jar BuildTools.jar
 (end)
+
+## We're making something amazing! Come help us build it in our [DISCORD](https://discord.io/devlaunchers)!
