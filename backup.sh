@@ -14,7 +14,7 @@ git config --global user.name "dev-launchers-backup"
 while true; do
 echo "Preparing backup"
 git checkout cron-backup
-git add sever
+git add server
 git commit -m "Backup ${date}"
 git push -f origin cron-backup
 sleep ${BACKUP_FREQ}

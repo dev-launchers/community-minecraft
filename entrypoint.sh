@@ -1,6 +1,8 @@
 #!/bin/bash
 service ssh restart
 
-/minecraft/backup.sh &> /minecraft/backup.txt &
+/minecraft/community-minecraft/backup.sh &> /minecraft/community-minecraft/backup.log &
 
-/minecraft/community-minecraft/minecraft_home/sever/start.sh
+# go to /minecraft/community-minecraft/minecraft_home/server/ because eula.txt and start.sh needs to be in the same directory
+cd /minecraft/community-minecraft/minecraft_home/server/
+/minecraft/community-minecraft/minecraft_home/server/start.sh
