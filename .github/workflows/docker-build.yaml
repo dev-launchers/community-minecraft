@@ -8,6 +8,7 @@ on:
       - 'build.txt'
       - 'minecraft_home'
       - 'Dockerfile'
+      - 'backup.sh'
       - 'entrypoint.sh'
 jobs:
   build:
