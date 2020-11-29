@@ -47,6 +47,3 @@ spec:
         secret:
           defaultMode: 0400
           secretName: ssh-config
-          items:
-          - key: authorized_keys
-            path: authorized_keys
