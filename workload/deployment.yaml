@@ -29,6 +29,9 @@ spec:
           protocol: UDP
         - containerPort: 22
           protocol: TCP
+        env:
+        - name: BACKUP_FREQ
+          value: "1800"
         resources:
           limits:
             cpu: 5000m
@@ -38,7 +41,7 @@ spec:
             memory: 2048Mi
         volumeMounts:
         - name: ssh-config
-          mountPath: "/root/.ssh"
+          mountPath: "/root/ssh-config"
       volumes:
       - name: ssh-config
         secret:
