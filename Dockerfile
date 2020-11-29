@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
-WORKDIR /minecraft
 COPY entrypoint.sh .
+COPY backup.sh .
 RUN apt update -y && apt install -y openssh-server default-jdk wget git
 RUN git clone https://github.com/dev-launchers-sandbox/community-minecraft.git
 WORKDIR /minecraft/community-minecraft/minecraft_home/sever/
