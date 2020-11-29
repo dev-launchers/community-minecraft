@@ -15,7 +15,8 @@ while true; do
 echo "Preparing backup"
 git checkout cron-backup
 git add server
-git commit -m "Backup ${date}"
+DATE=$(date)
+git commit -m "Backup ${DATE}"
 git push -f origin cron-backup
 sleep ${BACKUP_FREQ}
 done; 
