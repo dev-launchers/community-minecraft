@@ -1,14 +1,14 @@
 #!/bin/bash
 service ssh restart
 
+eval `ssh-agent -s`
 cp /root/ssh-config/known_hosts /root/.ssh/known_hosts
 cp /root/ssh-config/authorized_keys /root/.ssh/authorized_keys
 cp /root/ssh-config/id_ed25519 /root/.ssh/id_ed25519
 chmod 0600 /root/.ssh/id_ed25519
-eval `ssh-agent -s`
 ssh-add /root/.ssh/id_ed25519
 
-/minecraft/community-minecraft/minecraft_home/sever/startup.sh &> server_log.txt &
+/minecraft/community-minecraft/minecraft_home/sever/start.sh  &> server_log.txt &
 
 cd /minecraft/community-minecraft/minecraft_home
 git remote set-url origin git@github.com:dev-launchers-sandbox/community-minecraft.git
