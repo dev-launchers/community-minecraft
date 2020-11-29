@@ -227,6 +227,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2020-11-29 19:52:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2020-11-29 18:03:13 +0000"
@@ -349,7 +355,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "apple": "2020-11-29 18:44:48 +0000"
+      "apple": "2020-11-29 18:44:48 +0000",
+      "bread": "2020-11-29 20:13:38 +0000"
     },
     "done": false
   },
@@ -374,6 +381,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2020-11-29 18:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2020-11-29 19:52:37 +0000"
     },
     "done": true
   },
@@ -601,6 +614,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:sheep": "2020-11-29 19:52:06 +0000",
+      "minecraft:cow": "2020-11-29 19:52:11 +0000",
       "minecraft:chicken": "2020-11-29 18:13:55 +0000"
     },
     "done": false
@@ -674,6 +689,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2020-11-29 18:43:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2020-11-29 20:00:30 +0000"
     },
     "done": true
   },
@@ -844,6 +865,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2020-11-29 19:52:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2020-11-29 17:46:14 +0000"
@@ -949,6 +976,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2020-11-29 20:00:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2020-11-29 19:11:51 +0000"
@@ -982,6 +1015,12 @@
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2020-11-29 18:42:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2020-11-29 20:00:30 +0000"
     },
     "done": true
   },
@@ -1096,6 +1135,12 @@
   "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-11-29 18:53:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2020-11-29 20:04:00 +0000"
     },
     "done": true
   },
