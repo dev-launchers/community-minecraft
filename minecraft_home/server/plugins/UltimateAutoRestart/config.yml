@@ -19,7 +19,7 @@
 #
 # 5: You can create timed bungee commands that will execute x seconds before the restart.
 # 5a. GENERAL FORMAT OF A TIMED BUNGEE COMMAND: '[bungee:<INTERVAL>] <COMMAND>' (e.g '[bungee:10] send skyblock lobby', will send all skyblock players to the lobby 10 seconds before the restart).
-# 
+#
 # 6: commandsAfterReboot can only be timed bukkit/bungee commands.
 
 # delayRestart Notes:
@@ -35,102 +35,102 @@ delayRestart:
   delayBySeconds: 600
   informUsersWithPermission: true
   delayNotification:
-  - '&7[RestartSystem] The restart has been delayed due to exceeding the online players
-    threshold!'
+    - "&7[RestartSystem] The restart has been delayed due to exceeding the online players
+      threshold!"
 
 settings:
   restartCommands:
-  - '[time:15] broadcastworld world 15 Secounds until restart!'
-  - save-all
-  - restart
-   #- '[bungee:20] command to execute via bungee 20 seconds before restart'
-   #- '[time:15] command to execute 15 seconds before restart'
-   #- '[time:10] command to execute 10 seconds before restart'
-   #- '[bungee] broadcast The server is restarting!'
+    - "[time:15] broadcastworld world 15 Secounds until restart!"
+    - save-all
+    - restart
+      #- '[bungee:20] command to execute via bungee 20 seconds before restart'
+      #- '[time:15] command to execute 15 seconds before restart'
+      #- '[time:10] command to execute 10 seconds before restart'
+      #- '[bungee] broadcast The server is restarting!'
   commandsAfterReboot:
-  - '[time:15] broadcastworld world Sever Reboot complete!'
-   #- '[bungee:30] command to be executed via bungee 30 seconds after server startup'
+    - "[time:15] broadcastworld world Server Reboot complete!"
+      #- '[bungee:30] command to be executed via bungee 30 seconds after server startup'
   restarts:
-  - Monday;01;00
-  - Tuesday;01;00
-  - Wednesday;01;00
-  - Thursday;01;00
-  - Friday;01;00
-  - Saturday;01;00
-  - Sunday;01;00
+    - Monday;01;00
+    - Tuesday;01;00
+    - Wednesday;01;00
+    - Thursday;01;00
+    - Friday;01;00
+    - Saturday;01;00
+    - Sunday;01;00
   messageAtIntervals:
-  - '1800'
-  - '600'
-  - '60'
-  - '30'
-  - '3'
-  - '2'
-  - '1'
+    - "1800"
+    - "600"
+    - "60"
+    - "30"
+    - "3"
+    - "2"
+    - "1"
   soundsEnabled: true
   sound: ENTITY_PLAYER_LEVELUP
   soundAtIntervals:
-  - '1800'
-  - '600'
-  - '60'
-  - '30'
-  - '3'
-  - '2'
-  - '1'
-   
+    - "1800"
+    - "600"
+    - "60"
+    - "30"
+    - "3"
+    - "2"
+    - "1"
+
 format:
   seconds: s
   second: s
-  minutes: 'm '
-  minute: 'm '
-  hours: 'h '
-  hour: 'h '
-  splitter: 'and '
-   
+  minutes: "m "
+  minute: "m "
+  hours: "h "
+  hour: "h "
+  splitter: "and "
+
 messages:
-  requestWhileNoAutoReboot: '&f&lN/A'
+  requestWhileNoAutoReboot: "&f&lN/A"
   interval:
     actionbar: false
-    actionbarMessage: '&e&nRestart:&r &fA restart will happen in &7$interval&f!'
+    actionbarMessage: "&e&nRestart:&r &fA restart will happen in &7$interval&f!"
     title: false
-    titleMessage: '&e&nRESTART!'
-    subtitleMessage: '&fA restart will happen in &7$interval&f!'
+    titleMessage: "&e&nRESTART!"
+    subtitleMessage: "&fA restart will happen in &7$interval&f!"
     chat: true
     chatMessage:
-    - '&e&nRestart:&r &fA restart will happen in &7$interval&f!'
+      - "&e&nRestart:&r &fA restart will happen in &7$interval&f!"
     console: true
-    consoleMessage: '&cUltimateAutoRestart: Server restart in &f$interval&c!'
+    consoleMessage: "&cUltimateAutoRestart: Server restart in &f$interval&c!"
   requestedInterval:
     actionbar: false
-    actionbarMessage: '&e&nRestart:&r &fA restart will happen in &7$interval&f!'
+    actionbarMessage: "&e&nRestart:&r &fA restart will happen in &7$interval&f!"
     title: false
-    titleMessage: '&e&nRESTART!'
-    subtitleMessage: '&fA restart will happen in &7$interval&f!'
+    titleMessage: "&e&nRESTART!"
+    subtitleMessage: "&fA restart will happen in &7$interval&f!"
     chat: true
     chatMessage:
-    - '&e&nRestart:&r &fA restart will happen in &7$interval&f!'
+      - "&e&nRestart:&r &fA restart will happen in &7$interval&f!"
   forceRestart:
-  - '&eRestart &f»&r &7You force started an auto-restart &f(Interval: $interval)&7!'
+    - "&eRestart &f»&r &7You force started an auto-restart &f(Interval: $interval)&7!"
   noForceInterval:
-  - '&eRestart &f»&r &7Please specify an interval!'
+    - "&eRestart &f»&r &7Please specify an interval!"
   intervalNotANumber:
-  - '&eRestart &f»&r &7Your input &f($input) &7is not a number!'
+    - "&eRestart &f»&r &7Your input &f($input) &7is not a number!"
   intervalTooSmall:
-  - '&eRestart &f»&r &7Intervals must be positive!'
+    - "&eRestart &f»&r &7Intervals must be positive!"
   stoppedReboot:
-  - '&eRestart &f»&r &7You have manually stopped the scheduled restart!'
+    - "&eRestart &f»&r &7You have manually stopped the scheduled restart!"
   autoRebootNotOn:
-  - '&eRestart &f»&r &7Could not stop the scheduled restart because the task is currently
-    not running!'
+    - "&eRestart &f»&r &7Could not stop the scheduled restart because the task is currently
+      not running!"
   noPermission:
-  - '&eRestart &f»&r &7You do not have permission to do this!'
+    - "&eRestart &f»&r &7You do not have permission to do this!"
   reloadMessage:
-  - '&eRestart &f»&r &7You reloaded the plugin configuration!'
+    - "&eRestart &f»&r &7You reloaded the plugin configuration!"
 
 # Do not change this if you don't know what you're doing.
 # Changing this will require you to modify timed commands, messages and sounds with values that are of the seconds (from ticks) multiplier. Example: intervalTicks = 40, will force you to use multipliers of 2 only.
 # Example: Changing this to 200 will make the interval go down by 10 every 10 seconds (instead of 1 every 1 second).
 other:
   intervalTicks: 20
-   
+
 updates:
   notifications: true

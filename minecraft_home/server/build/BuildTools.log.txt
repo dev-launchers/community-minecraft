@@ -1,6 +1,6 @@
 Loading BuildTools version: git-BuildTools-7fe9375-122 (#122)
 Java Version: Java 8
-Current Path: /minecraft_home/sever/.
+Current Path: /minecraft_home/server/.
 git version 2.25.1
 BuildTools
 unconfigured@null.spigotmc.org
@@ -19,29 +19,29 @@ Found version
 	"javaVersions": [52, 59]
 }
 
-Pulling updates for /minecraft_home/sever/BuildData/.git
+Pulling updates for /minecraft_home/server/BuildData/.git
 Successfully fetched updates!
 Checked out: b2025bdddde79aea004399ec5f3652a1bce56b7a
-Pulling updates for /minecraft_home/sever/Bukkit/.git
+Pulling updates for /minecraft_home/server/Bukkit/.git
 Successfully fetched updates!
 Checked out: 4abf9e96df578e4c842c865e50d0933ce0616938
-Pulling updates for /minecraft_home/sever/CraftBukkit/.git
+Pulling updates for /minecraft_home/server/CraftBukkit/.git
 Successfully fetched updates!
 Checked out: dea4138900788a64db46db74903cf7ed50681738
-Pulling updates for /minecraft_home/sever/Spigot/.git
+Pulling updates for /minecraft_home/server/Spigot/.git
 Successfully fetched updates!
 Checked out: 57bbdd8eb797a51960cf9a47f764b68f97d4f18c
 Attempting to build Minecraft with details: VersionInfo(minecraftVersion=1.16.3, accessTransforms=bukkit-1.16.3.at, classMappings=bukkit-1.16.3-cl.csrg, memberMappings=bukkit-1.16.3-members.csrg, packageMappings=package.srg, minecraftHash=51f363d9fdf9caf953c1fec932e50593, classMapCommand=java -jar BuildData/bin/SpecialSource-2.jar map --only . --only net/minecraft --auto-lvt BASIC --auto-member SYNTHETIC -e BuildData/mappings/bukkit-1.16.3.exclude -i {0} -m {1} -o {2}, memberMapCommand=java -jar BuildData/bin/SpecialSource-2.jar map --only . --only net/minecraft --auto-member LOGGER --auto-member TOKENS -i {0} -m {1} -o {2}, finalMapCommand=java -jar BuildData/bin/SpecialSource.jar --only . --only net/minecraft -i {0} --access-transformer {1} -m {2} -o {3}, decompileCommand=java -jar BuildData/bin/fernflower.jar -dgs=1 -hdc=0 -asc=1 -udv=0 -rsy=1 -aoa=1 {0} {1}, serverUrl=https://launcher.mojang.com/v1/objects/f02f4473dbf152c23d7d484952121db0b36698cb/server.jar, toolsVersion=105)
 Found good Minecraft hash (51f363d9fdf9caf953c1fec932e50593)
 Picked up _JAVA_OPTIONS: -Djdk.net.URLClassPath.disableClassPathURLCheck=true
 [INFO] Scanning for projects...
-[INFO] 
+[INFO]
 [INFO] ------------------< org.apache.maven:standalone-pom >-------------------
 [INFO] Building Maven Stub Project (No POM) 1
 [INFO] --------------------------------[ pom ]---------------------------------
-[INFO] 
+[INFO]
 [INFO] --- maven-install-plugin:2.4:install-file (default-cli) @ standalone-pom ---
-[INFO] Installing /minecraft_home/sever/work/mapped.b94c4521.jar to /root/.m2/repository/org/spigotmc/minecraft-server/1.16.3-SNAPSHOT/minecraft-server-1.16.3-SNAPSHOT.jar
+[INFO] Installing /minecraft_home/server/work/mapped.b94c4521.jar to /root/.m2/repository/org/spigotmc/minecraft-server/1.16.3-SNAPSHOT/minecraft-server-1.16.3-SNAPSHOT.jar
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
@@ -481,7 +481,7 @@ Patching with EntityTypes.patch
 Patching with BlockPortalShape.patch
 Patching with IChatBaseComponent.patch
 Patching with ArgumentEntity.patch
-Rebuilding Forked projects.... 
+Rebuilding Forked projects....
 Resetting Spigot-API to Bukkit...
 HEAD is now at 4abf9e96 #557: Add TNTPrimed#setSource method
   Applying patches to Spigot-API...
@@ -610,42 +610,42 @@ Picked up _JAVA_OPTIONS: -Djdk.net.URLClassPath.disableClassPathURLCheck=true
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Build Order:
-[INFO] 
+[INFO]
 [INFO] Spigot-API                                                         [jar]
 [INFO] Spigot-Parent                                                      [pom]
 [INFO] Spigot                                                             [jar]
-[INFO] 
+[INFO]
 [INFO] ----------------------< org.spigotmc:spigot-api >-----------------------
 [INFO] Building Spigot-API 1.16.3-R0.1-SNAPSHOT                           [1/3]
 [INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
+[INFO]
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spigot-api ---
-[INFO] Deleting /minecraft_home/sever/Spigot/Spigot-API/target
-[INFO] 
+[INFO] Deleting /minecraft_home/server/Spigot/Spigot-API/target
+[INFO]
 [INFO] --- scriptus:0.4.1:describe (default) @ spigot-api ---
 [INFO] Set property "describe" to "git-Spigot-API-2578e9a"
 [INFO] Set property "project.build.outputTimestamp" to "1605908093"
-[INFO] 
+[INFO]
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spigot-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /minecraft_home/sever/Spigot/Spigot-API/src/main/resources
-[INFO] 
+[INFO] skip non existing resourceDirectory /minecraft_home/server/Spigot/Spigot-API/src/main/resources
+[INFO]
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spigot-api ---
 [INFO] Changes detected - recompiling the module!
-[INFO] 
+[INFO]
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spigot-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /minecraft_home/sever/Spigot/Spigot-API/src/test/resources
-[INFO] 
+[INFO] skip non existing resourceDirectory /minecraft_home/server/Spigot/Spigot-API/src/test/resources
+[INFO]
 [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spigot-api ---
 [INFO] Changes detected - recompiling the module!
-[INFO] 
+[INFO]
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spigot-api ---
 [INFO] Tests are skipped.
-[INFO] 
+[INFO]
 [INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ spigot-api ---
-[INFO] Building jar: /minecraft_home/sever/Spigot/Spigot-API/target/spigot-api-1.16.3-R0.1-SNAPSHOT.jar
-[INFO] 
+[INFO] Building jar: /minecraft_home/server/Spigot/Spigot-API/target/spigot-api-1.16.3-R0.1-SNAPSHOT.jar
+[INFO]
 [INFO] --- maven-shade-plugin:3.2.3:shade (default) @ spigot-api ---
 [INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
 [INFO] Including com.google.guava:guava:jar:21.0 in the shaded jar.
@@ -653,23 +653,23 @@ Picked up _JAVA_OPTIONS: -Djdk.net.URLClassPath.disableClassPathURLCheck=true
 [INFO] Including net.md-5:bungeecord-chat:jar:1.16-R0.3 in the shaded jar.
 [INFO] Including org.yaml:snakeyaml:jar:1.26 in the shaded jar.
 [INFO] Attaching shaded artifact.
-[INFO] 
+[INFO]
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ spigot-api ---
-[INFO] Installing /minecraft_home/sever/Spigot/Spigot-API/target/spigot-api-1.16.3-R0.1-SNAPSHOT.jar to /root/.m2/repository/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/spigot-api-1.16.3-R0.1-SNAPSHOT.jar
-[INFO] Installing /minecraft_home/sever/Spigot/Spigot-API/pom.xml to /root/.m2/repository/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/spigot-api-1.16.3-R0.1-SNAPSHOT.pom
-[INFO] Installing /minecraft_home/sever/Spigot/Spigot-API/target/spigot-api-1.16.3-R0.1-SNAPSHOT-shaded.jar to /root/.m2/repository/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/spigot-api-1.16.3-R0.1-SNAPSHOT-shaded.jar
-[INFO] 
+[INFO] Installing /minecraft_home/server/Spigot/Spigot-API/target/spigot-api-1.16.3-R0.1-SNAPSHOT.jar to /root/.m2/repository/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/spigot-api-1.16.3-R0.1-SNAPSHOT.jar
+[INFO] Installing /minecraft_home/server/Spigot/Spigot-API/pom.xml to /root/.m2/repository/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/spigot-api-1.16.3-R0.1-SNAPSHOT.pom
+[INFO] Installing /minecraft_home/server/Spigot/Spigot-API/target/spigot-api-1.16.3-R0.1-SNAPSHOT-shaded.jar to /root/.m2/repository/org/spigotmc/spigot-api/1.16.3-R0.1-SNAPSHOT/spigot-api-1.16.3-R0.1-SNAPSHOT-shaded.jar
+[INFO]
 [INFO] ---------------------< org.spigotmc:spigot-parent >---------------------
 [INFO] Building Spigot-Parent dev-SNAPSHOT                                [2/3]
 [INFO] --------------------------------[ pom ]---------------------------------
-[INFO] 
+[INFO]
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spigot-parent ---
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (0 B at 0 B/s)
-[INFO] 
+[INFO]
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ spigot-parent ---
-[INFO] Installing /minecraft_home/sever/Spigot/pom.xml to /root/.m2/repository/org/spigotmc/spigot-parent/dev-SNAPSHOT/spigot-parent-dev-SNAPSHOT.pom
-[INFO] 
+[INFO] Installing /minecraft_home/server/Spigot/pom.xml to /root/.m2/repository/org/spigotmc/spigot-parent/dev-SNAPSHOT/spigot-parent-dev-SNAPSHOT.pom
+[INFO]
 [INFO] ------------------------< org.spigotmc:spigot >-------------------------
 [INFO] Building Spigot 1.16.3-R0.1-SNAPSHOT                               [3/3]
 [INFO] --------------------------------[ jar ]---------------------------------
@@ -678,12 +678,12 @@ Progress (1): 648 B
 Progress (1): 2.6 kB
 Progress (1): 5.4 kB
 Progress (1): 7.4 kB
-Progress (1): 11 kB 
+Progress (1): 11 kB
 Progress (1): 14 kB
 Progress (1): 14 kB
 Progress (1): 17 kB
 Progress (1): 17 kB
-                   
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/jline/jline/2.12.1/jline-2.12.1.pom (17 kB at 37 kB/s)
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/apache/logging/log4j/log4j-iostreams/2.8.1/log4j-iostreams-2.8.1.pom
 Progress (1): 808 B
@@ -692,7 +692,7 @@ Progress (1): 2.8 kB
 Progress (1): 5.1 kB
 Progress (1): 6.3 kB
 Progress (1): 7.3 kB
-                    
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/apache/logging/log4j/log4j-iostreams/2.8.1/log4j-iostreams-2.8.1.pom (7.3 kB at 35 kB/s)
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom
 Progress (1): 832 B
@@ -701,7 +701,7 @@ Progress (1): 2.4 kB
 Progress (1): 4.6 kB
 Progress (1): 6.3 kB
 Progress (1): 8.2 kB
-Progress (1): 10 kB 
+Progress (1): 10 kB
 Progress (1): 14 kB
 Progress (1): 18 kB
 Progress (1): 21 kB
@@ -718,14 +718,14 @@ Progress (1): 46 kB
 Progress (1): 50 kB
 Progress (1): 53 kB
 Progress (1): 55 kB
-                   
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/apache/logging/log4j/log4j/2.8.1/log4j-2.8.1.pom (55 kB at 290 kB/s)
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/apache/logging/logging-parent/1/logging-parent-1.pom
 Progress (1): 843 B
 Progress (1): 866 B
 Progress (1): 2.4 kB
 Progress (1): 3.2 kB
-                    
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/apache/logging/logging-parent/1/logging-parent-1.pom (3.2 kB at 20 kB/s)
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom
 Progress (1): 872 B
@@ -734,42 +734,42 @@ Progress (1): 2.2 kB
 Progress (1): 5.2 kB
 Progress (1): 6.7 kB
 Progress (1): 8.7 kB
-                    
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.pom (8.7 kB at 55 kB/s)
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
 Progress (1): 1.5 kB
 Progress (1): 1.5 kB
 Progress (1): 3.5 kB
-                    
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom (3.5 kB at 31 kB/s)
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/junit/junit/4.10/junit-4.10.pom
 Progress (1): 1.2 kB
 Progress (1): 1.2 kB
 Progress (1): 2.3 kB
-                    
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/junit/junit/4.10/junit-4.10.pom (2.3 kB at 13 kB/s)
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
 Progress (1): 481 B
-                   
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (481 B at 3.7 kB/s)
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
 Progress (1): 1.2 kB
 Progress (1): 3.4 kB
 Progress (1): 5.2 kB
 Progress (1): 5.9 kB
-                    
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (5.9 kB at 49 kB/s)
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/xerial/sqlite-jdbc/3.32.3/sqlite-jdbc-3.32.3.pom
 Progress (1): 1.1 kB
 Progress (1): 3.2 kB
 Progress (1): 5.5 kB
 Progress (1): 6.5 kB
-                    
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/xerial/sqlite-jdbc/3.32.3/sqlite-jdbc-3.32.3.pom (6.5 kB at 53 kB/s)
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/mysql/mysql-connector-java/5.1.49/mysql-connector-java-5.1.49.pom
 Progress (1): 1.0 kB
 Progress (1): 1.1 kB
-                    
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/mysql/mysql-connector-java/5.1.49/mysql-connector-java-5.1.49.pom (1.1 kB at 9.5 kB/s)
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/jline/jline/2.12.1/jline-2.12.1.jar
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/apache/logging/log4j/log4j-iostreams/2.8.1/log4j-iostreams-2.8.1.jar
@@ -779,7 +779,7 @@ Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/
 Progress (1): 3.3/33 kB
 Progress (1): 7.4/33 kB
 Progress (1): 7.6/33 kB
-Progress (1): 12/33 kB 
+Progress (1): 12/33 kB
 Progress (1): 12/33 kB
 Progress (1): 16/33 kB
 Progress (1): 16/33 kB
@@ -790,7 +790,7 @@ Progress (1): 24/33 kB
 Progress (1): 29/33 kB
 Progress (1): 29/33 kB
 Progress (1): 32/33 kB
-Progress (1): 33 kB   
+Progress (1): 33 kB
 Progress (2): 33 kB | 0.5/24 kB
 Progress (2): 33 kB | 1.8/24 kB
 Progress (2): 33 kB | 3.2/24 kB
@@ -800,7 +800,7 @@ Progress (3): 33 kB | 4.6/24 kB | 1.8/214 kB
 Progress (3): 33 kB | 6.0/24 kB | 1.8/214 kB
 Progress (3): 33 kB | 7.3/24 kB | 1.8/214 kB
 Progress (3): 33 kB | 8.7/24 kB | 1.8/214 kB
-Progress (3): 33 kB | 10/24 kB | 1.8/214 kB 
+Progress (3): 33 kB | 10/24 kB | 1.8/214 kB
 Progress (3): 33 kB | 11/24 kB | 1.8/214 kB
 Progress (3): 33 kB | 13/24 kB | 1.8/214 kB
 Progress (3): 33 kB | 14/24 kB | 1.8/214 kB
@@ -811,7 +811,7 @@ Progress (3): 33 kB | 20/24 kB | 1.8/214 kB
 Progress (3): 33 kB | 21/24 kB | 1.8/214 kB
 Progress (3): 33 kB | 22/24 kB | 1.8/214 kB
 Progress (3): 33 kB | 24/24 kB | 1.8/214 kB
-Progress (3): 33 kB | 24 kB | 1.8/214 kB   
+Progress (3): 33 kB | 24 kB | 1.8/214 kB
 Progress (4): 33 kB | 24 kB | 1.8/214 kB | 0.5/229 kB
 Progress (5): 33 kB | 24 kB | 1.8/214 kB | 0.5/229 kB | 0/7.2 MB
 Progress (5): 33 kB | 24 kB | 3.2/214 kB | 0.5/229 kB | 0/7.2 MB
@@ -829,13 +829,13 @@ Progress (5): 33 kB | 24 kB | 7.3/214 kB | 6.0/229 kB | 0/7.2 MB
 Progress (5): 33 kB | 24 kB | 8.7/214 kB | 6.0/229 kB | 0/7.2 MB
 Progress (5): 33 kB | 24 kB | 8.7/214 kB | 7.3/229 kB | 0/7.2 MB
 Progress (5): 33 kB | 24 kB | 8.7/214 kB | 7.3/229 kB | 0/7.2 MB
-Progress (5): 33 kB | 24 kB | 10/214 kB | 7.3/229 kB | 0/7.2 MB 
+Progress (5): 33 kB | 24 kB | 10/214 kB | 7.3/229 kB | 0/7.2 MB
 Progress (5): 33 kB | 24 kB | 10/214 kB | 8.7/229 kB | 0/7.2 MB
 Progress (5): 33 kB | 24 kB | 10/214 kB | 8.7/229 kB | 0/7.2 MB
 Progress (5): 33 kB | 24 kB | 11/214 kB | 8.7/229 kB | 0/7.2 MB
-Progress (5): 33 kB | 24 kB | 11/214 kB | 10/229 kB | 0/7.2 MB 
 Progress (5): 33 kB | 24 kB | 11/214 kB | 10/229 kB | 0/7.2 MB
-                                                              
+Progress (5): 33 kB | 24 kB | 11/214 kB | 10/229 kB | 0/7.2 MB
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/apache/logging/log4j/log4j-iostreams/2.8.1/log4j-iostreams-2.8.1.jar (33 kB at 226 kB/s)
 Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/mysql/mysql-connector-java/5.1.49/mysql-connector-java-5.1.49.jar
 Progress (4): 24 kB | 13/214 kB | 10/229 kB | 0/7.2 MB
@@ -872,7 +872,7 @@ Progress (5): 24 kB | 24/214 kB | 28/229 kB | 0/7.2 MB | 0/1.0 MB
 Progress (5): 24 kB | 24/214 kB | 28/229 kB | 0/7.2 MB | 0/1.0 MB
 Progress (5): 24 kB | 24/214 kB | 28/229 kB | 0/7.2 MB | 0/1.0 MB
 Progress (5): 24 kB | 24/214 kB | 29/229 kB | 0/7.2 MB | 0/1.0 MB
-                                                                 
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar (24 kB at 98 kB/s)
 Progress (4): 24/214 kB | 29/229 kB | 0/7.2 MB | 0/1.0 MB
 Progress (4): 24/214 kB | 29/229 kB | 0/7.2 MB | 0/1.0 MB
@@ -1203,7 +1203,7 @@ Progress (4): 134/214 kB | 228/229 kB | 0.2/7.2 MB | 0.3/1.0 MB
 Progress (4): 134/214 kB | 228/229 kB | 0.2/7.2 MB | 0.3/1.0 MB
 Progress (4): 134/214 kB | 228/229 kB | 0.2/7.2 MB | 0.3/1.0 MB
 Progress (4): 134/214 kB | 228/229 kB | 0.2/7.2 MB | 0.3/1.0 MB
-Progress (4): 134/214 kB | 229 kB | 0.2/7.2 MB | 0.3/1.0 MB    
+Progress (4): 134/214 kB | 229 kB | 0.2/7.2 MB | 0.3/1.0 MB
 Progress (4): 134/214 kB | 229 kB | 0.2/7.2 MB | 0.3/1.0 MB
 Progress (4): 134/214 kB | 229 kB | 0.2/7.2 MB | 0.3/1.0 MB
 Progress (4): 138/214 kB | 229 kB | 0.2/7.2 MB | 0.3/1.0 MB
@@ -1341,12 +1341,12 @@ Progress (4): 208/214 kB | 229 kB | 0.4/7.2 MB | 0.5/1.0 MB
 Progress (4): 208/214 kB | 229 kB | 0.4/7.2 MB | 0.5/1.0 MB
 Progress (4): 208/214 kB | 229 kB | 0.4/7.2 MB | 0.5/1.0 MB
 Progress (4): 208/214 kB | 229 kB | 0.4/7.2 MB | 0.5/1.0 MB
-                                                           
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar (229 kB at 205 kB/s)
 Progress (3): 208/214 kB | 0.4/7.2 MB | 0.5/1.0 MB
 Progress (3): 212/214 kB | 0.4/7.2 MB | 0.5/1.0 MB
 Progress (3): 213/214 kB | 0.4/7.2 MB | 0.5/1.0 MB
-Progress (3): 214 kB | 0.4/7.2 MB | 0.5/1.0 MB    
+Progress (3): 214 kB | 0.4/7.2 MB | 0.5/1.0 MB
 Progress (3): 214 kB | 0.4/7.2 MB | 0.5/1.0 MB
 Progress (3): 214 kB | 0.4/7.2 MB | 0.5/1.0 MB
 Progress (3): 214 kB | 0.4/7.2 MB | 0.5/1.0 MB
@@ -1424,7 +1424,7 @@ Progress (3): 214 kB | 0.5/7.2 MB | 0.7/1.0 MB
 Progress (3): 214 kB | 0.5/7.2 MB | 0.7/1.0 MB
 Progress (3): 214 kB | 0.5/7.2 MB | 0.7/1.0 MB
 Progress (3): 214 kB | 0.5/7.2 MB | 0.7/1.0 MB
-                                              
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/jline/jline/2.12.1/jline-2.12.1.jar (214 kB at 175 kB/s)
 Progress (2): 0.5/7.2 MB | 0.7/1.0 MB
 Progress (2): 0.5/7.2 MB | 0.7/1.0 MB
@@ -1595,7 +1595,7 @@ Progress (2): 0.9/7.2 MB | 1.0/1.0 MB
 Progress (2): 0.9/7.2 MB | 1.0/1.0 MB
 Progress (2): 0.9/7.2 MB | 1.0/1.0 MB
 Progress (2): 0.9/7.2 MB | 1.0/1.0 MB
-Progress (2): 0.9/7.2 MB | 1.0 MB    
+Progress (2): 0.9/7.2 MB | 1.0 MB
 Progress (2): 0.9/7.2 MB | 1.0 MB
 Progress (2): 0.9/7.2 MB | 1.0 MB
 Progress (2): 0.9/7.2 MB | 1.0 MB
@@ -1672,7 +1672,7 @@ Progress (2): 1.2/7.2 MB | 1.0 MB
 Progress (2): 1.2/7.2 MB | 1.0 MB
 Progress (2): 1.2/7.2 MB | 1.0 MB
 Progress (2): 1.2/7.2 MB | 1.0 MB
-                                 
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/mysql/mysql-connector-java/5.1.49/mysql-connector-java-5.1.49.jar (1.0 MB at 711 kB/s)
 Progress (1): 1.2/7.2 MB
 Progress (1): 1.2/7.2 MB
@@ -3143,40 +3143,40 @@ Progress (1): 7.2/7.2 MB
 Progress (1): 7.2/7.2 MB
 Progress (1): 7.2/7.2 MB
 Progress (1): 7.2/7.2 MB
-Progress (1): 7.2 MB    
-                    
+Progress (1): 7.2 MB
+
 Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/xerial/sqlite-jdbc/3.32.3/sqlite-jdbc-3.32.3.jar (7.2 MB at 2.8 MB/s)
-[INFO] 
+[INFO]
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ spigot ---
-[INFO] 
+[INFO]
 [INFO] --- scriptus:0.4.1:describe (ex-spigot) @ spigot ---
 [INFO] Set property "spigot.desc" to "git-Spigot-57bbdd8"
 [INFO] Set property "project.build.outputTimestamp" to "1602917240"
-[INFO] 
+[INFO]
 [INFO] --- scriptus:0.4.1:describe (ex-craftbukkit) @ spigot ---
 [INFO] Set property "craftbukkit.desc" to "-dea4138"
 [INFO] Set property "project.build.outputTimestamp" to "1603609828"
-[INFO] 
+[INFO]
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spigot ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 4 resources
-[INFO] 
+[INFO]
 [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spigot ---
 [INFO] Changes detected - recompiling the module!
-[INFO] 
+[INFO]
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spigot ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /minecraft_home/sever/Spigot/Spigot-Server/src/test/resources
-[INFO] 
+[INFO] skip non existing resourceDirectory /minecraft_home/server/Spigot/Spigot-Server/src/test/resources
+[INFO]
 [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spigot ---
 [INFO] Changes detected - recompiling the module!
-[INFO] 
+[INFO]
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spigot ---
 [INFO] Tests are skipped.
-[INFO] 
+[INFO]
 [INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ spigot ---
-[INFO] Building jar: /minecraft_home/sever/Spigot/Spigot-Server/target/spigot-1.16.3-R0.1-SNAPSHOT.jar
-[INFO] 
+[INFO] Building jar: /minecraft_home/server/Spigot/Spigot-Server/target/spigot-1.16.3-R0.1-SNAPSHOT.jar
+[INFO]
 [INFO] --- maven-shade-plugin:3.2.3:shade (default) @ spigot ---
 [INFO] Including org.spigotmc:spigot-api:jar:1.16.3-R0.1-SNAPSHOT in the shaded jar.
 [INFO] Including commons-lang:commons-lang:jar:2.6 in the shaded jar.
@@ -3193,9 +3193,9 @@ Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/p
 [INFO] Including org.xerial:sqlite-jdbc:jar:3.32.3 in the shaded jar.
 [INFO] Including mysql:mysql-connector-java:jar:5.1.49 in the shaded jar.
 [WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
-[WARNING] mysql-connector-java-5.1.49.jar, sqlite-jdbc-3.32.3.jar define 1 overlapping resources: 
+[WARNING] mysql-connector-java-5.1.49.jar, sqlite-jdbc-3.32.3.jar define 1 overlapping resources:
 [WARNING]   - META-INF/services/java.sql.Driver
-[WARNING] log4j-api-2.8.1.jar, minecraft-server-1.16.3-SNAPSHOT.jar define 143 overlapping classes: 
+[WARNING] log4j-api-2.8.1.jar, minecraft-server-1.16.3-SNAPSHOT.jar define 143 overlapping classes:
 [WARNING]   - org.apache.logging.log4j.CloseableThreadContext
 [WARNING]   - org.apache.logging.log4j.CloseableThreadContext$1
 [WARNING]   - org.apache.logging.log4j.CloseableThreadContext$Instance
@@ -3207,7 +3207,7 @@ Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/p
 [WARNING]   - org.apache.logging.log4j.Marker
 [WARNING]   - org.apache.logging.log4j.MarkerManager
 [WARNING]   - 133 more...
-[WARNING] minecraft-server-1.16.3-SNAPSHOT.jar, spigot-1.16.3-R0.1-SNAPSHOT.jar define 800 overlapping classes and resources: 
+[WARNING] minecraft-server-1.16.3-SNAPSHOT.jar, spigot-1.16.3-R0.1-SNAPSHOT.jar define 800 overlapping classes and resources:
 [WARNING]   - com.mojang.brigadier.tree.CommandNode
 [WARNING]   - log4j2.xml
 [WARNING]   - net.minecraft.server.Advancement
@@ -3219,11 +3219,11 @@ Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/p
 [WARNING]   - net.minecraft.server.Advancements$a
 [WARNING]   - net.minecraft.server.ArgumentBlock
 [WARNING]   - 790 more...
-[WARNING] log4j-api-2.8.1.jar, log4j-iostreams-2.8.1.jar define 3 overlapping resources: 
+[WARNING] log4j-api-2.8.1.jar, log4j-iostreams-2.8.1.jar define 3 overlapping resources:
 [WARNING]   - META-INF/DEPENDENCIES
 [WARNING]   - META-INF/LICENSE
 [WARNING]   - META-INF/NOTICE
-[WARNING] asm-8.0.1.jar, bungeecord-chat-1.16-R0.3.jar, commons-lang-2.6.jar, gson-2.8.0.jar, guava-21.0.jar, jline-2.12.1.jar, json-simple-1.1.1.jar, log4j-api-2.8.1.jar, log4j-iostreams-2.8.1.jar, minecraft-server-1.16.3-SNAPSHOT.jar, mysql-connector-java-5.1.49.jar, snakeyaml-1.26.jar, spigot-1.16.3-R0.1-SNAPSHOT.jar, spigot-api-1.16.3-R0.1-SNAPSHOT.jar, sqlite-jdbc-3.32.3.jar define 1 overlapping resources: 
+[WARNING] asm-8.0.1.jar, bungeecord-chat-1.16-R0.3.jar, commons-lang-2.6.jar, gson-2.8.0.jar, guava-21.0.jar, jline-2.12.1.jar, json-simple-1.1.1.jar, log4j-api-2.8.1.jar, log4j-iostreams-2.8.1.jar, minecraft-server-1.16.3-SNAPSHOT.jar, mysql-connector-java-5.1.49.jar, snakeyaml-1.26.jar, spigot-1.16.3-R0.1-SNAPSHOT.jar, spigot-api-1.16.3-R0.1-SNAPSHOT.jar, sqlite-jdbc-3.32.3.jar define 1 overlapping resources:
 [WARNING]   - META-INF/MANIFEST.MF
 [WARNING] maven-shade-plugin has detected that some class files are
 [WARNING] present in two or more JARs. When this happens, only one
@@ -3233,15 +3233,15 @@ Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/p
 [WARNING] mvn dependency:tree -Ddetail=true and the above output.
 [WARNING] See http://maven.apache.org/plugins/maven-shade-plugin/
 [INFO] Replacing original artifact with shaded artifact.
-[INFO] Replacing /minecraft_home/sever/Spigot/Spigot-Server/target/spigot-1.16.3-R0.1-SNAPSHOT.jar with /minecraft_home/sever/Spigot/Spigot-Server/target/spigot-1.16.3-R0.1-SNAPSHOT-shaded.jar
-[INFO] Dependency-reduced POM written at: /minecraft_home/sever/Spigot/Spigot-Server/dependency-reduced-pom.xml
-[INFO] 
+[INFO] Replacing /minecraft_home/server/Spigot/Spigot-Server/target/spigot-1.16.3-R0.1-SNAPSHOT.jar with /minecraft_home/server/Spigot/Spigot-Server/target/spigot-1.16.3-R0.1-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: /minecraft_home/server/Spigot/Spigot-Server/dependency-reduced-pom.xml
+[INFO]
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ spigot ---
-[INFO] Installing /minecraft_home/sever/Spigot/Spigot-Server/target/spigot-1.16.3-R0.1-SNAPSHOT.jar to /root/.m2/repository/org/spigotmc/spigot/1.16.3-R0.1-SNAPSHOT/spigot-1.16.3-R0.1-SNAPSHOT.jar
-[INFO] Installing /minecraft_home/sever/Spigot/Spigot-Server/dependency-reduced-pom.xml to /root/.m2/repository/org/spigotmc/spigot/1.16.3-R0.1-SNAPSHOT/spigot-1.16.3-R0.1-SNAPSHOT.pom
+[INFO] Installing /minecraft_home/server/Spigot/Spigot-Server/target/spigot-1.16.3-R0.1-SNAPSHOT.jar to /root/.m2/repository/org/spigotmc/spigot/1.16.3-R0.1-SNAPSHOT/spigot-1.16.3-R0.1-SNAPSHOT.jar
+[INFO] Installing /minecraft_home/server/Spigot/Spigot-Server/dependency-reduced-pom.xml to /root/.m2/repository/org/spigotmc/spigot/1.16.3-R0.1-SNAPSHOT/spigot-1.16.3-R0.1-SNAPSHOT.pom
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary:
-[INFO] 
+[INFO]
 [INFO] Spigot-API 1.16.3-R0.1-SNAPSHOT .................... SUCCESS [ 25.805 s]
 [INFO] Spigot-Parent dev-SNAPSHOT ......................... SUCCESS [  1.690 s]
 [INFO] Spigot 1.16.3-R0.1-SNAPSHOT ........................ SUCCESS [01:09 min]
@@ -3251,41 +3251,41 @@ Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/p
 [INFO] Total time:  01:37 min
 [INFO] Finished at: 2020-11-20T16:36:35-05:00
 [INFO] ------------------------------------------------------------------------
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Success! Everything completed successfully. Copying final .jar files now.
-Copying spigot-1.16.3-R0.1-SNAPSHOT.jar to /minecraft_home/sever/./spigot-1.16.3.jar
+Copying spigot-1.16.3-R0.1-SNAPSHOT.jar to /minecraft_home/server/./spigot-1.16.3.jar
   - Saved as ./spigot-1.16.3.jar
