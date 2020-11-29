@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: community-minecraft
-        image: devlaunchers/community-minecraft:sha-042d1a7
+        image: devlaunchers/community-minecraft:sha-f416b2f
         ports:
         - containerPort: 80
           protocol: TCP
