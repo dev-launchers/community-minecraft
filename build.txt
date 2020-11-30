@@ -6,3 +6,4 @@ Build image four
 Build image five
 Build image six
 Build image seven
+Build image eight
