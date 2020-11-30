@@ -11,9 +11,10 @@ cd /minecraft/community-minecraft/minecraft_home
 git remote set-url origin git@github.com:dev-launchers-sandbox/community-minecraft.git
 git config --global user.email "team@devlaunchers.com"
 git config --global user.name "dev-launchers-backup"
+git fetch origin cron-backup
+git checkout cron-backup
 while true; do
 echo "Preparing backup"
-git checkout cron-backup
 git add server
 DATE=$(date)
 git commit -m "Backup ${DATE}"
