@@ -1,15 +1,15 @@
 lastAccountName: Original_Auburn
 timestamps:
-  login: 1606534381312
-  logout: 1606534412210
+  login: 1606718044271
+  logout: 1606715339518
 ipAddress: 10.1.76.1
 logoutlocation:
   world: world
-  x: 4457.244150769098
-  y: 76.0
-  z: 4887.888915429246
-  yaw: 167.51495
-  pitch: 13.800109
+  x: 4261.5
+  y: 63.0
+  z: 5107.5
+  yaw: 128.10004
+  pitch: -11.1
 lastlocation:
   world: world
   x: 4269.46898653117
