@@ -1,48 +1,0 @@
-System Info: Java 11 (OpenJDK 64-Bit Server VM 11.0.9.1+1-Ubuntu-0ubuntu1.18.04) Host: Linux 4.15.0-50-generic (amd64)
-Loading libraries, please wait...
-[22:07:14 INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:07:14 INFO]: Reloading ResourceManager: Default, bukkit
-[22:07:15 INFO]: Loaded 7 recipes
-[22:07:17 INFO]: Starting minecraft server version 1.16.4
-[22:07:17 INFO]: Loading properties
-[?1h=[?2004h> [?1h=> [?1h=[22:16:39 INFO]: This server is running Paper version git-Paper-296 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-> [K[22:16:40 INFO]: Default game type: SURVIVAL
-> [K[22:16:40 INFO]: Generating keypair
-> [K[22:16:40 INFO]: Starting Minecraft server on *:25565
-> [K[22:16:40 INFO]: Using epoll channel type
-> [K[22:16:40 INFO]: Stopping main thread (Ignore any thread death message you see! - DO NOT REPORT THREAD DEATH TO PAPER)
-> [K[31;1m[22:16:40 ERROR]: Main thread terminated by WatchDog due to hard crash
-java.lang.ThreadDeath: null
-	at java.lang.Thread.stop(Thread.java:942) [?:?]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.stop(MinecraftServer.java:762) ~[patched_1.16.4.jar:git-Paper-296]
-	at net.minecraft.server.v1_16_R3.DedicatedServer.stop(DedicatedServer.java:704) ~[patched_1.16.4.jar:git-Paper-296]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.close(MinecraftServer.java:736) ~[patched_1.16.4.jar:git-Paper-296]
-	at org.bukkit.craftbukkit.v1_16_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[patched_1.16.4.jar:git-Paper-296]
-[m> [K[22:16:40 INFO]: Stopping server
-> [K[22:16:40 INFO]: Saving players
-> [K[22:16:41 INFO]: Saving worlds
-> [K[22:16:41 INFO]: Flushing Chunk IO
-> [K[22:16:41 INFO]: Closing Thread Pool
-> [22:16:41 INFO]: Closing Server
-
-[?1l>[?1000l[?2004l[22:16:57 ERROR]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Input/output error
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:143) ~[patched_1.16.4.jar:git-Paper-296]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[patched_1.16.4.jar:git-Paper-296]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[patched_1.16.4.jar:git-Paper-296]
-	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848) ~[patched_1.16.4.jar:git-Paper-296]
-	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868) ~[patched_1.16.4.jar:git-Paper-296]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575) ~[patched_1.16.4.jar:git-Paper-296]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[patched_1.16.4.jar:git-Paper-296]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[patched_1.16.4.jar:git-Paper-296]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[patched_1.16.4.jar:git-Paper-296]
-	at net.minecraft.server.v1_16_R3.DedicatedServer$1.run(DedicatedServer.java:67) ~[patched_1.16.4.jar:git-Paper-296]
-Caused by: java.io.IOException: Input/output error
-	at java.io.FileInputStream.read0(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
-	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[patched_1.16.4.jar:git-Paper-296]
-	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[patched_1.16.4.jar:git-Paper-296]
-	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[patched_1.16.4.jar:git-Paper-296]
-	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[patched_1.16.4.jar:git-Paper-296]
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133) ~[patched_1.16.4.jar:git-Paper-296]
-	... 9 more
