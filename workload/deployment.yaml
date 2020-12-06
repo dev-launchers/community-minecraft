@@ -56,9 +56,14 @@ spec:
             cpu: 2000m
             memory: 4096Mi
         volumeMounts:
+        - name: persistent-storage
+          mountPath: "/minecraft/community-minecraft/community-minecraft-data"
         - name: ssh-config
           mountPath: "/root/ssh-config"
       volumes:
+      - name: persistent-storage
+        persistentVolumeClaim:
+          claimName: community-minecraft-pvc
       - name: ssh-config
         secret:
           defaultMode: 0400
