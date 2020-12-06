@@ -205,6 +205,7 @@ func newMetrics() *metrics {
 			},
 			[]string{"cmd"},
 		),
+		lock: &sync.RWMutex{},
 	}
 }
 
