@@ -1,2 +1,0 @@
-. filter=lfs diff=lfs merge=lfs -text
-plugins/CoreProtect/database.db filter=lfs diff=lfs merge=lfs -text

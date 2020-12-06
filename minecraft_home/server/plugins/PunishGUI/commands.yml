@@ -1,8 +1,0 @@
-punish:
-  permission: punish.use
-  aliases:
-  - p
-punishreload:
-  permission: punish.admin
-  aliases:
-  - preload

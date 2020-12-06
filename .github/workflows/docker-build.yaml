@@ -6,10 +6,8 @@ on:
     # Build image whenever build.txt or a file under minecraft_home or is changed
     paths:
       - 'build.txt'
-      - 'minecraft_home'
+      - 'src/**'
       - 'Dockerfile'
-      - 'backup.sh'
-      - 'entrypoint.sh'
 jobs:
   build:
     runs-on: ubuntu-latest

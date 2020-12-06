@@ -15,6 +15,7 @@ spec:
       labels:
         app: community-minecraft
     spec:
+      terminationGracePeriodSeconds: 300
       containers:
       - name: community-minecraft
         image: devlaunchers/community-minecraft:sha-d53ee49
@@ -30,8 +31,22 @@ spec:
         - containerPort: 22
           protocol: TCP
         env:
+        - name: WORLD_DATA_REPO
+          value: git@github.com:dev-launchers-sandbox/community-minecraft-data.git
         - name: BACKUP_FREQ
-          value: "1800"
+          value: "30m"
+        - name: WORK_DIR
+          value: "/minecraft/community-minecraft/"
+        - name: SSH_SCRIPT
+          value: "/build/start-ssh-agent.sh"
+        - name: START_SCRIPT
+          value: "/minecraft/community-minecraft/community-minecraft-data/server/start.sh"
+        - name: SERVER_JAR
+          value: "/minecraft/community-minecraft/community-minecraft-data/server/server.jar"
+        - name: METRICS_PORT
+          value: "8000"
+        - name: MINECRAFT_PORT
+          value: "31672"
         # https://minecraft.gamepedia.com/Server/Requirements
         resources:
           limits:
