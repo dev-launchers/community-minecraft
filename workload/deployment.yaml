@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -20,7 +21,7 @@ spec:
       terminationGracePeriodSeconds: 300
       containers:
       - name: community-minecraft
-        image: devlaunchers/community-minecraft:sha-48058a9
+        image: devlaunchers/community-minecraft:sha-76573c6
         ports:
         - containerPort: 80
           protocol: TCP
