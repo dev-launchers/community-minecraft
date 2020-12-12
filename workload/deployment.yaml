@@ -5,6 +5,8 @@ metadata:
   name: community-minecraft
   labels:
     app: community-minecraft
+  annotations:
+    fluxcd.io/automated: "true"
 spec:
   replicas: 1
   selector:
