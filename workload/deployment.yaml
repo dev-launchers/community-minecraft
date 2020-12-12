@@ -1,6 +1,6 @@
 ---
 apiVersion: apps/v1
-kind: StatefulSet
+kind: Deployment
 metadata:
   namespace: community-minecraft
   name: community-minecraft
@@ -9,8 +9,9 @@ metadata:
   annotations:
     fluxcd.io/automated: "true"
 spec:
-  serviceName: community-minecraft
   replicas: 1
+  strategy:
+    type: recreate
   selector:
     matchLabels:
       app: community-minecraft
