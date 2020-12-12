@@ -34,7 +34,7 @@ spec:
           protocol: TCP
         env:
         - name: WORLD_DATA_REPO
-          value: git@github.com:dev-launchers-sandbox/community-minecraft-data.git
+          value: git@github.com:dev-launchers/community-minecraft-data.git
         - name: BACKUP_FREQ
           value: "30m"
         - name: WORK_DIR
