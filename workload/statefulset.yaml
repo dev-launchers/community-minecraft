@@ -1,6 +1,6 @@
 ---
 apiVersion: apps/v1
-kind: Deployment
+kind: StatefulSet
 metadata:
   namespace: community-minecraft
   name: community-minecraft
@@ -10,8 +10,7 @@ metadata:
     fluxcd.io/automated: "true"
 spec:
   replicas: 1
-  strategy:
-    type: Recreate
+  serviceName: community-minecraft
   selector:
     matchLabels:
       app: community-minecraft
@@ -70,7 +69,7 @@ spec:
       volumes:
       - name: persistent-storage
         persistentVolumeClaim:
-          claimName: community-minecraft-pvc
+          claimName: community-minecraft-hostpath-pvc
       - name: ssh-config
         secret:
           defaultMode: 0400
