@@ -224,7 +224,7 @@ type pingService struct {
 }
 
 func (ps *pingService) statusHandler(w http.ResponseWriter, r *http.Request) {
-	conn, err := net.Listen("tcp", ps.addr)
+	conn, err := net.Dial("tcp", ps.addr)
 	if err != nil {
 		w.WriteHeader(http.StatusInternalServerError)
 		w.Write([]byte(err.Error()))
