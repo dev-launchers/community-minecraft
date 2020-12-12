@@ -115,13 +115,13 @@ func updatePlugin(ctx context.Context, config *config) error {
 	if err := executeCmd(exec.CommandContext(ctx, "git", "clone", "--recurse-submodules", "-j", "4", config.worldDataRepo), "fetch world data"); err != nil {
 		return err
 	}
-	// update plugins
-	if err := executeCmd(exec.CommandContext(ctx, "git", "submodule", "update", "--recursive", "-j", "4"), "update submodules"); err != nil {
-		return err
-	}
 	// Directory to run the server
 	serverDir := fmt.Sprintf("%s/community-minecraft-data/server", config.workDir)
 	if err := os.Chdir(serverDir); err != nil {
+		return err
+	}
+	// update plugins
+	if err := executeCmd(exec.CommandContext(ctx, "git", "submodule", "update", "--recursive", "-j", "4"), "update submodules"); err != nil {
 		return err
 	}
 	// Set remote url so we can auth via ssh key
