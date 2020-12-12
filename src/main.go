@@ -112,8 +112,11 @@ func startSSHAgent(ctx context.Context, config *config) error {
 }
 
 func updatePlugin(ctx context.Context, config *config) error {
+	if err := executeCmd(exec.CommandContext(ctx, "git", "clone", "--recurse-submodules", "-j", "4", config.worldDataRepo), "fetch world data"); err != nil {
+		return err
+	}
 	// update plugins
-	if err := executeCmd(exec.CommandContext(ctx, "git", "submodule", "update", "--recursive", "-j", "4", config.worldDataRepo), "fetch world data"); err != nil {
+	if err := executeCmd(exec.CommandContext(ctx, "git", "submodule", "update", "--recursive", "-j", "4"), "update submodules"); err != nil {
 		return err
 	}
 	// Directory to run the server
