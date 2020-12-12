@@ -32,7 +32,7 @@ func main() {
 	if err := os.Chdir(config.workDir); err != nil {
 		log.Fatalf("Failed to change working directory to %s, err: %v", config.workDir, err)
 	}
-	if err := setupWorldData(ctx, config); err != nil {
+	if err := updatePlugin(ctx, config); err != nil {
 		log.Fatalf("Failed to fetch latest minecraft data, err: %v", err)
 	}
 
@@ -111,9 +111,9 @@ func startSSHAgent(ctx context.Context, config *config) error {
 	return executeCmd(exec.CommandContext(ctx, config.sshScript), "start ssh agent")
 }
 
-func setupWorldData(ctx context.Context, config *config) error {
-	// Clone world data and plugins
-	if err := executeCmd(exec.CommandContext(ctx, "git", "clone", "--recurse-submodules", "-j", "4", config.worldDataRepo), "fetch world data"); err != nil {
+func updatePlugin(ctx context.Context, config *config) error {
+	// update plugins
+	if err := executeCmd(exec.CommandContext(ctx, "git", "submodule", "update", "--recursive", "-j", "4", config.worldDataRepo), "fetch world data"); err != nil {
 		return err
 	}
 	// Directory to run the server
