@@ -40,7 +40,7 @@ spec:
         - name: BACKUP_FREQ
           value: "30m"
         - name: WORK_DIR
-          value: "/minecraft/community-minecraft/"
+          value: "/minecraft/community-minecraft/community-minecraft-data/server"
         - name: SSH_SCRIPT
           value: "/build/start-ssh-agent.sh"
         - name: START_SCRIPT
