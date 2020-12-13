@@ -22,7 +22,7 @@ spec:
       terminationGracePeriodSeconds: 300
       containers:
       - name: community-minecraft
-        image: devlaunchers/community-minecraft:sha-4658be4
+        image: devlaunchers/community-minecraft:main
         ports:
         - containerPort: 80
           protocol: TCP
