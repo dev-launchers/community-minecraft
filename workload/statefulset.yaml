@@ -55,10 +55,10 @@ spec:
         resources:
           limits:
             cpu: 3000m
-            memory: 5192Mi
+            memory: 6144Mi
           requests:
             cpu: 2000m
-            memory: 4096Mi
+            memory: 5120Mi
         livenessProbe:
           httpGet:
             path: /metrics
