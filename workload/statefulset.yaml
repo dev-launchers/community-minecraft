@@ -9,7 +9,7 @@ metadata:
   annotations:
     fluxcd.io/automated: "true"
 spec:
-  replicas: 0
+  replicas: 1
   serviceName: community-minecraft
   selector:
     matchLabels:
