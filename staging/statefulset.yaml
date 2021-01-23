@@ -22,7 +22,7 @@ spec:
     spec:
       nodeSelector:
         location: gcp
-      terminationGracePeriodSeconds: 300
+      terminationGracePeriodSeconds: 10
       containers:
       - name: community-minecraft
         image: devlaunchers/community-minecraft:sha-807db27
