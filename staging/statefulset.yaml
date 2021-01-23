@@ -83,8 +83,9 @@ spec:
           mountPath: "/root/ssh-config"
       volumes:
       - name: persistent-storage
-        persistentVolumeClaim:
-          claimName: community-minecraft-hostpath-pvc
+        hostPath:
+          path: /mnt/data/community-minecraft
+          type: Directory
       - name: ssh-config
         secret:
           defaultMode: 0400
