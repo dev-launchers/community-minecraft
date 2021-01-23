@@ -1,4 +1,4 @@
   
 namespace: community-minecraft
 bases:
-  - ./workload
+  - ../workload
