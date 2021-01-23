@@ -1,0 +1,28 @@
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: community-minecraft
+  namespace: community-minecraft
+spec:
+  template:
+    spec:
+      $setElementOrder/nodeSelector:
+      nodeSelector:
+        location: gcp
+      $setElementOrder/containers:
+      containers:
+      - name: community-minecraft
+        image: devlaunchers/community-minecraft:sha-807db27
+        $setElementOrder/env:
+        env:
+        - name: DISABLE_BACKUP
+          value: "true"
+        $setElementOrder/resources:
+        resources:
+          limits:
+            cpu: 1500m
+            memory: 3172Mi
+          requests:
+            cpu: 1000m
+            memory: 2048Mi

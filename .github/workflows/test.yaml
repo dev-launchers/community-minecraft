@@ -9,9 +9,11 @@ jobs:
         uses: stefanprodan/kube-tools@v1
         with:
           command: |
-            kustomize build . | kubeval --strict --ignore-missing-schemas
+            kustomize build staging | kubeval --strict --ignore-missing-schemas
+            kustomize build production | kubeval --strict --ignore-missing-schemas
       - name: conftest
         uses: stefanprodan/kube-tools@v1
         with:
           command: |
-            kustomize build . | conftest test -p .github/policy -
+            kustomize build staging | conftest test -p .github/policy -
+            kustomize build production | conftest test -p .github/policy -
