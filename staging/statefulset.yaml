@@ -47,7 +47,7 @@ spec:
         - name: SERVER_JAR
           value: "/minecraft/community-minecraft/community-minecraft-data/server/server.jar"
         - name: PLUGIN_BRANCH
-          value: "release"
+          value: "dev"
         - name: CHECK_NEW_PLUGIN_FREQ
           value: "3m"
         - name: BACKUP_FREQ
