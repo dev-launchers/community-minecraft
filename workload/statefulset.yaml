@@ -37,16 +37,20 @@ spec:
         env:
         - name: WORLD_DATA_REPO
           value: git@github.com:dev-launchers/community-minecraft-data.git
-        - name: BACKUP_FREQ
-          value: "12h"
-        - name: WORK_DIR
-          value: "/minecraft/community-minecraft/community-minecraft-data/server"
         - name: SSH_SCRIPT
           value: "/build/start-ssh-agent.sh"
         - name: START_SCRIPT
           value: "/minecraft/community-minecraft/community-minecraft-data/server/start.sh"
         - name: SERVER_JAR
           value: "/minecraft/community-minecraft/community-minecraft-data/server/server.jar"
+        - name: PLUGIN_BRANCH
+          value: "release"
+        - name: CHECK_NEW_PLUGIN_FREQ
+          value: "3m"
+        - name: BACKUP_FREQ
+          value: "12h"
+        - name: WORK_DIR
+          value: "/minecraft/community-minecraft/community-minecraft-data/server"
         - name: METRICS_PORT
           value: "8000"
         - name: MINECRAFT_PORT
