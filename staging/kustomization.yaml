@@ -1,4 +1,5 @@
-  
 namespace: community-minecraft
 bases:
   - ../workload
+resources:
+  - statefulset.yaml

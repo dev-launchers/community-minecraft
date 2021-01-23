@@ -1,0 +1,91 @@
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  namespace: community-minecraft
+  name: community-minecraft
+  labels:
+    app: community-minecraft
+  annotations:
+    fluxcd.io/automated: "true"
+    fluxcd.io/tag.community-minecraft: regex:^sha-*
+spec:
+  replicas: 1
+  serviceName: community-minecraft
+  selector:
+    matchLabels:
+      app: community-minecraft
+  template:
+    metadata:
+      labels:
+        app: community-minecraft
+    spec:
+      nodeSelector:
+        location: gcp
+      terminationGracePeriodSeconds: 300
+      containers:
+      - name: community-minecraft
+        image: devlaunchers/community-minecraft:sha-807db27
+        ports:
+        - containerPort: 80
+          protocol: TCP
+        - containerPort: 8080
+          protocol: TCP
+        - containerPort: 25565
+          protocol: TCP
+        - containerPort: 25565
+          protocol: UDP
+        - containerPort: 22
+          protocol: TCP
+        env:
+        - name: WORLD_DATA_REPO
+          value: git@github.com:dev-launchers/community-minecraft-data.git
+        - name: SSH_SCRIPT
+          value: "/build/start-ssh-agent.sh"
+        - name: START_SCRIPT
+          value: "/minecraft/community-minecraft/community-minecraft-data/server/start.sh"
+        - name: SERVER_JAR
+          value: "/minecraft/community-minecraft/community-minecraft-data/server/server.jar"
+        - name: PLUGIN_BRANCH
+          value: "release"
+        - name: CHECK_NEW_PLUGIN_FREQ
+          value: "3m"
+        - name: BACKUP_FREQ
+          value: "12h"
+        - name: DISABLE_BACKUP
+          value: "true"
+        - name: WORK_DIR
+          value: "/minecraft/community-minecraft/community-minecraft-data/server"
+        - name: METRICS_PORT
+          value: "8000"
+        - name: MINECRAFT_PORT
+          value: "31672"
+        # https://minecraft.gamepedia.com/Server/Requirements
+        resources:
+          limits:
+            cpu: 1500m
+            memory: 3172Mi
+          requests:
+            cpu: 1000m
+            memory: 2048Mi
+        livenessProbe:
+          httpGet:
+            path: /metrics
+            port: 8000
+          initialDelaySeconds: 60
+          periodSeconds: 30
+          timeoutSeconds: 10
+          failureThreshold: 5
+        volumeMounts:
+        - name: persistent-storage
+          mountPath: "/minecraft/community-minecraft/community-minecraft-data"
+        - name: ssh-config
+          mountPath: "/root/ssh-config"
+      volumes:
+      - name: persistent-storage
+        persistentVolumeClaim:
+          claimName: community-minecraft-hostpath-pvc
+      - name: ssh-config
+        secret:
+          defaultMode: 0400
+          secretName: ssh-config
