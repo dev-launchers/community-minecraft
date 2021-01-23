@@ -7,18 +7,18 @@ metadata:
 spec:
   template:
     spec:
-      $setElementOrder/nodeSelector:
       nodeSelector:
         location: gcp
       $setElementOrder/containers:
+      - name: community-minecraft
       containers:
       - name: community-minecraft
         image: devlaunchers/community-minecraft:sha-807db27
         $setElementOrder/env:
+        - name: DISABLE_BACKUP
         env:
         - name: DISABLE_BACKUP
           value: "true"
-        $setElementOrder/resources:
         resources:
           limits:
             cpu: 1500m
