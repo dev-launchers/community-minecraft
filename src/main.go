@@ -11,9 +11,13 @@ import (
 	"os"
 	"os/exec"
 	"os/signal"
+	"path/filepath"
+	"strconv"
 	"sync"
 	"syscall"
 	"time"
+
+	"golang.org/x/sync/errgroup"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
@@ -24,7 +28,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("Failed to load config, err: %v", err)
 	}
-	ctx, cancel := context.WithCancel(context.Background())
+	ctx := context.Background()
 	if err := startSSHAgent(ctx, config); err != nil {
 		log.Fatalf("Failed to start ssh agent, err: %v", err)
 	}
@@ -32,30 +36,35 @@ func main() {
 	if err := os.Chdir(config.workDir); err != nil {
 		log.Fatalf("Failed to change working directory to %s, err: %v", config.workDir, err)
 	}
-	if err := updatePlugin(ctx, config); err != nil {
-		log.Fatalf("Failed to fetch latest minecraft data, err: %v", err)
+
+	// Set remote url so we can auth via ssh key
+	if err := executeCmd(exec.CommandContext(ctx, "git", "remote", "set-url", "origin", config.worldDataRepo), "set remote url"); err != nil {
+		log.Fatalf("Failed to set remote URL, err: %v", err)
 	}
 
 	metrics := newMetrics()
 
-	var wg sync.WaitGroup
-	wg.Add(3)
-	go func() {
-		defer wg.Done()
-		runServer(ctx, config, metrics)
-	}()
-	go func() {
-		defer wg.Done()
-		backup(ctx, config, metrics)
-	}()
-	go func() {
-		defer wg.Done()
-		err := serverMetrics(config, metrics)
-		log.Printf("Failed to serve metrics, err: %v", err)
-	}()
+	errGroup, ctx := errgroup.WithContext(ctx)
+	errGroup.Go(func() error {
+		return runServer(ctx, config, metrics)
+	})
+	errGroup.Go(func() error {
+		return updatePlugin(ctx, config)
+	})
+	errGroup.Go(func() error {
+		return serverMetrics(config, metrics)
+	})
+	errGroup.Go(func() error {
+		return waitForShutdown()
+	})
 
-	waitForShutdown(cancel)
-	wg.Wait()
+	if !config.disableBackup {
+		errGroup.Go(func() error {
+			return backup(ctx, config, metrics)
+		})
+	}
+
+	log.Printf("Terminating, reason: %v\n", errGroup.Wait())
 }
 
 func executeCmd(cmd *exec.Cmd, name string) error {
@@ -112,20 +121,58 @@ func startSSHAgent(ctx context.Context, config *config) error {
 }
 
 func updatePlugin(ctx context.Context, config *config) error {
-	// update plugins
-	if err := executeCmd(exec.CommandContext(ctx, "git", "submodule", "update", "--recursive", "-j", "4"), "update submodules"); err != nil {
-		return err
+	var (
+		remoteBranch = fmt.Sprintf("origin/%s", config.pluginBranch)
+		pluginsDir   = filepath.Join(config.workDir, "plugins")
+	)
+
+	ticker := time.NewTicker(config.checkNewPluginFreq)
+	for {
+		select {
+		case <-ctx.Done():
+			return nil
+		case <-ticker.C:
+			// https://stackoverflow.com/questions/3258243/check-if-pull-needed-in-git
+			// @ refers to the current branch
+			localCommitCmd := exec.CommandContext(ctx, "git", "rev-parse", "@")
+			localCommitCmd.Dir = pluginsDir
+			localCommitID, err := localCommitCmd.Output()
+			if err != nil {
+				log.Printf("Failed to get local commit ID, err: %v", err)
+				continue
+			}
+			log.Printf("local commit ID %s", string(localCommitID))
+
+			upstreamCommitCmd := exec.CommandContext(ctx, "git", "rev-parse", remoteBranch)
+			upstreamCommitCmd.Dir = pluginsDir
+			upstreamCommitID, err := upstreamCommitCmd.Output()
+			if err != nil {
+				log.Printf("Failed to get upstream commit ID, err: %v", err)
+				continue
+			}
+			log.Printf("upstream commit ID %s", string(upstreamCommitID))
+
+			if string(localCommitID) == string(upstreamCommitID) {
+				continue
+			}
+			// update plugins
+			updatePluginCommand := exec.CommandContext(ctx, "git", "pull", "origin", config.pluginBranch)
+			updatePluginCommand.Dir = pluginsDir
+			if err := executeCmd(updatePluginCommand, "update submodules"); err != nil {
+				log.Printf("Failed to pull latest plugin", err)
+				continue
+			}
+		}
 	}
-	// Set remote url so we can auth via ssh key
-	err := executeCmd(exec.CommandContext(ctx, "git", "remote", "set-url", "origin", config.worldDataRepo), "set remote url")
-	if err != nil {
-		return err
-	}
-	return nil
 }
 
-func runServer(ctx context.Context, config *config, metrics *metrics) {
+func runServer(ctx context.Context, config *config, metrics *metrics) error {
 	for {
+		select {
+		case <-ctx.Done():
+			return nil
+		default:
+		}
 		if err := executeCmd(exec.CommandContext(ctx, config.startScript, config.serverJar), "run world server"); err != nil {
 			metrics.serverErrs.Inc()
 		}
@@ -133,7 +180,7 @@ func runServer(ctx context.Context, config *config, metrics *metrics) {
 	}
 }
 
-func backup(ctx context.Context, config *config, metrics *metrics) {
+func backup(ctx context.Context, config *config, metrics *metrics) error {
 	backupTicker := time.NewTicker(config.backupFreq)
 	var shutdown bool
 	for {
@@ -158,14 +205,15 @@ func backup(ctx context.Context, config *config, metrics *metrics) {
 		log.Println("Backup successfully")
 		metrics.updateLastbackup()
 		if shutdown {
-			return
+			return nil
 		}
 	}
 }
 
 type metrics struct {
-	serverErrs prometheus.Counter
-	backupErrs *prometheus.CounterVec
+	serverErrs      prometheus.Counter
+	checkPluginsErr prometheus.Counter
+	backupErrs      *prometheus.CounterVec
 
 	lock       *sync.RWMutex
 	lastBackup time.Time
@@ -184,17 +232,27 @@ func (m *metrics) lastBackupHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func newMetrics() *metrics {
+	const (
+		namespace = "community_minecraft"
+	)
 	return &metrics{
 		serverErrs: prometheus.NewCounter(
 			prometheus.CounterOpts{
-				Namespace: "community_minecraft",
+				Namespace: namespace,
 				Name:      "server_errors",
 				Help:      "Count of errors in staring minecraft server",
 			},
 		),
+		checkPluginsErr: prometheus.NewCounter(
+			prometheus.CounterOpts{
+				Namespace: namespace,
+				Name:      "check_plugins_errors",
+				Help:      "Count of errors in checking new plugins",
+			},
+		),
 		backupErrs: prometheus.NewCounterVec(
 			prometheus.CounterOpts{
-				Namespace: "community_minecraft",
+				Namespace: namespace,
 				Name:      "backup_errors",
 				Help:      "Count of errors during backup",
 			},
@@ -234,25 +292,29 @@ func (ps *pingService) statusHandler(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("healthy"))
 }
 
-func waitForShutdown(cancelFunc context.CancelFunc) {
+func waitForShutdown() error {
 	signals := make(chan os.Signal, 10)
 	signal.Notify(signals, syscall.SIGTERM, syscall.SIGINT)
 	defer signal.Stop(signals)
 
 	s := <-signals
-	log.Printf("Receive signal %s, waiting to shutdown\n", s)
-	cancelFunc()
+	err := fmt.Errorf("Receive signal %s, waiting to shutdown", s)
+	log.Println(err)
+	return err
 }
 
 type config struct {
-	worldDataRepo string
-	sshScript     string
-	startScript   string
-	serverJar     string
-	backupFreq    time.Duration
-	workDir       string
-	metricsPort   string
-	minecraftPort string
+	worldDataRepo      string
+	sshScript          string
+	startScript        string
+	serverJar          string
+	pluginBranch       string
+	checkNewPluginFreq time.Duration
+	backupFreq         time.Duration
+	disableBackup      bool
+	workDir            string
+	metricsPort        string
+	minecraftPort      string
 }
 
 func loadConfig() (*config, error) {
@@ -272,7 +334,19 @@ func loadConfig() (*config, error) {
 	if err != nil {
 		return nil, err
 	}
+	pluginBranch, err := requireStr("PLUGIN_BRANCH")
+	if err != nil {
+		return nil, err
+	}
+	checkNewPluginFreq, err := requireDuration("CHECK_NEW_PLUGIN_FREQ")
+	if err != nil {
+		return nil, err
+	}
 	backupFreq, err := requireDuration("BACKUP_FREQ")
+	if err != nil {
+		return nil, err
+	}
+	disableBackup, err := readBool("DISABLE_BACKUP")
 	if err != nil {
 		return nil, err
 	}
@@ -289,14 +363,17 @@ func loadConfig() (*config, error) {
 		return nil, err
 	}
 	return &config{
-		worldDataRepo: worldDataRepo,
-		sshScript:     sshScript,
-		startScript:   startScript,
-		serverJar:     serverJar,
-		backupFreq:    backupFreq,
-		workDir:       workDir,
-		metricsPort:   metricsPort,
-		minecraftPort: minecraftPort,
+		worldDataRepo:      worldDataRepo,
+		sshScript:          sshScript,
+		startScript:        startScript,
+		serverJar:          serverJar,
+		pluginBranch:       pluginBranch,
+		checkNewPluginFreq: checkNewPluginFreq,
+		backupFreq:         backupFreq,
+		disableBackup:      disableBackup,
+		workDir:            workDir,
+		metricsPort:        metricsPort,
+		minecraftPort:      minecraftPort,
 	}, nil
 }
 
@@ -314,4 +391,12 @@ func requireDuration(envName string) (time.Duration, error) {
 		return 0, fmt.Errorf("%s not specified in env var", envName)
 	}
 	return time.ParseDuration(envVal)
+}
+
+func readBool(envName string) (bool, error) {
+	envVal := os.Getenv(envName)
+	if envVal == "" {
+		return false, nil
+	}
+	return strconv.ParseBool(envVal)
 }
