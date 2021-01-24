@@ -12,5 +12,6 @@ RUN git config --global user.name "dev-launchers-backup"
 COPY src /build
 RUN /usr/local/go/bin/go build -o service-manager main.go
 RUN mv service-manager /usr/local/bin
+COPY scripts /scripts
 WORKDIR /minecraft/community-minecraft/
 ENTRYPOINT [ "service-manager" ] 

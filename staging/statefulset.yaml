@@ -41,7 +41,7 @@ spec:
         - name: WORLD_DATA_REPO
           value: git@github.com:dev-launchers/community-minecraft-data.git
         - name: SSH_SCRIPT
-          value: "/build/start-ssh-agent.sh"
+          value: "/scripts/start-ssh.sh"
         - name: START_SCRIPT
           value: "/minecraft/community-minecraft/community-minecraft-data/server/start.sh"
         - name: SERVER_JAR
