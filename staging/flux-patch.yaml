@@ -10,5 +10,5 @@ spec:
       $setElementOrder/containers:
       - name: community-minecraft
       containers:
-      - name: community-minecraft
-        image: devlaunchers/community-minecraft:sha-807db27
+      - image: devlaunchers/community-minecraft:sha-f59375b
+        name: community-minecraft
