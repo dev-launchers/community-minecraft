@@ -68,14 +68,6 @@ spec:
           requests:
             cpu: 1000m
             memory: 2048Mi
-        livenessProbe:
-          httpGet:
-            path: /metrics
-            port: 8000
-          initialDelaySeconds: 60
-          periodSeconds: 30
-          timeoutSeconds: 10
-          failureThreshold: 5
         volumeMounts:
         - name: persistent-storage
           mountPath: "/minecraft/community-minecraft/community-minecraft-data"
