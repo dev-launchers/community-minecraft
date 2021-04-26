@@ -190,7 +190,11 @@ func backup(ctx context.Context, config *config, metrics *metrics) error {
 			shutdown = true
 		case <-backupTicker.C:
 		}
-		if err := executeCmd(exec.Command("git", "add", "."), "failed to add world data"); err != nil {
+		if err := executeCmd(exec.Command("tar", "-czf", "server.tar.gz", config.workDir), "failed to add world data"); err != nil {
+			metrics.backupErrs.WithLabelValues("compress").Inc()
+			continue
+		}
+		if err := executeCmd(exec.Command("git", "add", "server.tar.gz"), "failed to add world data"); err != nil {
 			metrics.backupErrs.WithLabelValues("add").Inc()
 			continue
 		}
